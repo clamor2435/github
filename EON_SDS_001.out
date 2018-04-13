@@ -1,0 +1,3145 @@
+Problem:    EON_SDS
+Rows:       1041
+Columns:    520 (520 integer, 520 binary)
+Non-zeros:  2444
+Status:     INTEGER OPTIMAL
+Objective:  Index = 26 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Index                      26                             
+     2 FIRST_INDEX_PRIMARY1[1,1,1,1,2]
+                                   1             1             = 
+     3 FIRST_INDEX_PRIMARY1[1,1,1,1,3]
+                                   1             1             = 
+     4 FIRST_INDEX_PRIMARY1[1,1,2,3,1]
+                                   1             1             = 
+     5 FIRST_INDEX_PRIMARY1[1,1,3,2,1]
+                                   1             1             = 
+     6 FIRST_INDEX_PRIMARY1[1,1,3,3,2]
+                                   1             1             = 
+     7 FIRST_INDEX_PRIMARY1[1,2,1,1,3]
+                                   1             1             = 
+     8 FIRST_INDEX_PRIMARY1[1,2,2,1,2]
+                                   1             1             = 
+     9 FIRST_INDEX_PRIMARY1[1,2,3,2,2]
+                                   1             1             = 
+    10 FIRST_INDEX_PRIMARY1[1,3,1,1,2]
+                                   1             1             = 
+    11 FIRST_INDEX_PRIMARY1[1,3,1,2,3]
+                                   1             1             = 
+    12 FIRST_INDEX_PRIMARY1[1,3,2,2,2]
+                                   1             1             = 
+    13 FIRST_INDEX_PRIMARY1[1,3,3,1,3]
+                                   1             1             = 
+    14 FIRST_INDEX_PRIMARY1[1,3,3,2,3]
+                                   1             1             = 
+    15 FIRST_INDEX_BACKUP1[1,1,1,1,2]
+                                   1             1             = 
+    16 FIRST_INDEX_BACKUP1[1,1,1,1,3]
+                                   1             1             = 
+    17 FIRST_INDEX_BACKUP1[1,1,2,3,1]
+                                   1             1             = 
+    18 FIRST_INDEX_BACKUP1[1,1,3,2,1]
+                                   1             1             = 
+    19 FIRST_INDEX_BACKUP1[1,1,3,3,2]
+                                   1             1             = 
+    20 FIRST_INDEX_BACKUP1[1,2,1,1,3]
+                                   1             1             = 
+    21 FIRST_INDEX_BACKUP1[1,2,2,1,2]
+                                   1             1             = 
+    22 FIRST_INDEX_BACKUP1[1,2,3,2,2]
+                                   1             1             = 
+    23 FIRST_INDEX_BACKUP1[1,3,1,1,2]
+                                   1             1             = 
+    24 FIRST_INDEX_BACKUP1[1,3,1,2,3]
+                                   1             1             = 
+    25 FIRST_INDEX_BACKUP1[1,3,2,2,2]
+                                   1             1             = 
+    26 FIRST_INDEX_BACKUP1[1,3,3,1,3]
+                                   1             1             = 
+    27 FIRST_INDEX_BACKUP1[1,3,3,2,3]
+                                   1             1             = 
+    28 FIRST_INDEX_PRIMARY2[1,1,1,1,2,0,0]
+                                   0                          -0 
+    29 FIRST_INDEX_PRIMARY2[1,1,1,1,2,0,1]
+                                   0                          -0 
+    30 FIRST_INDEX_PRIMARY2[1,1,1,1,2,0,2]
+                                   0                          -0 
+    31 FIRST_INDEX_PRIMARY2[1,1,1,1,2,0,3]
+                                   0                          -0 
+    32 FIRST_INDEX_PRIMARY2[1,1,1,1,2,0,4]
+                                   0                          -0 
+    33 FIRST_INDEX_PRIMARY2[1,1,1,1,2,1,1]
+                                   0                          -0 
+    34 FIRST_INDEX_PRIMARY2[1,1,1,1,2,1,2]
+                                   0                          -0 
+    35 FIRST_INDEX_PRIMARY2[1,1,1,1,2,1,3]
+                                   0                          -0 
+    36 FIRST_INDEX_PRIMARY2[1,1,1,1,2,1,4]
+                                   0                          -0 
+    37 FIRST_INDEX_PRIMARY2[1,1,1,1,2,1,5]
+                                   0                          -0 
+    38 FIRST_INDEX_PRIMARY2[1,1,1,1,2,2,2]
+                                   0                          -0 
+    39 FIRST_INDEX_PRIMARY2[1,1,1,1,2,2,3]
+                                   0                          -0 
+    40 FIRST_INDEX_PRIMARY2[1,1,1,1,2,2,4]
+                                   0                          -0 
+    41 FIRST_INDEX_PRIMARY2[1,1,1,1,2,2,5]
+                                   0                          -0 
+    42 FIRST_INDEX_PRIMARY2[1,1,1,1,2,2,6]
+                                   0                          -0 
+    43 FIRST_INDEX_PRIMARY2[1,1,1,1,2,3,3]
+                                   0                          -0 
+    44 FIRST_INDEX_PRIMARY2[1,1,1,1,2,3,4]
+                                   0                          -0 
+    45 FIRST_INDEX_PRIMARY2[1,1,1,1,2,3,5]
+                                   0                          -0 
+    46 FIRST_INDEX_PRIMARY2[1,1,1,1,2,3,6]
+                                   0                          -0 
+    47 FIRST_INDEX_PRIMARY2[1,1,1,1,2,3,7]
+                                   0                          -0 
+    48 FIRST_INDEX_PRIMARY2[1,1,1,1,2,4,4]
+                                   0                          -0 
+    49 FIRST_INDEX_PRIMARY2[1,1,1,1,2,4,5]
+                                   0                          -0 
+    50 FIRST_INDEX_PRIMARY2[1,1,1,1,2,4,6]
+                                   0                          -0 
+    51 FIRST_INDEX_PRIMARY2[1,1,1,1,2,4,7]
+                                   0                          -0 
+    52 FIRST_INDEX_PRIMARY2[1,1,1,1,2,4,8]
+                                   0                          -0 
+    53 FIRST_INDEX_PRIMARY2[1,1,1,1,2,5,5]
+                                   0                          -0 
+    54 FIRST_INDEX_PRIMARY2[1,1,1,1,2,5,6]
+                                   0                          -0 
+    55 FIRST_INDEX_PRIMARY2[1,1,1,1,2,5,7]
+                                   0                          -0 
+    56 FIRST_INDEX_PRIMARY2[1,1,1,1,2,5,8]
+                                   0                          -0 
+    57 FIRST_INDEX_PRIMARY2[1,1,1,1,2,5,9]
+                                   0                          -0 
+    58 FIRST_INDEX_PRIMARY2[1,1,1,1,3,0,0]
+                                   0                          -0 
+    59 FIRST_INDEX_PRIMARY2[1,1,1,1,3,0,1]
+                                   0                          -0 
+    60 FIRST_INDEX_PRIMARY2[1,1,1,1,3,0,2]
+                                   0                          -0 
+    61 FIRST_INDEX_PRIMARY2[1,1,1,1,3,0,3]
+                                   0                          -0 
+    62 FIRST_INDEX_PRIMARY2[1,1,1,1,3,0,4]
+                                   0                          -0 
+    63 FIRST_INDEX_PRIMARY2[1,1,1,1,3,1,1]
+                                   0                          -0 
+    64 FIRST_INDEX_PRIMARY2[1,1,1,1,3,1,2]
+                                   0                          -0 
+    65 FIRST_INDEX_PRIMARY2[1,1,1,1,3,1,3]
+                                   0                          -0 
+    66 FIRST_INDEX_PRIMARY2[1,1,1,1,3,1,4]
+                                   0                          -0 
+    67 FIRST_INDEX_PRIMARY2[1,1,1,1,3,1,5]
+                                   0                          -0 
+    68 FIRST_INDEX_PRIMARY2[1,1,1,1,3,2,2]
+                                   0                          -0 
+    69 FIRST_INDEX_PRIMARY2[1,1,1,1,3,2,3]
+                                   0                          -0 
+    70 FIRST_INDEX_PRIMARY2[1,1,1,1,3,2,4]
+                                   0                          -0 
+    71 FIRST_INDEX_PRIMARY2[1,1,1,1,3,2,5]
+                                   0                          -0 
+    72 FIRST_INDEX_PRIMARY2[1,1,1,1,3,2,6]
+                                   0                          -0 
+    73 FIRST_INDEX_PRIMARY2[1,1,1,1,3,3,3]
+                                   0                          -0 
+    74 FIRST_INDEX_PRIMARY2[1,1,1,1,3,3,4]
+                                   0                          -0 
+    75 FIRST_INDEX_PRIMARY2[1,1,1,1,3,3,5]
+                                   0                          -0 
+    76 FIRST_INDEX_PRIMARY2[1,1,1,1,3,3,6]
+                                   0                          -0 
+    77 FIRST_INDEX_PRIMARY2[1,1,1,1,3,3,7]
+                                   0                          -0 
+    78 FIRST_INDEX_PRIMARY2[1,1,1,1,3,4,4]
+                                   0                          -0 
+    79 FIRST_INDEX_PRIMARY2[1,1,1,1,3,4,5]
+                                   0                          -0 
+    80 FIRST_INDEX_PRIMARY2[1,1,1,1,3,4,6]
+                                   0                          -0 
+    81 FIRST_INDEX_PRIMARY2[1,1,1,1,3,4,7]
+                                   0                          -0 
+    82 FIRST_INDEX_PRIMARY2[1,1,1,1,3,4,8]
+                                   0                          -0 
+    83 FIRST_INDEX_PRIMARY2[1,1,1,1,3,5,5]
+                                   0                          -0 
+    84 FIRST_INDEX_PRIMARY2[1,1,1,1,3,5,6]
+                                   0                          -0 
+    85 FIRST_INDEX_PRIMARY2[1,1,1,1,3,5,7]
+                                   0                          -0 
+    86 FIRST_INDEX_PRIMARY2[1,1,1,1,3,5,8]
+                                   0                          -0 
+    87 FIRST_INDEX_PRIMARY2[1,1,1,1,3,5,9]
+                                   0                          -0 
+    88 FIRST_INDEX_PRIMARY2[1,1,2,3,1,0,0]
+                                   0                          -0 
+    89 FIRST_INDEX_PRIMARY2[1,1,2,3,1,0,1]
+                                   0                          -0 
+    90 FIRST_INDEX_PRIMARY2[1,1,2,3,1,0,2]
+                                   0                          -0 
+    91 FIRST_INDEX_PRIMARY2[1,1,2,3,1,0,3]
+                                   0                          -0 
+    92 FIRST_INDEX_PRIMARY2[1,1,2,3,1,0,4]
+                                   0                          -0 
+    93 FIRST_INDEX_PRIMARY2[1,1,2,3,1,1,1]
+                                   0                          -0 
+    94 FIRST_INDEX_PRIMARY2[1,1,2,3,1,1,2]
+                                   0                          -0 
+    95 FIRST_INDEX_PRIMARY2[1,1,2,3,1,1,3]
+                                   0                          -0 
+    96 FIRST_INDEX_PRIMARY2[1,1,2,3,1,1,4]
+                                   0                          -0 
+    97 FIRST_INDEX_PRIMARY2[1,1,2,3,1,1,5]
+                                   0                          -0 
+    98 FIRST_INDEX_PRIMARY2[1,1,2,3,1,2,2]
+                                   0                          -0 
+    99 FIRST_INDEX_PRIMARY2[1,1,2,3,1,2,3]
+                                   0                          -0 
+   100 FIRST_INDEX_PRIMARY2[1,1,2,3,1,2,4]
+                                   0                          -0 
+   101 FIRST_INDEX_PRIMARY2[1,1,2,3,1,2,5]
+                                   0                          -0 
+   102 FIRST_INDEX_PRIMARY2[1,1,2,3,1,2,6]
+                                   0                          -0 
+   103 FIRST_INDEX_PRIMARY2[1,1,2,3,1,3,3]
+                                   0                          -0 
+   104 FIRST_INDEX_PRIMARY2[1,1,2,3,1,3,4]
+                                   0                          -0 
+   105 FIRST_INDEX_PRIMARY2[1,1,2,3,1,3,5]
+                                   0                          -0 
+   106 FIRST_INDEX_PRIMARY2[1,1,2,3,1,3,6]
+                                   0                          -0 
+   107 FIRST_INDEX_PRIMARY2[1,1,2,3,1,3,7]
+                                   0                          -0 
+   108 FIRST_INDEX_PRIMARY2[1,1,2,3,1,4,4]
+                                   0                          -0 
+   109 FIRST_INDEX_PRIMARY2[1,1,2,3,1,4,5]
+                                   0                          -0 
+   110 FIRST_INDEX_PRIMARY2[1,1,2,3,1,4,6]
+                                   0                          -0 
+   111 FIRST_INDEX_PRIMARY2[1,1,2,3,1,4,7]
+                                   0                          -0 
+   112 FIRST_INDEX_PRIMARY2[1,1,2,3,1,4,8]
+                                   0                          -0 
+   113 FIRST_INDEX_PRIMARY2[1,1,2,3,1,5,5]
+                                   0                          -0 
+   114 FIRST_INDEX_PRIMARY2[1,1,2,3,1,5,6]
+                                   0                          -0 
+   115 FIRST_INDEX_PRIMARY2[1,1,2,3,1,5,7]
+                                   0                          -0 
+   116 FIRST_INDEX_PRIMARY2[1,1,2,3,1,5,8]
+                                   0                          -0 
+   117 FIRST_INDEX_PRIMARY2[1,1,2,3,1,5,9]
+                                   0                          -0 
+   118 FIRST_INDEX_PRIMARY2[1,1,3,2,1,0,0]
+                                   0                          -0 
+   119 FIRST_INDEX_PRIMARY2[1,1,3,2,1,0,1]
+                                   0                          -0 
+   120 FIRST_INDEX_PRIMARY2[1,1,3,2,1,0,2]
+                                   0                          -0 
+   121 FIRST_INDEX_PRIMARY2[1,1,3,2,1,0,3]
+                                   0                          -0 
+   122 FIRST_INDEX_PRIMARY2[1,1,3,2,1,0,4]
+                                   0                          -0 
+   123 FIRST_INDEX_PRIMARY2[1,1,3,2,1,1,1]
+                                   0                          -0 
+   124 FIRST_INDEX_PRIMARY2[1,1,3,2,1,1,2]
+                                   0                          -0 
+   125 FIRST_INDEX_PRIMARY2[1,1,3,2,1,1,3]
+                                   0                          -0 
+   126 FIRST_INDEX_PRIMARY2[1,1,3,2,1,1,4]
+                                   0                          -0 
+   127 FIRST_INDEX_PRIMARY2[1,1,3,2,1,1,5]
+                                   0                          -0 
+   128 FIRST_INDEX_PRIMARY2[1,1,3,2,1,2,2]
+                                   0                          -0 
+   129 FIRST_INDEX_PRIMARY2[1,1,3,2,1,2,3]
+                                   0                          -0 
+   130 FIRST_INDEX_PRIMARY2[1,1,3,2,1,2,4]
+                                   0                          -0 
+   131 FIRST_INDEX_PRIMARY2[1,1,3,2,1,2,5]
+                                   0                          -0 
+   132 FIRST_INDEX_PRIMARY2[1,1,3,2,1,2,6]
+                                   0                          -0 
+   133 FIRST_INDEX_PRIMARY2[1,1,3,2,1,3,3]
+                                   0                          -0 
+   134 FIRST_INDEX_PRIMARY2[1,1,3,2,1,3,4]
+                                   0                          -0 
+   135 FIRST_INDEX_PRIMARY2[1,1,3,2,1,3,5]
+                                   0                          -0 
+   136 FIRST_INDEX_PRIMARY2[1,1,3,2,1,3,6]
+                                   0                          -0 
+   137 FIRST_INDEX_PRIMARY2[1,1,3,2,1,3,7]
+                                   0                          -0 
+   138 FIRST_INDEX_PRIMARY2[1,1,3,2,1,4,4]
+                                   0                          -0 
+   139 FIRST_INDEX_PRIMARY2[1,1,3,2,1,4,5]
+                                   0                          -0 
+   140 FIRST_INDEX_PRIMARY2[1,1,3,2,1,4,6]
+                                   0                          -0 
+   141 FIRST_INDEX_PRIMARY2[1,1,3,2,1,4,7]
+                                   0                          -0 
+   142 FIRST_INDEX_PRIMARY2[1,1,3,2,1,4,8]
+                                   0                          -0 
+   143 FIRST_INDEX_PRIMARY2[1,1,3,2,1,5,5]
+                                   0                          -0 
+   144 FIRST_INDEX_PRIMARY2[1,1,3,2,1,5,6]
+                                   0                          -0 
+   145 FIRST_INDEX_PRIMARY2[1,1,3,2,1,5,7]
+                                   0                          -0 
+   146 FIRST_INDEX_PRIMARY2[1,1,3,2,1,5,8]
+                                   0                          -0 
+   147 FIRST_INDEX_PRIMARY2[1,1,3,2,1,5,9]
+                                   0                          -0 
+   148 FIRST_INDEX_PRIMARY2[1,1,3,3,2,0,0]
+                                   0                          -0 
+   149 FIRST_INDEX_PRIMARY2[1,1,3,3,2,0,1]
+                                   0                          -0 
+   150 FIRST_INDEX_PRIMARY2[1,1,3,3,2,0,2]
+                                   0                          -0 
+   151 FIRST_INDEX_PRIMARY2[1,1,3,3,2,0,3]
+                                   0                          -0 
+   152 FIRST_INDEX_PRIMARY2[1,1,3,3,2,0,4]
+                                   0                          -0 
+   153 FIRST_INDEX_PRIMARY2[1,1,3,3,2,1,1]
+                                   0                          -0 
+   154 FIRST_INDEX_PRIMARY2[1,1,3,3,2,1,2]
+                                   0                          -0 
+   155 FIRST_INDEX_PRIMARY2[1,1,3,3,2,1,3]
+                                   0                          -0 
+   156 FIRST_INDEX_PRIMARY2[1,1,3,3,2,1,4]
+                                   0                          -0 
+   157 FIRST_INDEX_PRIMARY2[1,1,3,3,2,1,5]
+                                   0                          -0 
+   158 FIRST_INDEX_PRIMARY2[1,1,3,3,2,2,2]
+                                   0                          -0 
+   159 FIRST_INDEX_PRIMARY2[1,1,3,3,2,2,3]
+                                   0                          -0 
+   160 FIRST_INDEX_PRIMARY2[1,1,3,3,2,2,4]
+                                   0                          -0 
+   161 FIRST_INDEX_PRIMARY2[1,1,3,3,2,2,5]
+                                   0                          -0 
+   162 FIRST_INDEX_PRIMARY2[1,1,3,3,2,2,6]
+                                   0                          -0 
+   163 FIRST_INDEX_PRIMARY2[1,1,3,3,2,3,3]
+                                   0                          -0 
+   164 FIRST_INDEX_PRIMARY2[1,1,3,3,2,3,4]
+                                   0                          -0 
+   165 FIRST_INDEX_PRIMARY2[1,1,3,3,2,3,5]
+                                   0                          -0 
+   166 FIRST_INDEX_PRIMARY2[1,1,3,3,2,3,6]
+                                   0                          -0 
+   167 FIRST_INDEX_PRIMARY2[1,1,3,3,2,3,7]
+                                   0                          -0 
+   168 FIRST_INDEX_PRIMARY2[1,1,3,3,2,4,4]
+                                   0                          -0 
+   169 FIRST_INDEX_PRIMARY2[1,1,3,3,2,4,5]
+                                   0                          -0 
+   170 FIRST_INDEX_PRIMARY2[1,1,3,3,2,4,6]
+                                   0                          -0 
+   171 FIRST_INDEX_PRIMARY2[1,1,3,3,2,4,7]
+                                   0                          -0 
+   172 FIRST_INDEX_PRIMARY2[1,1,3,3,2,4,8]
+                                   0                          -0 
+   173 FIRST_INDEX_PRIMARY2[1,1,3,3,2,5,5]
+                                   0                          -0 
+   174 FIRST_INDEX_PRIMARY2[1,1,3,3,2,5,6]
+                                   0                          -0 
+   175 FIRST_INDEX_PRIMARY2[1,1,3,3,2,5,7]
+                                   0                          -0 
+   176 FIRST_INDEX_PRIMARY2[1,1,3,3,2,5,8]
+                                   0                          -0 
+   177 FIRST_INDEX_PRIMARY2[1,1,3,3,2,5,9]
+                                   0                          -0 
+   178 FIRST_INDEX_PRIMARY2[1,2,1,1,3,0,0]
+                                   0                          -0 
+   179 FIRST_INDEX_PRIMARY2[1,2,1,1,3,0,1]
+                                   0                          -0 
+   180 FIRST_INDEX_PRIMARY2[1,2,1,1,3,0,2]
+                                   0                          -0 
+   181 FIRST_INDEX_PRIMARY2[1,2,1,1,3,0,3]
+                                   0                          -0 
+   182 FIRST_INDEX_PRIMARY2[1,2,1,1,3,0,4]
+                                   0                          -0 
+   183 FIRST_INDEX_PRIMARY2[1,2,1,1,3,1,1]
+                                   0                          -0 
+   184 FIRST_INDEX_PRIMARY2[1,2,1,1,3,1,2]
+                                   0                          -0 
+   185 FIRST_INDEX_PRIMARY2[1,2,1,1,3,1,3]
+                                   0                          -0 
+   186 FIRST_INDEX_PRIMARY2[1,2,1,1,3,1,4]
+                                   0                          -0 
+   187 FIRST_INDEX_PRIMARY2[1,2,1,1,3,1,5]
+                                   0                          -0 
+   188 FIRST_INDEX_PRIMARY2[1,2,1,1,3,2,2]
+                                   0                          -0 
+   189 FIRST_INDEX_PRIMARY2[1,2,1,1,3,2,3]
+                                   0                          -0 
+   190 FIRST_INDEX_PRIMARY2[1,2,1,1,3,2,4]
+                                   0                          -0 
+   191 FIRST_INDEX_PRIMARY2[1,2,1,1,3,2,5]
+                                   0                          -0 
+   192 FIRST_INDEX_PRIMARY2[1,2,1,1,3,2,6]
+                                   0                          -0 
+   193 FIRST_INDEX_PRIMARY2[1,2,1,1,3,3,3]
+                                   0                          -0 
+   194 FIRST_INDEX_PRIMARY2[1,2,1,1,3,3,4]
+                                   0                          -0 
+   195 FIRST_INDEX_PRIMARY2[1,2,1,1,3,3,5]
+                                   0                          -0 
+   196 FIRST_INDEX_PRIMARY2[1,2,1,1,3,3,6]
+                                   0                          -0 
+   197 FIRST_INDEX_PRIMARY2[1,2,1,1,3,3,7]
+                                   0                          -0 
+   198 FIRST_INDEX_PRIMARY2[1,2,1,1,3,4,4]
+                                   0                          -0 
+   199 FIRST_INDEX_PRIMARY2[1,2,1,1,3,4,5]
+                                   0                          -0 
+   200 FIRST_INDEX_PRIMARY2[1,2,1,1,3,4,6]
+                                   0                          -0 
+   201 FIRST_INDEX_PRIMARY2[1,2,1,1,3,4,7]
+                                   0                          -0 
+   202 FIRST_INDEX_PRIMARY2[1,2,1,1,3,4,8]
+                                   0                          -0 
+   203 FIRST_INDEX_PRIMARY2[1,2,1,1,3,5,5]
+                                   0                          -0 
+   204 FIRST_INDEX_PRIMARY2[1,2,1,1,3,5,6]
+                                   0                          -0 
+   205 FIRST_INDEX_PRIMARY2[1,2,1,1,3,5,7]
+                                   0                          -0 
+   206 FIRST_INDEX_PRIMARY2[1,2,1,1,3,5,8]
+                                   0                          -0 
+   207 FIRST_INDEX_PRIMARY2[1,2,1,1,3,5,9]
+                                   0                          -0 
+   208 FIRST_INDEX_PRIMARY2[1,2,2,1,2,0,0]
+                                   0                          -0 
+   209 FIRST_INDEX_PRIMARY2[1,2,2,1,2,0,1]
+                                   0                          -0 
+   210 FIRST_INDEX_PRIMARY2[1,2,2,1,2,0,2]
+                                   0                          -0 
+   211 FIRST_INDEX_PRIMARY2[1,2,2,1,2,0,3]
+                                   0                          -0 
+   212 FIRST_INDEX_PRIMARY2[1,2,2,1,2,0,4]
+                                   0                          -0 
+   213 FIRST_INDEX_PRIMARY2[1,2,2,1,2,1,1]
+                                   0                          -0 
+   214 FIRST_INDEX_PRIMARY2[1,2,2,1,2,1,2]
+                                   0                          -0 
+   215 FIRST_INDEX_PRIMARY2[1,2,2,1,2,1,3]
+                                   0                          -0 
+   216 FIRST_INDEX_PRIMARY2[1,2,2,1,2,1,4]
+                                   0                          -0 
+   217 FIRST_INDEX_PRIMARY2[1,2,2,1,2,1,5]
+                                   0                          -0 
+   218 FIRST_INDEX_PRIMARY2[1,2,2,1,2,2,2]
+                                   0                          -0 
+   219 FIRST_INDEX_PRIMARY2[1,2,2,1,2,2,3]
+                                   0                          -0 
+   220 FIRST_INDEX_PRIMARY2[1,2,2,1,2,2,4]
+                                   0                          -0 
+   221 FIRST_INDEX_PRIMARY2[1,2,2,1,2,2,5]
+                                   0                          -0 
+   222 FIRST_INDEX_PRIMARY2[1,2,2,1,2,2,6]
+                                   0                          -0 
+   223 FIRST_INDEX_PRIMARY2[1,2,2,1,2,3,3]
+                                   0                          -0 
+   224 FIRST_INDEX_PRIMARY2[1,2,2,1,2,3,4]
+                                   0                          -0 
+   225 FIRST_INDEX_PRIMARY2[1,2,2,1,2,3,5]
+                                   0                          -0 
+   226 FIRST_INDEX_PRIMARY2[1,2,2,1,2,3,6]
+                                   0                          -0 
+   227 FIRST_INDEX_PRIMARY2[1,2,2,1,2,3,7]
+                                   0                          -0 
+   228 FIRST_INDEX_PRIMARY2[1,2,2,1,2,4,4]
+                                   0                          -0 
+   229 FIRST_INDEX_PRIMARY2[1,2,2,1,2,4,5]
+                                   0                          -0 
+   230 FIRST_INDEX_PRIMARY2[1,2,2,1,2,4,6]
+                                   0                          -0 
+   231 FIRST_INDEX_PRIMARY2[1,2,2,1,2,4,7]
+                                   0                          -0 
+   232 FIRST_INDEX_PRIMARY2[1,2,2,1,2,4,8]
+                                   0                          -0 
+   233 FIRST_INDEX_PRIMARY2[1,2,2,1,2,5,5]
+                                   0                          -0 
+   234 FIRST_INDEX_PRIMARY2[1,2,2,1,2,5,6]
+                                   0                          -0 
+   235 FIRST_INDEX_PRIMARY2[1,2,2,1,2,5,7]
+                                   0                          -0 
+   236 FIRST_INDEX_PRIMARY2[1,2,2,1,2,5,8]
+                                   0                          -0 
+   237 FIRST_INDEX_PRIMARY2[1,2,2,1,2,5,9]
+                                   0                          -0 
+   238 FIRST_INDEX_PRIMARY2[1,2,3,2,2,0,0]
+                                   0                          -0 
+   239 FIRST_INDEX_PRIMARY2[1,2,3,2,2,0,1]
+                                   0                          -0 
+   240 FIRST_INDEX_PRIMARY2[1,2,3,2,2,0,2]
+                                   0                          -0 
+   241 FIRST_INDEX_PRIMARY2[1,2,3,2,2,0,3]
+                                   0                          -0 
+   242 FIRST_INDEX_PRIMARY2[1,2,3,2,2,0,4]
+                                   0                          -0 
+   243 FIRST_INDEX_PRIMARY2[1,2,3,2,2,1,1]
+                                   0                          -0 
+   244 FIRST_INDEX_PRIMARY2[1,2,3,2,2,1,2]
+                                   0                          -0 
+   245 FIRST_INDEX_PRIMARY2[1,2,3,2,2,1,3]
+                                   0                          -0 
+   246 FIRST_INDEX_PRIMARY2[1,2,3,2,2,1,4]
+                                   0                          -0 
+   247 FIRST_INDEX_PRIMARY2[1,2,3,2,2,1,5]
+                                   0                          -0 
+   248 FIRST_INDEX_PRIMARY2[1,2,3,2,2,2,2]
+                                   0                          -0 
+   249 FIRST_INDEX_PRIMARY2[1,2,3,2,2,2,3]
+                                   0                          -0 
+   250 FIRST_INDEX_PRIMARY2[1,2,3,2,2,2,4]
+                                   0                          -0 
+   251 FIRST_INDEX_PRIMARY2[1,2,3,2,2,2,5]
+                                   0                          -0 
+   252 FIRST_INDEX_PRIMARY2[1,2,3,2,2,2,6]
+                                   0                          -0 
+   253 FIRST_INDEX_PRIMARY2[1,2,3,2,2,3,3]
+                                   0                          -0 
+   254 FIRST_INDEX_PRIMARY2[1,2,3,2,2,3,4]
+                                   0                          -0 
+   255 FIRST_INDEX_PRIMARY2[1,2,3,2,2,3,5]
+                                   0                          -0 
+   256 FIRST_INDEX_PRIMARY2[1,2,3,2,2,3,6]
+                                   0                          -0 
+   257 FIRST_INDEX_PRIMARY2[1,2,3,2,2,3,7]
+                                   0                          -0 
+   258 FIRST_INDEX_PRIMARY2[1,2,3,2,2,4,4]
+                                   0                          -0 
+   259 FIRST_INDEX_PRIMARY2[1,2,3,2,2,4,5]
+                                   0                          -0 
+   260 FIRST_INDEX_PRIMARY2[1,2,3,2,2,4,6]
+                                   0                          -0 
+   261 FIRST_INDEX_PRIMARY2[1,2,3,2,2,4,7]
+                                   0                          -0 
+   262 FIRST_INDEX_PRIMARY2[1,2,3,2,2,4,8]
+                                   0                          -0 
+   263 FIRST_INDEX_PRIMARY2[1,2,3,2,2,5,5]
+                                   0                          -0 
+   264 FIRST_INDEX_PRIMARY2[1,2,3,2,2,5,6]
+                                   0                          -0 
+   265 FIRST_INDEX_PRIMARY2[1,2,3,2,2,5,7]
+                                   0                          -0 
+   266 FIRST_INDEX_PRIMARY2[1,2,3,2,2,5,8]
+                                   0                          -0 
+   267 FIRST_INDEX_PRIMARY2[1,2,3,2,2,5,9]
+                                   0                          -0 
+   268 FIRST_INDEX_PRIMARY2[1,3,1,1,2,0,0]
+                                   0                          -0 
+   269 FIRST_INDEX_PRIMARY2[1,3,1,1,2,0,1]
+                                   0                          -0 
+   270 FIRST_INDEX_PRIMARY2[1,3,1,1,2,0,2]
+                                   0                          -0 
+   271 FIRST_INDEX_PRIMARY2[1,3,1,1,2,0,3]
+                                   0                          -0 
+   272 FIRST_INDEX_PRIMARY2[1,3,1,1,2,0,4]
+                                   0                          -0 
+   273 FIRST_INDEX_PRIMARY2[1,3,1,1,2,1,1]
+                                   0                          -0 
+   274 FIRST_INDEX_PRIMARY2[1,3,1,1,2,1,2]
+                                   0                          -0 
+   275 FIRST_INDEX_PRIMARY2[1,3,1,1,2,1,3]
+                                   0                          -0 
+   276 FIRST_INDEX_PRIMARY2[1,3,1,1,2,1,4]
+                                   0                          -0 
+   277 FIRST_INDEX_PRIMARY2[1,3,1,1,2,1,5]
+                                   0                          -0 
+   278 FIRST_INDEX_PRIMARY2[1,3,1,1,2,2,2]
+                                   0                          -0 
+   279 FIRST_INDEX_PRIMARY2[1,3,1,1,2,2,3]
+                                   0                          -0 
+   280 FIRST_INDEX_PRIMARY2[1,3,1,1,2,2,4]
+                                   0                          -0 
+   281 FIRST_INDEX_PRIMARY2[1,3,1,1,2,2,5]
+                                   0                          -0 
+   282 FIRST_INDEX_PRIMARY2[1,3,1,1,2,2,6]
+                                   0                          -0 
+   283 FIRST_INDEX_PRIMARY2[1,3,1,1,2,3,3]
+                                   0                          -0 
+   284 FIRST_INDEX_PRIMARY2[1,3,1,1,2,3,4]
+                                   0                          -0 
+   285 FIRST_INDEX_PRIMARY2[1,3,1,1,2,3,5]
+                                   0                          -0 
+   286 FIRST_INDEX_PRIMARY2[1,3,1,1,2,3,6]
+                                   0                          -0 
+   287 FIRST_INDEX_PRIMARY2[1,3,1,1,2,3,7]
+                                   0                          -0 
+   288 FIRST_INDEX_PRIMARY2[1,3,1,1,2,4,4]
+                                   0                          -0 
+   289 FIRST_INDEX_PRIMARY2[1,3,1,1,2,4,5]
+                                   0                          -0 
+   290 FIRST_INDEX_PRIMARY2[1,3,1,1,2,4,6]
+                                   0                          -0 
+   291 FIRST_INDEX_PRIMARY2[1,3,1,1,2,4,7]
+                                   0                          -0 
+   292 FIRST_INDEX_PRIMARY2[1,3,1,1,2,4,8]
+                                   0                          -0 
+   293 FIRST_INDEX_PRIMARY2[1,3,1,1,2,5,5]
+                                   0                          -0 
+   294 FIRST_INDEX_PRIMARY2[1,3,1,1,2,5,6]
+                                   0                          -0 
+   295 FIRST_INDEX_PRIMARY2[1,3,1,1,2,5,7]
+                                   0                          -0 
+   296 FIRST_INDEX_PRIMARY2[1,3,1,1,2,5,8]
+                                   0                          -0 
+   297 FIRST_INDEX_PRIMARY2[1,3,1,1,2,5,9]
+                                   0                          -0 
+   298 FIRST_INDEX_PRIMARY2[1,3,1,2,3,0,0]
+                                   0                          -0 
+   299 FIRST_INDEX_PRIMARY2[1,3,1,2,3,0,1]
+                                   0                          -0 
+   300 FIRST_INDEX_PRIMARY2[1,3,1,2,3,0,2]
+                                   0                          -0 
+   301 FIRST_INDEX_PRIMARY2[1,3,1,2,3,0,3]
+                                   0                          -0 
+   302 FIRST_INDEX_PRIMARY2[1,3,1,2,3,0,4]
+                                   0                          -0 
+   303 FIRST_INDEX_PRIMARY2[1,3,1,2,3,1,1]
+                                   0                          -0 
+   304 FIRST_INDEX_PRIMARY2[1,3,1,2,3,1,2]
+                                   0                          -0 
+   305 FIRST_INDEX_PRIMARY2[1,3,1,2,3,1,3]
+                                   0                          -0 
+   306 FIRST_INDEX_PRIMARY2[1,3,1,2,3,1,4]
+                                   0                          -0 
+   307 FIRST_INDEX_PRIMARY2[1,3,1,2,3,1,5]
+                                   0                          -0 
+   308 FIRST_INDEX_PRIMARY2[1,3,1,2,3,2,2]
+                                   0                          -0 
+   309 FIRST_INDEX_PRIMARY2[1,3,1,2,3,2,3]
+                                   0                          -0 
+   310 FIRST_INDEX_PRIMARY2[1,3,1,2,3,2,4]
+                                   0                          -0 
+   311 FIRST_INDEX_PRIMARY2[1,3,1,2,3,2,5]
+                                   0                          -0 
+   312 FIRST_INDEX_PRIMARY2[1,3,1,2,3,2,6]
+                                   0                          -0 
+   313 FIRST_INDEX_PRIMARY2[1,3,1,2,3,3,3]
+                                   0                          -0 
+   314 FIRST_INDEX_PRIMARY2[1,3,1,2,3,3,4]
+                                   0                          -0 
+   315 FIRST_INDEX_PRIMARY2[1,3,1,2,3,3,5]
+                                   0                          -0 
+   316 FIRST_INDEX_PRIMARY2[1,3,1,2,3,3,6]
+                                   0                          -0 
+   317 FIRST_INDEX_PRIMARY2[1,3,1,2,3,3,7]
+                                   0                          -0 
+   318 FIRST_INDEX_PRIMARY2[1,3,1,2,3,4,4]
+                                   0                          -0 
+   319 FIRST_INDEX_PRIMARY2[1,3,1,2,3,4,5]
+                                   0                          -0 
+   320 FIRST_INDEX_PRIMARY2[1,3,1,2,3,4,6]
+                                   0                          -0 
+   321 FIRST_INDEX_PRIMARY2[1,3,1,2,3,4,7]
+                                   0                          -0 
+   322 FIRST_INDEX_PRIMARY2[1,3,1,2,3,4,8]
+                                   0                          -0 
+   323 FIRST_INDEX_PRIMARY2[1,3,1,2,3,5,5]
+                                   0                          -0 
+   324 FIRST_INDEX_PRIMARY2[1,3,1,2,3,5,6]
+                                   0                          -0 
+   325 FIRST_INDEX_PRIMARY2[1,3,1,2,3,5,7]
+                                   0                          -0 
+   326 FIRST_INDEX_PRIMARY2[1,3,1,2,3,5,8]
+                                   0                          -0 
+   327 FIRST_INDEX_PRIMARY2[1,3,1,2,3,5,9]
+                                   0                          -0 
+   328 FIRST_INDEX_PRIMARY2[1,3,2,2,2,0,0]
+                                   0                          -0 
+   329 FIRST_INDEX_PRIMARY2[1,3,2,2,2,0,1]
+                                   0                          -0 
+   330 FIRST_INDEX_PRIMARY2[1,3,2,2,2,0,2]
+                                   0                          -0 
+   331 FIRST_INDEX_PRIMARY2[1,3,2,2,2,0,3]
+                                   0                          -0 
+   332 FIRST_INDEX_PRIMARY2[1,3,2,2,2,0,4]
+                                   0                          -0 
+   333 FIRST_INDEX_PRIMARY2[1,3,2,2,2,1,1]
+                                   0                          -0 
+   334 FIRST_INDEX_PRIMARY2[1,3,2,2,2,1,2]
+                                   0                          -0 
+   335 FIRST_INDEX_PRIMARY2[1,3,2,2,2,1,3]
+                                   0                          -0 
+   336 FIRST_INDEX_PRIMARY2[1,3,2,2,2,1,4]
+                                   0                          -0 
+   337 FIRST_INDEX_PRIMARY2[1,3,2,2,2,1,5]
+                                   0                          -0 
+   338 FIRST_INDEX_PRIMARY2[1,3,2,2,2,2,2]
+                                   0                          -0 
+   339 FIRST_INDEX_PRIMARY2[1,3,2,2,2,2,3]
+                                   0                          -0 
+   340 FIRST_INDEX_PRIMARY2[1,3,2,2,2,2,4]
+                                   0                          -0 
+   341 FIRST_INDEX_PRIMARY2[1,3,2,2,2,2,5]
+                                   0                          -0 
+   342 FIRST_INDEX_PRIMARY2[1,3,2,2,2,2,6]
+                                   0                          -0 
+   343 FIRST_INDEX_PRIMARY2[1,3,2,2,2,3,3]
+                                   0                          -0 
+   344 FIRST_INDEX_PRIMARY2[1,3,2,2,2,3,4]
+                                   0                          -0 
+   345 FIRST_INDEX_PRIMARY2[1,3,2,2,2,3,5]
+                                   0                          -0 
+   346 FIRST_INDEX_PRIMARY2[1,3,2,2,2,3,6]
+                                   0                          -0 
+   347 FIRST_INDEX_PRIMARY2[1,3,2,2,2,3,7]
+                                   0                          -0 
+   348 FIRST_INDEX_PRIMARY2[1,3,2,2,2,4,4]
+                                   0                          -0 
+   349 FIRST_INDEX_PRIMARY2[1,3,2,2,2,4,5]
+                                   0                          -0 
+   350 FIRST_INDEX_PRIMARY2[1,3,2,2,2,4,6]
+                                   0                          -0 
+   351 FIRST_INDEX_PRIMARY2[1,3,2,2,2,4,7]
+                                   0                          -0 
+   352 FIRST_INDEX_PRIMARY2[1,3,2,2,2,4,8]
+                                   0                          -0 
+   353 FIRST_INDEX_PRIMARY2[1,3,2,2,2,5,5]
+                                   0                          -0 
+   354 FIRST_INDEX_PRIMARY2[1,3,2,2,2,5,6]
+                                   0                          -0 
+   355 FIRST_INDEX_PRIMARY2[1,3,2,2,2,5,7]
+                                   0                          -0 
+   356 FIRST_INDEX_PRIMARY2[1,3,2,2,2,5,8]
+                                   0                          -0 
+   357 FIRST_INDEX_PRIMARY2[1,3,2,2,2,5,9]
+                                   0                          -0 
+   358 FIRST_INDEX_PRIMARY2[1,3,3,1,3,0,0]
+                                   0                          -0 
+   359 FIRST_INDEX_PRIMARY2[1,3,3,1,3,0,1]
+                                   0                          -0 
+   360 FIRST_INDEX_PRIMARY2[1,3,3,1,3,0,2]
+                                   0                          -0 
+   361 FIRST_INDEX_PRIMARY2[1,3,3,1,3,0,3]
+                                   0                          -0 
+   362 FIRST_INDEX_PRIMARY2[1,3,3,1,3,0,4]
+                                   0                          -0 
+   363 FIRST_INDEX_PRIMARY2[1,3,3,1,3,1,1]
+                                   0                          -0 
+   364 FIRST_INDEX_PRIMARY2[1,3,3,1,3,1,2]
+                                   0                          -0 
+   365 FIRST_INDEX_PRIMARY2[1,3,3,1,3,1,3]
+                                   0                          -0 
+   366 FIRST_INDEX_PRIMARY2[1,3,3,1,3,1,4]
+                                   0                          -0 
+   367 FIRST_INDEX_PRIMARY2[1,3,3,1,3,1,5]
+                                   0                          -0 
+   368 FIRST_INDEX_PRIMARY2[1,3,3,1,3,2,2]
+                                   0                          -0 
+   369 FIRST_INDEX_PRIMARY2[1,3,3,1,3,2,3]
+                                   0                          -0 
+   370 FIRST_INDEX_PRIMARY2[1,3,3,1,3,2,4]
+                                   0                          -0 
+   371 FIRST_INDEX_PRIMARY2[1,3,3,1,3,2,5]
+                                   0                          -0 
+   372 FIRST_INDEX_PRIMARY2[1,3,3,1,3,2,6]
+                                   0                          -0 
+   373 FIRST_INDEX_PRIMARY2[1,3,3,1,3,3,3]
+                                   0                          -0 
+   374 FIRST_INDEX_PRIMARY2[1,3,3,1,3,3,4]
+                                   0                          -0 
+   375 FIRST_INDEX_PRIMARY2[1,3,3,1,3,3,5]
+                                   0                          -0 
+   376 FIRST_INDEX_PRIMARY2[1,3,3,1,3,3,6]
+                                   0                          -0 
+   377 FIRST_INDEX_PRIMARY2[1,3,3,1,3,3,7]
+                                   0                          -0 
+   378 FIRST_INDEX_PRIMARY2[1,3,3,1,3,4,4]
+                                   0                          -0 
+   379 FIRST_INDEX_PRIMARY2[1,3,3,1,3,4,5]
+                                   0                          -0 
+   380 FIRST_INDEX_PRIMARY2[1,3,3,1,3,4,6]
+                                   0                          -0 
+   381 FIRST_INDEX_PRIMARY2[1,3,3,1,3,4,7]
+                                   0                          -0 
+   382 FIRST_INDEX_PRIMARY2[1,3,3,1,3,4,8]
+                                   0                          -0 
+   383 FIRST_INDEX_PRIMARY2[1,3,3,1,3,5,5]
+                                   0                          -0 
+   384 FIRST_INDEX_PRIMARY2[1,3,3,1,3,5,6]
+                                   0                          -0 
+   385 FIRST_INDEX_PRIMARY2[1,3,3,1,3,5,7]
+                                   0                          -0 
+   386 FIRST_INDEX_PRIMARY2[1,3,3,1,3,5,8]
+                                   0                          -0 
+   387 FIRST_INDEX_PRIMARY2[1,3,3,1,3,5,9]
+                                   0                          -0 
+   388 FIRST_INDEX_PRIMARY2[1,3,3,2,3,0,0]
+                                   0                          -0 
+   389 FIRST_INDEX_PRIMARY2[1,3,3,2,3,0,1]
+                                   0                          -0 
+   390 FIRST_INDEX_PRIMARY2[1,3,3,2,3,0,2]
+                                   0                          -0 
+   391 FIRST_INDEX_PRIMARY2[1,3,3,2,3,0,3]
+                                   0                          -0 
+   392 FIRST_INDEX_PRIMARY2[1,3,3,2,3,0,4]
+                                   0                          -0 
+   393 FIRST_INDEX_PRIMARY2[1,3,3,2,3,1,1]
+                                   0                          -0 
+   394 FIRST_INDEX_PRIMARY2[1,3,3,2,3,1,2]
+                                   0                          -0 
+   395 FIRST_INDEX_PRIMARY2[1,3,3,2,3,1,3]
+                                   0                          -0 
+   396 FIRST_INDEX_PRIMARY2[1,3,3,2,3,1,4]
+                                   0                          -0 
+   397 FIRST_INDEX_PRIMARY2[1,3,3,2,3,1,5]
+                                   0                          -0 
+   398 FIRST_INDEX_PRIMARY2[1,3,3,2,3,2,2]
+                                   0                          -0 
+   399 FIRST_INDEX_PRIMARY2[1,3,3,2,3,2,3]
+                                   0                          -0 
+   400 FIRST_INDEX_PRIMARY2[1,3,3,2,3,2,4]
+                                   0                          -0 
+   401 FIRST_INDEX_PRIMARY2[1,3,3,2,3,2,5]
+                                   0                          -0 
+   402 FIRST_INDEX_PRIMARY2[1,3,3,2,3,2,6]
+                                   0                          -0 
+   403 FIRST_INDEX_PRIMARY2[1,3,3,2,3,3,3]
+                                   0                          -0 
+   404 FIRST_INDEX_PRIMARY2[1,3,3,2,3,3,4]
+                                   0                          -0 
+   405 FIRST_INDEX_PRIMARY2[1,3,3,2,3,3,5]
+                                   0                          -0 
+   406 FIRST_INDEX_PRIMARY2[1,3,3,2,3,3,6]
+                                   0                          -0 
+   407 FIRST_INDEX_PRIMARY2[1,3,3,2,3,3,7]
+                                   0                          -0 
+   408 FIRST_INDEX_PRIMARY2[1,3,3,2,3,4,4]
+                                   0                          -0 
+   409 FIRST_INDEX_PRIMARY2[1,3,3,2,3,4,5]
+                                   0                          -0 
+   410 FIRST_INDEX_PRIMARY2[1,3,3,2,3,4,6]
+                                   0                          -0 
+   411 FIRST_INDEX_PRIMARY2[1,3,3,2,3,4,7]
+                                   0                          -0 
+   412 FIRST_INDEX_PRIMARY2[1,3,3,2,3,4,8]
+                                   0                          -0 
+   413 FIRST_INDEX_PRIMARY2[1,3,3,2,3,5,5]
+                                   0                          -0 
+   414 FIRST_INDEX_PRIMARY2[1,3,3,2,3,5,6]
+                                   0                          -0 
+   415 FIRST_INDEX_PRIMARY2[1,3,3,2,3,5,7]
+                                   0                          -0 
+   416 FIRST_INDEX_PRIMARY2[1,3,3,2,3,5,8]
+                                   0                          -0 
+   417 FIRST_INDEX_PRIMARY2[1,3,3,2,3,5,9]
+                                   0                          -0 
+   418 FIRST_INDEX_BACKUP2[1,1,1,1,2,0,0]
+                                   0                          -0 
+   419 FIRST_INDEX_BACKUP2[1,1,1,1,2,0,1]
+                                   0                          -0 
+   420 FIRST_INDEX_BACKUP2[1,1,1,1,2,0,2]
+                                   0                          -0 
+   421 FIRST_INDEX_BACKUP2[1,1,1,1,2,0,3]
+                                   0                          -0 
+   422 FIRST_INDEX_BACKUP2[1,1,1,1,2,0,4]
+                                   0                          -0 
+   423 FIRST_INDEX_BACKUP2[1,1,1,1,2,1,1]
+                                   0                          -0 
+   424 FIRST_INDEX_BACKUP2[1,1,1,1,2,1,2]
+                                   0                          -0 
+   425 FIRST_INDEX_BACKUP2[1,1,1,1,2,1,3]
+                                   0                          -0 
+   426 FIRST_INDEX_BACKUP2[1,1,1,1,2,1,4]
+                                   0                          -0 
+   427 FIRST_INDEX_BACKUP2[1,1,1,1,2,1,5]
+                                   0                          -0 
+   428 FIRST_INDEX_BACKUP2[1,1,1,1,2,2,2]
+                                   0                          -0 
+   429 FIRST_INDEX_BACKUP2[1,1,1,1,2,2,3]
+                                   0                          -0 
+   430 FIRST_INDEX_BACKUP2[1,1,1,1,2,2,4]
+                                   0                          -0 
+   431 FIRST_INDEX_BACKUP2[1,1,1,1,2,2,5]
+                                   0                          -0 
+   432 FIRST_INDEX_BACKUP2[1,1,1,1,2,2,6]
+                                   0                          -0 
+   433 FIRST_INDEX_BACKUP2[1,1,1,1,2,3,3]
+                                   0                          -0 
+   434 FIRST_INDEX_BACKUP2[1,1,1,1,2,3,4]
+                                   0                          -0 
+   435 FIRST_INDEX_BACKUP2[1,1,1,1,2,3,5]
+                                   0                          -0 
+   436 FIRST_INDEX_BACKUP2[1,1,1,1,2,3,6]
+                                   0                          -0 
+   437 FIRST_INDEX_BACKUP2[1,1,1,1,2,3,7]
+                                   0                          -0 
+   438 FIRST_INDEX_BACKUP2[1,1,1,1,2,4,4]
+                                   0                          -0 
+   439 FIRST_INDEX_BACKUP2[1,1,1,1,2,4,5]
+                                   0                          -0 
+   440 FIRST_INDEX_BACKUP2[1,1,1,1,2,4,6]
+                                   0                          -0 
+   441 FIRST_INDEX_BACKUP2[1,1,1,1,2,4,7]
+                                   0                          -0 
+   442 FIRST_INDEX_BACKUP2[1,1,1,1,2,4,8]
+                                   0                          -0 
+   443 FIRST_INDEX_BACKUP2[1,1,1,1,2,5,5]
+                                   0                          -0 
+   444 FIRST_INDEX_BACKUP2[1,1,1,1,2,5,6]
+                                   0                          -0 
+   445 FIRST_INDEX_BACKUP2[1,1,1,1,2,5,7]
+                                   0                          -0 
+   446 FIRST_INDEX_BACKUP2[1,1,1,1,2,5,8]
+                                   0                          -0 
+   447 FIRST_INDEX_BACKUP2[1,1,1,1,2,5,9]
+                                   0                          -0 
+   448 FIRST_INDEX_BACKUP2[1,1,1,1,3,0,0]
+                                   0                          -0 
+   449 FIRST_INDEX_BACKUP2[1,1,1,1,3,0,1]
+                                   0                          -0 
+   450 FIRST_INDEX_BACKUP2[1,1,1,1,3,0,2]
+                                   0                          -0 
+   451 FIRST_INDEX_BACKUP2[1,1,1,1,3,0,3]
+                                   0                          -0 
+   452 FIRST_INDEX_BACKUP2[1,1,1,1,3,0,4]
+                                   0                          -0 
+   453 FIRST_INDEX_BACKUP2[1,1,1,1,3,1,1]
+                                   0                          -0 
+   454 FIRST_INDEX_BACKUP2[1,1,1,1,3,1,2]
+                                   0                          -0 
+   455 FIRST_INDEX_BACKUP2[1,1,1,1,3,1,3]
+                                   0                          -0 
+   456 FIRST_INDEX_BACKUP2[1,1,1,1,3,1,4]
+                                   0                          -0 
+   457 FIRST_INDEX_BACKUP2[1,1,1,1,3,1,5]
+                                   0                          -0 
+   458 FIRST_INDEX_BACKUP2[1,1,1,1,3,2,2]
+                                   0                          -0 
+   459 FIRST_INDEX_BACKUP2[1,1,1,1,3,2,3]
+                                   0                          -0 
+   460 FIRST_INDEX_BACKUP2[1,1,1,1,3,2,4]
+                                   0                          -0 
+   461 FIRST_INDEX_BACKUP2[1,1,1,1,3,2,5]
+                                   0                          -0 
+   462 FIRST_INDEX_BACKUP2[1,1,1,1,3,2,6]
+                                   0                          -0 
+   463 FIRST_INDEX_BACKUP2[1,1,1,1,3,3,3]
+                                   0                          -0 
+   464 FIRST_INDEX_BACKUP2[1,1,1,1,3,3,4]
+                                   0                          -0 
+   465 FIRST_INDEX_BACKUP2[1,1,1,1,3,3,5]
+                                   0                          -0 
+   466 FIRST_INDEX_BACKUP2[1,1,1,1,3,3,6]
+                                   0                          -0 
+   467 FIRST_INDEX_BACKUP2[1,1,1,1,3,3,7]
+                                   0                          -0 
+   468 FIRST_INDEX_BACKUP2[1,1,1,1,3,4,4]
+                                   0                          -0 
+   469 FIRST_INDEX_BACKUP2[1,1,1,1,3,4,5]
+                                   0                          -0 
+   470 FIRST_INDEX_BACKUP2[1,1,1,1,3,4,6]
+                                   0                          -0 
+   471 FIRST_INDEX_BACKUP2[1,1,1,1,3,4,7]
+                                   0                          -0 
+   472 FIRST_INDEX_BACKUP2[1,1,1,1,3,4,8]
+                                   0                          -0 
+   473 FIRST_INDEX_BACKUP2[1,1,1,1,3,5,5]
+                                   0                          -0 
+   474 FIRST_INDEX_BACKUP2[1,1,1,1,3,5,6]
+                                   0                          -0 
+   475 FIRST_INDEX_BACKUP2[1,1,1,1,3,5,7]
+                                   0                          -0 
+   476 FIRST_INDEX_BACKUP2[1,1,1,1,3,5,8]
+                                   0                          -0 
+   477 FIRST_INDEX_BACKUP2[1,1,1,1,3,5,9]
+                                   0                          -0 
+   478 FIRST_INDEX_BACKUP2[1,1,2,3,1,0,0]
+                                   0                          -0 
+   479 FIRST_INDEX_BACKUP2[1,1,2,3,1,0,1]
+                                   0                          -0 
+   480 FIRST_INDEX_BACKUP2[1,1,2,3,1,0,2]
+                                   0                          -0 
+   481 FIRST_INDEX_BACKUP2[1,1,2,3,1,0,3]
+                                   0                          -0 
+   482 FIRST_INDEX_BACKUP2[1,1,2,3,1,0,4]
+                                   0                          -0 
+   483 FIRST_INDEX_BACKUP2[1,1,2,3,1,1,1]
+                                   0                          -0 
+   484 FIRST_INDEX_BACKUP2[1,1,2,3,1,1,2]
+                                   0                          -0 
+   485 FIRST_INDEX_BACKUP2[1,1,2,3,1,1,3]
+                                   0                          -0 
+   486 FIRST_INDEX_BACKUP2[1,1,2,3,1,1,4]
+                                   0                          -0 
+   487 FIRST_INDEX_BACKUP2[1,1,2,3,1,1,5]
+                                   0                          -0 
+   488 FIRST_INDEX_BACKUP2[1,1,2,3,1,2,2]
+                                   0                          -0 
+   489 FIRST_INDEX_BACKUP2[1,1,2,3,1,2,3]
+                                   0                          -0 
+   490 FIRST_INDEX_BACKUP2[1,1,2,3,1,2,4]
+                                   0                          -0 
+   491 FIRST_INDEX_BACKUP2[1,1,2,3,1,2,5]
+                                   0                          -0 
+   492 FIRST_INDEX_BACKUP2[1,1,2,3,1,2,6]
+                                   0                          -0 
+   493 FIRST_INDEX_BACKUP2[1,1,2,3,1,3,3]
+                                   0                          -0 
+   494 FIRST_INDEX_BACKUP2[1,1,2,3,1,3,4]
+                                   0                          -0 
+   495 FIRST_INDEX_BACKUP2[1,1,2,3,1,3,5]
+                                   0                          -0 
+   496 FIRST_INDEX_BACKUP2[1,1,2,3,1,3,6]
+                                   0                          -0 
+   497 FIRST_INDEX_BACKUP2[1,1,2,3,1,3,7]
+                                   0                          -0 
+   498 FIRST_INDEX_BACKUP2[1,1,2,3,1,4,4]
+                                   0                          -0 
+   499 FIRST_INDEX_BACKUP2[1,1,2,3,1,4,5]
+                                   0                          -0 
+   500 FIRST_INDEX_BACKUP2[1,1,2,3,1,4,6]
+                                   0                          -0 
+   501 FIRST_INDEX_BACKUP2[1,1,2,3,1,4,7]
+                                   0                          -0 
+   502 FIRST_INDEX_BACKUP2[1,1,2,3,1,4,8]
+                                   0                          -0 
+   503 FIRST_INDEX_BACKUP2[1,1,2,3,1,5,5]
+                                   0                          -0 
+   504 FIRST_INDEX_BACKUP2[1,1,2,3,1,5,6]
+                                   0                          -0 
+   505 FIRST_INDEX_BACKUP2[1,1,2,3,1,5,7]
+                                   0                          -0 
+   506 FIRST_INDEX_BACKUP2[1,1,2,3,1,5,8]
+                                   0                          -0 
+   507 FIRST_INDEX_BACKUP2[1,1,2,3,1,5,9]
+                                   0                          -0 
+   508 FIRST_INDEX_BACKUP2[1,1,3,2,1,0,0]
+                                   0                          -0 
+   509 FIRST_INDEX_BACKUP2[1,1,3,2,1,0,1]
+                                   0                          -0 
+   510 FIRST_INDEX_BACKUP2[1,1,3,2,1,0,2]
+                                   0                          -0 
+   511 FIRST_INDEX_BACKUP2[1,1,3,2,1,0,3]
+                                   0                          -0 
+   512 FIRST_INDEX_BACKUP2[1,1,3,2,1,0,4]
+                                   0                          -0 
+   513 FIRST_INDEX_BACKUP2[1,1,3,2,1,1,1]
+                                   0                          -0 
+   514 FIRST_INDEX_BACKUP2[1,1,3,2,1,1,2]
+                                   0                          -0 
+   515 FIRST_INDEX_BACKUP2[1,1,3,2,1,1,3]
+                                   0                          -0 
+   516 FIRST_INDEX_BACKUP2[1,1,3,2,1,1,4]
+                                   0                          -0 
+   517 FIRST_INDEX_BACKUP2[1,1,3,2,1,1,5]
+                                   0                          -0 
+   518 FIRST_INDEX_BACKUP2[1,1,3,2,1,2,2]
+                                   0                          -0 
+   519 FIRST_INDEX_BACKUP2[1,1,3,2,1,2,3]
+                                   0                          -0 
+   520 FIRST_INDEX_BACKUP2[1,1,3,2,1,2,4]
+                                   0                          -0 
+   521 FIRST_INDEX_BACKUP2[1,1,3,2,1,2,5]
+                                   0                          -0 
+   522 FIRST_INDEX_BACKUP2[1,1,3,2,1,2,6]
+                                   0                          -0 
+   523 FIRST_INDEX_BACKUP2[1,1,3,2,1,3,3]
+                                   0                          -0 
+   524 FIRST_INDEX_BACKUP2[1,1,3,2,1,3,4]
+                                   0                          -0 
+   525 FIRST_INDEX_BACKUP2[1,1,3,2,1,3,5]
+                                   0                          -0 
+   526 FIRST_INDEX_BACKUP2[1,1,3,2,1,3,6]
+                                   0                          -0 
+   527 FIRST_INDEX_BACKUP2[1,1,3,2,1,3,7]
+                                   0                          -0 
+   528 FIRST_INDEX_BACKUP2[1,1,3,2,1,4,4]
+                                   0                          -0 
+   529 FIRST_INDEX_BACKUP2[1,1,3,2,1,4,5]
+                                   0                          -0 
+   530 FIRST_INDEX_BACKUP2[1,1,3,2,1,4,6]
+                                   0                          -0 
+   531 FIRST_INDEX_BACKUP2[1,1,3,2,1,4,7]
+                                   0                          -0 
+   532 FIRST_INDEX_BACKUP2[1,1,3,2,1,4,8]
+                                   0                          -0 
+   533 FIRST_INDEX_BACKUP2[1,1,3,2,1,5,5]
+                                   0                          -0 
+   534 FIRST_INDEX_BACKUP2[1,1,3,2,1,5,6]
+                                   0                          -0 
+   535 FIRST_INDEX_BACKUP2[1,1,3,2,1,5,7]
+                                   0                          -0 
+   536 FIRST_INDEX_BACKUP2[1,1,3,2,1,5,8]
+                                   0                          -0 
+   537 FIRST_INDEX_BACKUP2[1,1,3,2,1,5,9]
+                                   0                          -0 
+   538 FIRST_INDEX_BACKUP2[1,1,3,3,2,0,0]
+                                   0                          -0 
+   539 FIRST_INDEX_BACKUP2[1,1,3,3,2,0,1]
+                                   0                          -0 
+   540 FIRST_INDEX_BACKUP2[1,1,3,3,2,0,2]
+                                   0                          -0 
+   541 FIRST_INDEX_BACKUP2[1,1,3,3,2,0,3]
+                                   0                          -0 
+   542 FIRST_INDEX_BACKUP2[1,1,3,3,2,0,4]
+                                   0                          -0 
+   543 FIRST_INDEX_BACKUP2[1,1,3,3,2,1,1]
+                                   0                          -0 
+   544 FIRST_INDEX_BACKUP2[1,1,3,3,2,1,2]
+                                   0                          -0 
+   545 FIRST_INDEX_BACKUP2[1,1,3,3,2,1,3]
+                                   0                          -0 
+   546 FIRST_INDEX_BACKUP2[1,1,3,3,2,1,4]
+                                   0                          -0 
+   547 FIRST_INDEX_BACKUP2[1,1,3,3,2,1,5]
+                                   0                          -0 
+   548 FIRST_INDEX_BACKUP2[1,1,3,3,2,2,2]
+                                   0                          -0 
+   549 FIRST_INDEX_BACKUP2[1,1,3,3,2,2,3]
+                                   0                          -0 
+   550 FIRST_INDEX_BACKUP2[1,1,3,3,2,2,4]
+                                   0                          -0 
+   551 FIRST_INDEX_BACKUP2[1,1,3,3,2,2,5]
+                                   0                          -0 
+   552 FIRST_INDEX_BACKUP2[1,1,3,3,2,2,6]
+                                   0                          -0 
+   553 FIRST_INDEX_BACKUP2[1,1,3,3,2,3,3]
+                                   0                          -0 
+   554 FIRST_INDEX_BACKUP2[1,1,3,3,2,3,4]
+                                   0                          -0 
+   555 FIRST_INDEX_BACKUP2[1,1,3,3,2,3,5]
+                                   0                          -0 
+   556 FIRST_INDEX_BACKUP2[1,1,3,3,2,3,6]
+                                   0                          -0 
+   557 FIRST_INDEX_BACKUP2[1,1,3,3,2,3,7]
+                                   0                          -0 
+   558 FIRST_INDEX_BACKUP2[1,1,3,3,2,4,4]
+                                   0                          -0 
+   559 FIRST_INDEX_BACKUP2[1,1,3,3,2,4,5]
+                                   0                          -0 
+   560 FIRST_INDEX_BACKUP2[1,1,3,3,2,4,6]
+                                   0                          -0 
+   561 FIRST_INDEX_BACKUP2[1,1,3,3,2,4,7]
+                                   0                          -0 
+   562 FIRST_INDEX_BACKUP2[1,1,3,3,2,4,8]
+                                   0                          -0 
+   563 FIRST_INDEX_BACKUP2[1,1,3,3,2,5,5]
+                                   0                          -0 
+   564 FIRST_INDEX_BACKUP2[1,1,3,3,2,5,6]
+                                   0                          -0 
+   565 FIRST_INDEX_BACKUP2[1,1,3,3,2,5,7]
+                                   0                          -0 
+   566 FIRST_INDEX_BACKUP2[1,1,3,3,2,5,8]
+                                   0                          -0 
+   567 FIRST_INDEX_BACKUP2[1,1,3,3,2,5,9]
+                                   0                          -0 
+   568 FIRST_INDEX_BACKUP2[1,2,1,1,3,0,0]
+                                   0                          -0 
+   569 FIRST_INDEX_BACKUP2[1,2,1,1,3,0,1]
+                                   0                          -0 
+   570 FIRST_INDEX_BACKUP2[1,2,1,1,3,0,2]
+                                   0                          -0 
+   571 FIRST_INDEX_BACKUP2[1,2,1,1,3,0,3]
+                                   0                          -0 
+   572 FIRST_INDEX_BACKUP2[1,2,1,1,3,0,4]
+                                   0                          -0 
+   573 FIRST_INDEX_BACKUP2[1,2,1,1,3,1,1]
+                                   0                          -0 
+   574 FIRST_INDEX_BACKUP2[1,2,1,1,3,1,2]
+                                   0                          -0 
+   575 FIRST_INDEX_BACKUP2[1,2,1,1,3,1,3]
+                                   0                          -0 
+   576 FIRST_INDEX_BACKUP2[1,2,1,1,3,1,4]
+                                   0                          -0 
+   577 FIRST_INDEX_BACKUP2[1,2,1,1,3,1,5]
+                                   0                          -0 
+   578 FIRST_INDEX_BACKUP2[1,2,1,1,3,2,2]
+                                   0                          -0 
+   579 FIRST_INDEX_BACKUP2[1,2,1,1,3,2,3]
+                                   0                          -0 
+   580 FIRST_INDEX_BACKUP2[1,2,1,1,3,2,4]
+                                   0                          -0 
+   581 FIRST_INDEX_BACKUP2[1,2,1,1,3,2,5]
+                                   0                          -0 
+   582 FIRST_INDEX_BACKUP2[1,2,1,1,3,2,6]
+                                   0                          -0 
+   583 FIRST_INDEX_BACKUP2[1,2,1,1,3,3,3]
+                                   0                          -0 
+   584 FIRST_INDEX_BACKUP2[1,2,1,1,3,3,4]
+                                   0                          -0 
+   585 FIRST_INDEX_BACKUP2[1,2,1,1,3,3,5]
+                                   0                          -0 
+   586 FIRST_INDEX_BACKUP2[1,2,1,1,3,3,6]
+                                   0                          -0 
+   587 FIRST_INDEX_BACKUP2[1,2,1,1,3,3,7]
+                                   0                          -0 
+   588 FIRST_INDEX_BACKUP2[1,2,1,1,3,4,4]
+                                   0                          -0 
+   589 FIRST_INDEX_BACKUP2[1,2,1,1,3,4,5]
+                                   0                          -0 
+   590 FIRST_INDEX_BACKUP2[1,2,1,1,3,4,6]
+                                   0                          -0 
+   591 FIRST_INDEX_BACKUP2[1,2,1,1,3,4,7]
+                                   0                          -0 
+   592 FIRST_INDEX_BACKUP2[1,2,1,1,3,4,8]
+                                   0                          -0 
+   593 FIRST_INDEX_BACKUP2[1,2,1,1,3,5,5]
+                                   0                          -0 
+   594 FIRST_INDEX_BACKUP2[1,2,1,1,3,5,6]
+                                   0                          -0 
+   595 FIRST_INDEX_BACKUP2[1,2,1,1,3,5,7]
+                                   0                          -0 
+   596 FIRST_INDEX_BACKUP2[1,2,1,1,3,5,8]
+                                   0                          -0 
+   597 FIRST_INDEX_BACKUP2[1,2,1,1,3,5,9]
+                                   0                          -0 
+   598 FIRST_INDEX_BACKUP2[1,2,2,1,2,0,0]
+                                   0                          -0 
+   599 FIRST_INDEX_BACKUP2[1,2,2,1,2,0,1]
+                                   0                          -0 
+   600 FIRST_INDEX_BACKUP2[1,2,2,1,2,0,2]
+                                   0                          -0 
+   601 FIRST_INDEX_BACKUP2[1,2,2,1,2,0,3]
+                                   0                          -0 
+   602 FIRST_INDEX_BACKUP2[1,2,2,1,2,0,4]
+                                   0                          -0 
+   603 FIRST_INDEX_BACKUP2[1,2,2,1,2,1,1]
+                                   0                          -0 
+   604 FIRST_INDEX_BACKUP2[1,2,2,1,2,1,2]
+                                   0                          -0 
+   605 FIRST_INDEX_BACKUP2[1,2,2,1,2,1,3]
+                                   0                          -0 
+   606 FIRST_INDEX_BACKUP2[1,2,2,1,2,1,4]
+                                   0                          -0 
+   607 FIRST_INDEX_BACKUP2[1,2,2,1,2,1,5]
+                                   0                          -0 
+   608 FIRST_INDEX_BACKUP2[1,2,2,1,2,2,2]
+                                   0                          -0 
+   609 FIRST_INDEX_BACKUP2[1,2,2,1,2,2,3]
+                                   0                          -0 
+   610 FIRST_INDEX_BACKUP2[1,2,2,1,2,2,4]
+                                   0                          -0 
+   611 FIRST_INDEX_BACKUP2[1,2,2,1,2,2,5]
+                                   0                          -0 
+   612 FIRST_INDEX_BACKUP2[1,2,2,1,2,2,6]
+                                   0                          -0 
+   613 FIRST_INDEX_BACKUP2[1,2,2,1,2,3,3]
+                                   0                          -0 
+   614 FIRST_INDEX_BACKUP2[1,2,2,1,2,3,4]
+                                   0                          -0 
+   615 FIRST_INDEX_BACKUP2[1,2,2,1,2,3,5]
+                                   0                          -0 
+   616 FIRST_INDEX_BACKUP2[1,2,2,1,2,3,6]
+                                   0                          -0 
+   617 FIRST_INDEX_BACKUP2[1,2,2,1,2,3,7]
+                                   0                          -0 
+   618 FIRST_INDEX_BACKUP2[1,2,2,1,2,4,4]
+                                   0                          -0 
+   619 FIRST_INDEX_BACKUP2[1,2,2,1,2,4,5]
+                                   0                          -0 
+   620 FIRST_INDEX_BACKUP2[1,2,2,1,2,4,6]
+                                   0                          -0 
+   621 FIRST_INDEX_BACKUP2[1,2,2,1,2,4,7]
+                                   0                          -0 
+   622 FIRST_INDEX_BACKUP2[1,2,2,1,2,4,8]
+                                   0                          -0 
+   623 FIRST_INDEX_BACKUP2[1,2,2,1,2,5,5]
+                                   0                          -0 
+   624 FIRST_INDEX_BACKUP2[1,2,2,1,2,5,6]
+                                   0                          -0 
+   625 FIRST_INDEX_BACKUP2[1,2,2,1,2,5,7]
+                                   0                          -0 
+   626 FIRST_INDEX_BACKUP2[1,2,2,1,2,5,8]
+                                   0                          -0 
+   627 FIRST_INDEX_BACKUP2[1,2,2,1,2,5,9]
+                                   0                          -0 
+   628 FIRST_INDEX_BACKUP2[1,2,3,2,2,0,0]
+                                   0                          -0 
+   629 FIRST_INDEX_BACKUP2[1,2,3,2,2,0,1]
+                                   0                          -0 
+   630 FIRST_INDEX_BACKUP2[1,2,3,2,2,0,2]
+                                   0                          -0 
+   631 FIRST_INDEX_BACKUP2[1,2,3,2,2,0,3]
+                                   0                          -0 
+   632 FIRST_INDEX_BACKUP2[1,2,3,2,2,0,4]
+                                   0                          -0 
+   633 FIRST_INDEX_BACKUP2[1,2,3,2,2,1,1]
+                                   0                          -0 
+   634 FIRST_INDEX_BACKUP2[1,2,3,2,2,1,2]
+                                   0                          -0 
+   635 FIRST_INDEX_BACKUP2[1,2,3,2,2,1,3]
+                                   0                          -0 
+   636 FIRST_INDEX_BACKUP2[1,2,3,2,2,1,4]
+                                   0                          -0 
+   637 FIRST_INDEX_BACKUP2[1,2,3,2,2,1,5]
+                                   0                          -0 
+   638 FIRST_INDEX_BACKUP2[1,2,3,2,2,2,2]
+                                   0                          -0 
+   639 FIRST_INDEX_BACKUP2[1,2,3,2,2,2,3]
+                                   0                          -0 
+   640 FIRST_INDEX_BACKUP2[1,2,3,2,2,2,4]
+                                   0                          -0 
+   641 FIRST_INDEX_BACKUP2[1,2,3,2,2,2,5]
+                                   0                          -0 
+   642 FIRST_INDEX_BACKUP2[1,2,3,2,2,2,6]
+                                   0                          -0 
+   643 FIRST_INDEX_BACKUP2[1,2,3,2,2,3,3]
+                                   0                          -0 
+   644 FIRST_INDEX_BACKUP2[1,2,3,2,2,3,4]
+                                   0                          -0 
+   645 FIRST_INDEX_BACKUP2[1,2,3,2,2,3,5]
+                                   0                          -0 
+   646 FIRST_INDEX_BACKUP2[1,2,3,2,2,3,6]
+                                   0                          -0 
+   647 FIRST_INDEX_BACKUP2[1,2,3,2,2,3,7]
+                                   0                          -0 
+   648 FIRST_INDEX_BACKUP2[1,2,3,2,2,4,4]
+                                   0                          -0 
+   649 FIRST_INDEX_BACKUP2[1,2,3,2,2,4,5]
+                                   0                          -0 
+   650 FIRST_INDEX_BACKUP2[1,2,3,2,2,4,6]
+                                   0                          -0 
+   651 FIRST_INDEX_BACKUP2[1,2,3,2,2,4,7]
+                                   0                          -0 
+   652 FIRST_INDEX_BACKUP2[1,2,3,2,2,4,8]
+                                   0                          -0 
+   653 FIRST_INDEX_BACKUP2[1,2,3,2,2,5,5]
+                                   0                          -0 
+   654 FIRST_INDEX_BACKUP2[1,2,3,2,2,5,6]
+                                   0                          -0 
+   655 FIRST_INDEX_BACKUP2[1,2,3,2,2,5,7]
+                                   0                          -0 
+   656 FIRST_INDEX_BACKUP2[1,2,3,2,2,5,8]
+                                   0                          -0 
+   657 FIRST_INDEX_BACKUP2[1,2,3,2,2,5,9]
+                                   0                          -0 
+   658 FIRST_INDEX_BACKUP2[1,3,1,1,2,0,0]
+                                   0                          -0 
+   659 FIRST_INDEX_BACKUP2[1,3,1,1,2,0,1]
+                                   0                          -0 
+   660 FIRST_INDEX_BACKUP2[1,3,1,1,2,0,2]
+                                   0                          -0 
+   661 FIRST_INDEX_BACKUP2[1,3,1,1,2,0,3]
+                                   0                          -0 
+   662 FIRST_INDEX_BACKUP2[1,3,1,1,2,0,4]
+                                   0                          -0 
+   663 FIRST_INDEX_BACKUP2[1,3,1,1,2,1,1]
+                                   0                          -0 
+   664 FIRST_INDEX_BACKUP2[1,3,1,1,2,1,2]
+                                   0                          -0 
+   665 FIRST_INDEX_BACKUP2[1,3,1,1,2,1,3]
+                                   0                          -0 
+   666 FIRST_INDEX_BACKUP2[1,3,1,1,2,1,4]
+                                   0                          -0 
+   667 FIRST_INDEX_BACKUP2[1,3,1,1,2,1,5]
+                                   0                          -0 
+   668 FIRST_INDEX_BACKUP2[1,3,1,1,2,2,2]
+                                   0                          -0 
+   669 FIRST_INDEX_BACKUP2[1,3,1,1,2,2,3]
+                                   0                          -0 
+   670 FIRST_INDEX_BACKUP2[1,3,1,1,2,2,4]
+                                   0                          -0 
+   671 FIRST_INDEX_BACKUP2[1,3,1,1,2,2,5]
+                                   0                          -0 
+   672 FIRST_INDEX_BACKUP2[1,3,1,1,2,2,6]
+                                   0                          -0 
+   673 FIRST_INDEX_BACKUP2[1,3,1,1,2,3,3]
+                                   0                          -0 
+   674 FIRST_INDEX_BACKUP2[1,3,1,1,2,3,4]
+                                   0                          -0 
+   675 FIRST_INDEX_BACKUP2[1,3,1,1,2,3,5]
+                                   0                          -0 
+   676 FIRST_INDEX_BACKUP2[1,3,1,1,2,3,6]
+                                   0                          -0 
+   677 FIRST_INDEX_BACKUP2[1,3,1,1,2,3,7]
+                                   0                          -0 
+   678 FIRST_INDEX_BACKUP2[1,3,1,1,2,4,4]
+                                   0                          -0 
+   679 FIRST_INDEX_BACKUP2[1,3,1,1,2,4,5]
+                                   0                          -0 
+   680 FIRST_INDEX_BACKUP2[1,3,1,1,2,4,6]
+                                   0                          -0 
+   681 FIRST_INDEX_BACKUP2[1,3,1,1,2,4,7]
+                                   0                          -0 
+   682 FIRST_INDEX_BACKUP2[1,3,1,1,2,4,8]
+                                   0                          -0 
+   683 FIRST_INDEX_BACKUP2[1,3,1,1,2,5,5]
+                                   0                          -0 
+   684 FIRST_INDEX_BACKUP2[1,3,1,1,2,5,6]
+                                   0                          -0 
+   685 FIRST_INDEX_BACKUP2[1,3,1,1,2,5,7]
+                                   0                          -0 
+   686 FIRST_INDEX_BACKUP2[1,3,1,1,2,5,8]
+                                   0                          -0 
+   687 FIRST_INDEX_BACKUP2[1,3,1,1,2,5,9]
+                                   0                          -0 
+   688 FIRST_INDEX_BACKUP2[1,3,1,2,3,0,0]
+                                   0                          -0 
+   689 FIRST_INDEX_BACKUP2[1,3,1,2,3,0,1]
+                                   0                          -0 
+   690 FIRST_INDEX_BACKUP2[1,3,1,2,3,0,2]
+                                   0                          -0 
+   691 FIRST_INDEX_BACKUP2[1,3,1,2,3,0,3]
+                                   0                          -0 
+   692 FIRST_INDEX_BACKUP2[1,3,1,2,3,0,4]
+                                   0                          -0 
+   693 FIRST_INDEX_BACKUP2[1,3,1,2,3,1,1]
+                                   0                          -0 
+   694 FIRST_INDEX_BACKUP2[1,3,1,2,3,1,2]
+                                   0                          -0 
+   695 FIRST_INDEX_BACKUP2[1,3,1,2,3,1,3]
+                                   0                          -0 
+   696 FIRST_INDEX_BACKUP2[1,3,1,2,3,1,4]
+                                   0                          -0 
+   697 FIRST_INDEX_BACKUP2[1,3,1,2,3,1,5]
+                                   0                          -0 
+   698 FIRST_INDEX_BACKUP2[1,3,1,2,3,2,2]
+                                   0                          -0 
+   699 FIRST_INDEX_BACKUP2[1,3,1,2,3,2,3]
+                                   0                          -0 
+   700 FIRST_INDEX_BACKUP2[1,3,1,2,3,2,4]
+                                   0                          -0 
+   701 FIRST_INDEX_BACKUP2[1,3,1,2,3,2,5]
+                                   0                          -0 
+   702 FIRST_INDEX_BACKUP2[1,3,1,2,3,2,6]
+                                   0                          -0 
+   703 FIRST_INDEX_BACKUP2[1,3,1,2,3,3,3]
+                                   0                          -0 
+   704 FIRST_INDEX_BACKUP2[1,3,1,2,3,3,4]
+                                   0                          -0 
+   705 FIRST_INDEX_BACKUP2[1,3,1,2,3,3,5]
+                                   0                          -0 
+   706 FIRST_INDEX_BACKUP2[1,3,1,2,3,3,6]
+                                   0                          -0 
+   707 FIRST_INDEX_BACKUP2[1,3,1,2,3,3,7]
+                                   0                          -0 
+   708 FIRST_INDEX_BACKUP2[1,3,1,2,3,4,4]
+                                   0                          -0 
+   709 FIRST_INDEX_BACKUP2[1,3,1,2,3,4,5]
+                                   0                          -0 
+   710 FIRST_INDEX_BACKUP2[1,3,1,2,3,4,6]
+                                   0                          -0 
+   711 FIRST_INDEX_BACKUP2[1,3,1,2,3,4,7]
+                                   0                          -0 
+   712 FIRST_INDEX_BACKUP2[1,3,1,2,3,4,8]
+                                   0                          -0 
+   713 FIRST_INDEX_BACKUP2[1,3,1,2,3,5,5]
+                                   0                          -0 
+   714 FIRST_INDEX_BACKUP2[1,3,1,2,3,5,6]
+                                   0                          -0 
+   715 FIRST_INDEX_BACKUP2[1,3,1,2,3,5,7]
+                                   0                          -0 
+   716 FIRST_INDEX_BACKUP2[1,3,1,2,3,5,8]
+                                   0                          -0 
+   717 FIRST_INDEX_BACKUP2[1,3,1,2,3,5,9]
+                                   0                          -0 
+   718 FIRST_INDEX_BACKUP2[1,3,2,2,2,0,0]
+                                   0                          -0 
+   719 FIRST_INDEX_BACKUP2[1,3,2,2,2,0,1]
+                                   0                          -0 
+   720 FIRST_INDEX_BACKUP2[1,3,2,2,2,0,2]
+                                   0                          -0 
+   721 FIRST_INDEX_BACKUP2[1,3,2,2,2,0,3]
+                                   0                          -0 
+   722 FIRST_INDEX_BACKUP2[1,3,2,2,2,0,4]
+                                   0                          -0 
+   723 FIRST_INDEX_BACKUP2[1,3,2,2,2,1,1]
+                                   0                          -0 
+   724 FIRST_INDEX_BACKUP2[1,3,2,2,2,1,2]
+                                   0                          -0 
+   725 FIRST_INDEX_BACKUP2[1,3,2,2,2,1,3]
+                                   0                          -0 
+   726 FIRST_INDEX_BACKUP2[1,3,2,2,2,1,4]
+                                   0                          -0 
+   727 FIRST_INDEX_BACKUP2[1,3,2,2,2,1,5]
+                                   0                          -0 
+   728 FIRST_INDEX_BACKUP2[1,3,2,2,2,2,2]
+                                   0                          -0 
+   729 FIRST_INDEX_BACKUP2[1,3,2,2,2,2,3]
+                                   0                          -0 
+   730 FIRST_INDEX_BACKUP2[1,3,2,2,2,2,4]
+                                   0                          -0 
+   731 FIRST_INDEX_BACKUP2[1,3,2,2,2,2,5]
+                                   0                          -0 
+   732 FIRST_INDEX_BACKUP2[1,3,2,2,2,2,6]
+                                   0                          -0 
+   733 FIRST_INDEX_BACKUP2[1,3,2,2,2,3,3]
+                                   0                          -0 
+   734 FIRST_INDEX_BACKUP2[1,3,2,2,2,3,4]
+                                   0                          -0 
+   735 FIRST_INDEX_BACKUP2[1,3,2,2,2,3,5]
+                                   0                          -0 
+   736 FIRST_INDEX_BACKUP2[1,3,2,2,2,3,6]
+                                   0                          -0 
+   737 FIRST_INDEX_BACKUP2[1,3,2,2,2,3,7]
+                                   0                          -0 
+   738 FIRST_INDEX_BACKUP2[1,3,2,2,2,4,4]
+                                   0                          -0 
+   739 FIRST_INDEX_BACKUP2[1,3,2,2,2,4,5]
+                                   0                          -0 
+   740 FIRST_INDEX_BACKUP2[1,3,2,2,2,4,6]
+                                   0                          -0 
+   741 FIRST_INDEX_BACKUP2[1,3,2,2,2,4,7]
+                                   0                          -0 
+   742 FIRST_INDEX_BACKUP2[1,3,2,2,2,4,8]
+                                   0                          -0 
+   743 FIRST_INDEX_BACKUP2[1,3,2,2,2,5,5]
+                                   0                          -0 
+   744 FIRST_INDEX_BACKUP2[1,3,2,2,2,5,6]
+                                   0                          -0 
+   745 FIRST_INDEX_BACKUP2[1,3,2,2,2,5,7]
+                                   0                          -0 
+   746 FIRST_INDEX_BACKUP2[1,3,2,2,2,5,8]
+                                   0                          -0 
+   747 FIRST_INDEX_BACKUP2[1,3,2,2,2,5,9]
+                                   0                          -0 
+   748 FIRST_INDEX_BACKUP2[1,3,3,1,3,0,0]
+                                   0                          -0 
+   749 FIRST_INDEX_BACKUP2[1,3,3,1,3,0,1]
+                                   0                          -0 
+   750 FIRST_INDEX_BACKUP2[1,3,3,1,3,0,2]
+                                   0                          -0 
+   751 FIRST_INDEX_BACKUP2[1,3,3,1,3,0,3]
+                                   0                          -0 
+   752 FIRST_INDEX_BACKUP2[1,3,3,1,3,0,4]
+                                   0                          -0 
+   753 FIRST_INDEX_BACKUP2[1,3,3,1,3,1,1]
+                                   0                          -0 
+   754 FIRST_INDEX_BACKUP2[1,3,3,1,3,1,2]
+                                   0                          -0 
+   755 FIRST_INDEX_BACKUP2[1,3,3,1,3,1,3]
+                                   0                          -0 
+   756 FIRST_INDEX_BACKUP2[1,3,3,1,3,1,4]
+                                   0                          -0 
+   757 FIRST_INDEX_BACKUP2[1,3,3,1,3,1,5]
+                                   0                          -0 
+   758 FIRST_INDEX_BACKUP2[1,3,3,1,3,2,2]
+                                   0                          -0 
+   759 FIRST_INDEX_BACKUP2[1,3,3,1,3,2,3]
+                                   0                          -0 
+   760 FIRST_INDEX_BACKUP2[1,3,3,1,3,2,4]
+                                   0                          -0 
+   761 FIRST_INDEX_BACKUP2[1,3,3,1,3,2,5]
+                                   0                          -0 
+   762 FIRST_INDEX_BACKUP2[1,3,3,1,3,2,6]
+                                   0                          -0 
+   763 FIRST_INDEX_BACKUP2[1,3,3,1,3,3,3]
+                                   0                          -0 
+   764 FIRST_INDEX_BACKUP2[1,3,3,1,3,3,4]
+                                   0                          -0 
+   765 FIRST_INDEX_BACKUP2[1,3,3,1,3,3,5]
+                                   0                          -0 
+   766 FIRST_INDEX_BACKUP2[1,3,3,1,3,3,6]
+                                   0                          -0 
+   767 FIRST_INDEX_BACKUP2[1,3,3,1,3,3,7]
+                                   0                          -0 
+   768 FIRST_INDEX_BACKUP2[1,3,3,1,3,4,4]
+                                   0                          -0 
+   769 FIRST_INDEX_BACKUP2[1,3,3,1,3,4,5]
+                                   0                          -0 
+   770 FIRST_INDEX_BACKUP2[1,3,3,1,3,4,6]
+                                   0                          -0 
+   771 FIRST_INDEX_BACKUP2[1,3,3,1,3,4,7]
+                                   0                          -0 
+   772 FIRST_INDEX_BACKUP2[1,3,3,1,3,4,8]
+                                   0                          -0 
+   773 FIRST_INDEX_BACKUP2[1,3,3,1,3,5,5]
+                                   0                          -0 
+   774 FIRST_INDEX_BACKUP2[1,3,3,1,3,5,6]
+                                   0                          -0 
+   775 FIRST_INDEX_BACKUP2[1,3,3,1,3,5,7]
+                                   0                          -0 
+   776 FIRST_INDEX_BACKUP2[1,3,3,1,3,5,8]
+                                   0                          -0 
+   777 FIRST_INDEX_BACKUP2[1,3,3,1,3,5,9]
+                                   0                          -0 
+   778 FIRST_INDEX_BACKUP2[1,3,3,2,3,0,0]
+                                   0                          -0 
+   779 FIRST_INDEX_BACKUP2[1,3,3,2,3,0,1]
+                                   0                          -0 
+   780 FIRST_INDEX_BACKUP2[1,3,3,2,3,0,2]
+                                   0                          -0 
+   781 FIRST_INDEX_BACKUP2[1,3,3,2,3,0,3]
+                                   0                          -0 
+   782 FIRST_INDEX_BACKUP2[1,3,3,2,3,0,4]
+                                   0                          -0 
+   783 FIRST_INDEX_BACKUP2[1,3,3,2,3,1,1]
+                                   0                          -0 
+   784 FIRST_INDEX_BACKUP2[1,3,3,2,3,1,2]
+                                   0                          -0 
+   785 FIRST_INDEX_BACKUP2[1,3,3,2,3,1,3]
+                                   0                          -0 
+   786 FIRST_INDEX_BACKUP2[1,3,3,2,3,1,4]
+                                   0                          -0 
+   787 FIRST_INDEX_BACKUP2[1,3,3,2,3,1,5]
+                                   0                          -0 
+   788 FIRST_INDEX_BACKUP2[1,3,3,2,3,2,2]
+                                   0                          -0 
+   789 FIRST_INDEX_BACKUP2[1,3,3,2,3,2,3]
+                                   0                          -0 
+   790 FIRST_INDEX_BACKUP2[1,3,3,2,3,2,4]
+                                   0                          -0 
+   791 FIRST_INDEX_BACKUP2[1,3,3,2,3,2,5]
+                                   0                          -0 
+   792 FIRST_INDEX_BACKUP2[1,3,3,2,3,2,6]
+                                   0                          -0 
+   793 FIRST_INDEX_BACKUP2[1,3,3,2,3,3,3]
+                                   0                          -0 
+   794 FIRST_INDEX_BACKUP2[1,3,3,2,3,3,4]
+                                   0                          -0 
+   795 FIRST_INDEX_BACKUP2[1,3,3,2,3,3,5]
+                                   0                          -0 
+   796 FIRST_INDEX_BACKUP2[1,3,3,2,3,3,6]
+                                   0                          -0 
+   797 FIRST_INDEX_BACKUP2[1,3,3,2,3,3,7]
+                                   0                          -0 
+   798 FIRST_INDEX_BACKUP2[1,3,3,2,3,4,4]
+                                   0                          -0 
+   799 FIRST_INDEX_BACKUP2[1,3,3,2,3,4,5]
+                                   0                          -0 
+   800 FIRST_INDEX_BACKUP2[1,3,3,2,3,4,6]
+                                   0                          -0 
+   801 FIRST_INDEX_BACKUP2[1,3,3,2,3,4,7]
+                                   0                          -0 
+   802 FIRST_INDEX_BACKUP2[1,3,3,2,3,4,8]
+                                   0                          -0 
+   803 FIRST_INDEX_BACKUP2[1,3,3,2,3,5,5]
+                                   0                          -0 
+   804 FIRST_INDEX_BACKUP2[1,3,3,2,3,5,6]
+                                   0                          -0 
+   805 FIRST_INDEX_BACKUP2[1,3,3,2,3,5,7]
+                                   0                          -0 
+   806 FIRST_INDEX_BACKUP2[1,3,3,2,3,5,8]
+                                   0                          -0 
+   807 FIRST_INDEX_BACKUP2[1,3,3,2,3,5,9]
+                                   0                          -0 
+   808 FIRST_INDEX_PRIMARY3[1,1,1,1,2,6]
+                                   0            -0             = 
+   809 FIRST_INDEX_PRIMARY3[1,1,1,1,2,7]
+                                   0            -0             = 
+   810 FIRST_INDEX_PRIMARY3[1,1,1,1,2,8]
+                                   0            -0             = 
+   811 FIRST_INDEX_PRIMARY3[1,1,1,1,2,9]
+                                   0            -0             = 
+   812 FIRST_INDEX_PRIMARY3[1,1,1,1,3,6]
+                                   0            -0             = 
+   813 FIRST_INDEX_PRIMARY3[1,1,1,1,3,7]
+                                   0            -0             = 
+   814 FIRST_INDEX_PRIMARY3[1,1,1,1,3,8]
+                                   0            -0             = 
+   815 FIRST_INDEX_PRIMARY3[1,1,1,1,3,9]
+                                   0            -0             = 
+   816 FIRST_INDEX_PRIMARY3[1,1,2,3,1,6]
+                                   0            -0             = 
+   817 FIRST_INDEX_PRIMARY3[1,1,2,3,1,7]
+                                   0            -0             = 
+   818 FIRST_INDEX_PRIMARY3[1,1,2,3,1,8]
+                                   0            -0             = 
+   819 FIRST_INDEX_PRIMARY3[1,1,2,3,1,9]
+                                   0            -0             = 
+   820 FIRST_INDEX_PRIMARY3[1,1,3,2,1,6]
+                                   0            -0             = 
+   821 FIRST_INDEX_PRIMARY3[1,1,3,2,1,7]
+                                   0            -0             = 
+   822 FIRST_INDEX_PRIMARY3[1,1,3,2,1,8]
+                                   0            -0             = 
+   823 FIRST_INDEX_PRIMARY3[1,1,3,2,1,9]
+                                   0            -0             = 
+   824 FIRST_INDEX_PRIMARY3[1,1,3,3,2,6]
+                                   0            -0             = 
+   825 FIRST_INDEX_PRIMARY3[1,1,3,3,2,7]
+                                   0            -0             = 
+   826 FIRST_INDEX_PRIMARY3[1,1,3,3,2,8]
+                                   0            -0             = 
+   827 FIRST_INDEX_PRIMARY3[1,1,3,3,2,9]
+                                   0            -0             = 
+   828 FIRST_INDEX_PRIMARY3[1,2,1,1,3,6]
+                                   0            -0             = 
+   829 FIRST_INDEX_PRIMARY3[1,2,1,1,3,7]
+                                   0            -0             = 
+   830 FIRST_INDEX_PRIMARY3[1,2,1,1,3,8]
+                                   0            -0             = 
+   831 FIRST_INDEX_PRIMARY3[1,2,1,1,3,9]
+                                   0            -0             = 
+   832 FIRST_INDEX_PRIMARY3[1,2,2,1,2,6]
+                                   0            -0             = 
+   833 FIRST_INDEX_PRIMARY3[1,2,2,1,2,7]
+                                   0            -0             = 
+   834 FIRST_INDEX_PRIMARY3[1,2,2,1,2,8]
+                                   0            -0             = 
+   835 FIRST_INDEX_PRIMARY3[1,2,2,1,2,9]
+                                   0            -0             = 
+   836 FIRST_INDEX_PRIMARY3[1,2,3,2,2,6]
+                                   0            -0             = 
+   837 FIRST_INDEX_PRIMARY3[1,2,3,2,2,7]
+                                   0            -0             = 
+   838 FIRST_INDEX_PRIMARY3[1,2,3,2,2,8]
+                                   0            -0             = 
+   839 FIRST_INDEX_PRIMARY3[1,2,3,2,2,9]
+                                   0            -0             = 
+   840 FIRST_INDEX_PRIMARY3[1,3,1,1,2,6]
+                                   0            -0             = 
+   841 FIRST_INDEX_PRIMARY3[1,3,1,1,2,7]
+                                   0            -0             = 
+   842 FIRST_INDEX_PRIMARY3[1,3,1,1,2,8]
+                                   0            -0             = 
+   843 FIRST_INDEX_PRIMARY3[1,3,1,1,2,9]
+                                   0            -0             = 
+   844 FIRST_INDEX_PRIMARY3[1,3,1,2,3,6]
+                                   0            -0             = 
+   845 FIRST_INDEX_PRIMARY3[1,3,1,2,3,7]
+                                   0            -0             = 
+   846 FIRST_INDEX_PRIMARY3[1,3,1,2,3,8]
+                                   0            -0             = 
+   847 FIRST_INDEX_PRIMARY3[1,3,1,2,3,9]
+                                   0            -0             = 
+   848 FIRST_INDEX_PRIMARY3[1,3,2,2,2,6]
+                                   0            -0             = 
+   849 FIRST_INDEX_PRIMARY3[1,3,2,2,2,7]
+                                   0            -0             = 
+   850 FIRST_INDEX_PRIMARY3[1,3,2,2,2,8]
+                                   0            -0             = 
+   851 FIRST_INDEX_PRIMARY3[1,3,2,2,2,9]
+                                   0            -0             = 
+   852 FIRST_INDEX_PRIMARY3[1,3,3,1,3,6]
+                                   0            -0             = 
+   853 FIRST_INDEX_PRIMARY3[1,3,3,1,3,7]
+                                   0            -0             = 
+   854 FIRST_INDEX_PRIMARY3[1,3,3,1,3,8]
+                                   0            -0             = 
+   855 FIRST_INDEX_PRIMARY3[1,3,3,1,3,9]
+                                   0            -0             = 
+   856 FIRST_INDEX_PRIMARY3[1,3,3,2,3,6]
+                                   0            -0             = 
+   857 FIRST_INDEX_PRIMARY3[1,3,3,2,3,7]
+                                   0            -0             = 
+   858 FIRST_INDEX_PRIMARY3[1,3,3,2,3,8]
+                                   0            -0             = 
+   859 FIRST_INDEX_PRIMARY3[1,3,3,2,3,9]
+                                   0            -0             = 
+   860 FIRST_INDEX_BACKUP3[1,1,1,1,2,6]
+                                   0            -0             = 
+   861 FIRST_INDEX_BACKUP3[1,1,1,1,2,7]
+                                   0            -0             = 
+   862 FIRST_INDEX_BACKUP3[1,1,1,1,2,8]
+                                   0            -0             = 
+   863 FIRST_INDEX_BACKUP3[1,1,1,1,2,9]
+                                   0            -0             = 
+   864 FIRST_INDEX_BACKUP3[1,1,1,1,3,6]
+                                   0            -0             = 
+   865 FIRST_INDEX_BACKUP3[1,1,1,1,3,7]
+                                   0            -0             = 
+   866 FIRST_INDEX_BACKUP3[1,1,1,1,3,8]
+                                   0            -0             = 
+   867 FIRST_INDEX_BACKUP3[1,1,1,1,3,9]
+                                   0            -0             = 
+   868 FIRST_INDEX_BACKUP3[1,1,2,3,1,6]
+                                   0            -0             = 
+   869 FIRST_INDEX_BACKUP3[1,1,2,3,1,7]
+                                   0            -0             = 
+   870 FIRST_INDEX_BACKUP3[1,1,2,3,1,8]
+                                   0            -0             = 
+   871 FIRST_INDEX_BACKUP3[1,1,2,3,1,9]
+                                   0            -0             = 
+   872 FIRST_INDEX_BACKUP3[1,1,3,2,1,6]
+                                   0            -0             = 
+   873 FIRST_INDEX_BACKUP3[1,1,3,2,1,7]
+                                   0            -0             = 
+   874 FIRST_INDEX_BACKUP3[1,1,3,2,1,8]
+                                   0            -0             = 
+   875 FIRST_INDEX_BACKUP3[1,1,3,2,1,9]
+                                   0            -0             = 
+   876 FIRST_INDEX_BACKUP3[1,1,3,3,2,6]
+                                   0            -0             = 
+   877 FIRST_INDEX_BACKUP3[1,1,3,3,2,7]
+                                   0            -0             = 
+   878 FIRST_INDEX_BACKUP3[1,1,3,3,2,8]
+                                   0            -0             = 
+   879 FIRST_INDEX_BACKUP3[1,1,3,3,2,9]
+                                   0            -0             = 
+   880 FIRST_INDEX_BACKUP3[1,2,1,1,3,6]
+                                   0            -0             = 
+   881 FIRST_INDEX_BACKUP3[1,2,1,1,3,7]
+                                   0            -0             = 
+   882 FIRST_INDEX_BACKUP3[1,2,1,1,3,8]
+                                   0            -0             = 
+   883 FIRST_INDEX_BACKUP3[1,2,1,1,3,9]
+                                   0            -0             = 
+   884 FIRST_INDEX_BACKUP3[1,2,2,1,2,6]
+                                   0            -0             = 
+   885 FIRST_INDEX_BACKUP3[1,2,2,1,2,7]
+                                   0            -0             = 
+   886 FIRST_INDEX_BACKUP3[1,2,2,1,2,8]
+                                   0            -0             = 
+   887 FIRST_INDEX_BACKUP3[1,2,2,1,2,9]
+                                   0            -0             = 
+   888 FIRST_INDEX_BACKUP3[1,2,3,2,2,6]
+                                   0            -0             = 
+   889 FIRST_INDEX_BACKUP3[1,2,3,2,2,7]
+                                   0            -0             = 
+   890 FIRST_INDEX_BACKUP3[1,2,3,2,2,8]
+                                   0            -0             = 
+   891 FIRST_INDEX_BACKUP3[1,2,3,2,2,9]
+                                   0            -0             = 
+   892 FIRST_INDEX_BACKUP3[1,3,1,1,2,6]
+                                   0            -0             = 
+   893 FIRST_INDEX_BACKUP3[1,3,1,1,2,7]
+                                   0            -0             = 
+   894 FIRST_INDEX_BACKUP3[1,3,1,1,2,8]
+                                   0            -0             = 
+   895 FIRST_INDEX_BACKUP3[1,3,1,1,2,9]
+                                   0            -0             = 
+   896 FIRST_INDEX_BACKUP3[1,3,1,2,3,6]
+                                   0            -0             = 
+   897 FIRST_INDEX_BACKUP3[1,3,1,2,3,7]
+                                   0            -0             = 
+   898 FIRST_INDEX_BACKUP3[1,3,1,2,3,8]
+                                   0            -0             = 
+   899 FIRST_INDEX_BACKUP3[1,3,1,2,3,9]
+                                   0            -0             = 
+   900 FIRST_INDEX_BACKUP3[1,3,2,2,2,6]
+                                   0            -0             = 
+   901 FIRST_INDEX_BACKUP3[1,3,2,2,2,7]
+                                   0            -0             = 
+   902 FIRST_INDEX_BACKUP3[1,3,2,2,2,8]
+                                   0            -0             = 
+   903 FIRST_INDEX_BACKUP3[1,3,2,2,2,9]
+                                   0            -0             = 
+   904 FIRST_INDEX_BACKUP3[1,3,3,1,3,6]
+                                   0            -0             = 
+   905 FIRST_INDEX_BACKUP3[1,3,3,1,3,7]
+                                   0            -0             = 
+   906 FIRST_INDEX_BACKUP3[1,3,3,1,3,8]
+                                   0            -0             = 
+   907 FIRST_INDEX_BACKUP3[1,3,3,1,3,9]
+                                   0            -0             = 
+   908 FIRST_INDEX_BACKUP3[1,3,3,2,3,6]
+                                   0            -0             = 
+   909 FIRST_INDEX_BACKUP3[1,3,3,2,3,7]
+                                   0            -0             = 
+   910 FIRST_INDEX_BACKUP3[1,3,3,2,3,8]
+                                   0            -0             = 
+   911 FIRST_INDEX_BACKUP3[1,3,3,2,3,9]
+                                   0            -0             = 
+   912 INDEX_CONSTRAINT[1,1,1,2,0]
+                                   1                           1 
+   913 INDEX_CONSTRAINT[1,1,1,2,1]
+                                   0                           1 
+   914 INDEX_CONSTRAINT[1,1,1,2,2]
+                                   0                           1 
+   915 INDEX_CONSTRAINT[1,1,1,2,3]
+                                   0                           1 
+   916 INDEX_CONSTRAINT[1,1,1,2,4]
+                                   0                           1 
+   917 INDEX_CONSTRAINT[1,1,1,2,5]
+                                   1                           1 
+   918 INDEX_CONSTRAINT[1,1,1,2,6]
+                                   0                           1 
+   919 INDEX_CONSTRAINT[1,1,1,2,7]
+                                   0                           1 
+   920 INDEX_CONSTRAINT[1,1,1,2,8]
+                                   0                           1 
+   921 INDEX_CONSTRAINT[1,1,1,2,9]
+                                   0                           1 
+   922 INDEX_CONSTRAINT[1,1,1,3,0]
+                                   1                           1 
+   923 INDEX_CONSTRAINT[1,1,1,3,1]
+                                   0                           1 
+   924 INDEX_CONSTRAINT[1,1,1,3,2]
+                                   0                           1 
+   925 INDEX_CONSTRAINT[1,1,1,3,3]
+                                   0                           1 
+   926 INDEX_CONSTRAINT[1,1,1,3,4]
+                                   0                           1 
+   927 INDEX_CONSTRAINT[1,1,1,3,5]
+                                   1                           1 
+   928 INDEX_CONSTRAINT[1,1,1,3,6]
+                                   0                           1 
+   929 INDEX_CONSTRAINT[1,1,1,3,7]
+                                   0                           1 
+   930 INDEX_CONSTRAINT[1,1,1,3,8]
+                                   0                           1 
+   931 INDEX_CONSTRAINT[1,1,1,3,9]
+                                   0                           1 
+   932 INDEX_CONSTRAINT[1,2,3,1,0]
+                                   1                           1 
+   933 INDEX_CONSTRAINT[1,2,3,1,1]
+                                   0                           1 
+   934 INDEX_CONSTRAINT[1,2,3,1,2]
+                                   0                           1 
+   935 INDEX_CONSTRAINT[1,2,3,1,3]
+                                   0                           1 
+   936 INDEX_CONSTRAINT[1,2,3,1,4]
+                                   0                           1 
+   937 INDEX_CONSTRAINT[1,2,3,1,5]
+                                   1                           1 
+   938 INDEX_CONSTRAINT[1,2,3,1,6]
+                                   0                           1 
+   939 INDEX_CONSTRAINT[1,2,3,1,7]
+                                   0                           1 
+   940 INDEX_CONSTRAINT[1,2,3,1,8]
+                                   0                           1 
+   941 INDEX_CONSTRAINT[1,2,3,1,9]
+                                   0                           1 
+   942 INDEX_CONSTRAINT[1,3,2,1,0]
+                                   1                           1 
+   943 INDEX_CONSTRAINT[1,3,2,1,1]
+                                   0                           1 
+   944 INDEX_CONSTRAINT[1,3,2,1,2]
+                                   0                           1 
+   945 INDEX_CONSTRAINT[1,3,2,1,3]
+                                   0                           1 
+   946 INDEX_CONSTRAINT[1,3,2,1,4]
+                                   0                           1 
+   947 INDEX_CONSTRAINT[1,3,2,1,5]
+                                   1                           1 
+   948 INDEX_CONSTRAINT[1,3,2,1,6]
+                                   0                           1 
+   949 INDEX_CONSTRAINT[1,3,2,1,7]
+                                   0                           1 
+   950 INDEX_CONSTRAINT[1,3,2,1,8]
+                                   0                           1 
+   951 INDEX_CONSTRAINT[1,3,2,1,9]
+                                   0                           1 
+   952 INDEX_CONSTRAINT[1,3,3,2,0]
+                                   1                           1 
+   953 INDEX_CONSTRAINT[1,3,3,2,1]
+                                   0                           1 
+   954 INDEX_CONSTRAINT[1,3,3,2,2]
+                                   0                           1 
+   955 INDEX_CONSTRAINT[1,3,3,2,3]
+                                   0                           1 
+   956 INDEX_CONSTRAINT[1,3,3,2,4]
+                                   0                           1 
+   957 INDEX_CONSTRAINT[1,3,3,2,5]
+                                   1                           1 
+   958 INDEX_CONSTRAINT[1,3,3,2,6]
+                                   0                           1 
+   959 INDEX_CONSTRAINT[1,3,3,2,7]
+                                   0                           1 
+   960 INDEX_CONSTRAINT[1,3,3,2,8]
+                                   0                           1 
+   961 INDEX_CONSTRAINT[1,3,3,2,9]
+                                   0                           1 
+   962 INDEX_CONSTRAINT[2,1,1,3,0]
+                                   1                           1 
+   963 INDEX_CONSTRAINT[2,1,1,3,1]
+                                   0                           1 
+   964 INDEX_CONSTRAINT[2,1,1,3,2]
+                                   0                           1 
+   965 INDEX_CONSTRAINT[2,1,1,3,3]
+                                   0                           1 
+   966 INDEX_CONSTRAINT[2,1,1,3,4]
+                                   0                           1 
+   967 INDEX_CONSTRAINT[2,1,1,3,5]
+                                   1                           1 
+   968 INDEX_CONSTRAINT[2,1,1,3,6]
+                                   0                           1 
+   969 INDEX_CONSTRAINT[2,1,1,3,7]
+                                   0                           1 
+   970 INDEX_CONSTRAINT[2,1,1,3,8]
+                                   0                           1 
+   971 INDEX_CONSTRAINT[2,1,1,3,9]
+                                   0                           1 
+   972 INDEX_CONSTRAINT[2,2,1,2,0]
+                                   1                           1 
+   973 INDEX_CONSTRAINT[2,2,1,2,1]
+                                   0                           1 
+   974 INDEX_CONSTRAINT[2,2,1,2,2]
+                                   0                           1 
+   975 INDEX_CONSTRAINT[2,2,1,2,3]
+                                   0                           1 
+   976 INDEX_CONSTRAINT[2,2,1,2,4]
+                                   0                           1 
+   977 INDEX_CONSTRAINT[2,2,1,2,5]
+                                   1                           1 
+   978 INDEX_CONSTRAINT[2,2,1,2,6]
+                                   0                           1 
+   979 INDEX_CONSTRAINT[2,2,1,2,7]
+                                   0                           1 
+   980 INDEX_CONSTRAINT[2,2,1,2,8]
+                                   0                           1 
+   981 INDEX_CONSTRAINT[2,2,1,2,9]
+                                   0                           1 
+   982 INDEX_CONSTRAINT[2,3,2,2,0]
+                                   1                           1 
+   983 INDEX_CONSTRAINT[2,3,2,2,1]
+                                   0                           1 
+   984 INDEX_CONSTRAINT[2,3,2,2,2]
+                                   0                           1 
+   985 INDEX_CONSTRAINT[2,3,2,2,3]
+                                   0                           1 
+   986 INDEX_CONSTRAINT[2,3,2,2,4]
+                                   0                           1 
+   987 INDEX_CONSTRAINT[2,3,2,2,5]
+                                   1                           1 
+   988 INDEX_CONSTRAINT[2,3,2,2,6]
+                                   0                           1 
+   989 INDEX_CONSTRAINT[2,3,2,2,7]
+                                   0                           1 
+   990 INDEX_CONSTRAINT[2,3,2,2,8]
+                                   0                           1 
+   991 INDEX_CONSTRAINT[2,3,2,2,9]
+                                   0                           1 
+   992 INDEX_CONSTRAINT[3,1,1,2,0]
+                                   1                           1 
+   993 INDEX_CONSTRAINT[3,1,1,2,1]
+                                   0                           1 
+   994 INDEX_CONSTRAINT[3,1,1,2,2]
+                                   0                           1 
+   995 INDEX_CONSTRAINT[3,1,1,2,3]
+                                   0                           1 
+   996 INDEX_CONSTRAINT[3,1,1,2,4]
+                                   0                           1 
+   997 INDEX_CONSTRAINT[3,1,1,2,5]
+                                   1                           1 
+   998 INDEX_CONSTRAINT[3,1,1,2,6]
+                                   0                           1 
+   999 INDEX_CONSTRAINT[3,1,1,2,7]
+                                   0                           1 
+  1000 INDEX_CONSTRAINT[3,1,1,2,8]
+                                   0                           1 
+  1001 INDEX_CONSTRAINT[3,1,1,2,9]
+                                   0                           1 
+  1002 INDEX_CONSTRAINT[3,1,2,3,0]
+                                   1                           1 
+  1003 INDEX_CONSTRAINT[3,1,2,3,1]
+                                   0                           1 
+  1004 INDEX_CONSTRAINT[3,1,2,3,2]
+                                   0                           1 
+  1005 INDEX_CONSTRAINT[3,1,2,3,3]
+                                   0                           1 
+  1006 INDEX_CONSTRAINT[3,1,2,3,4]
+                                   0                           1 
+  1007 INDEX_CONSTRAINT[3,1,2,3,5]
+                                   1                           1 
+  1008 INDEX_CONSTRAINT[3,1,2,3,6]
+                                   0                           1 
+  1009 INDEX_CONSTRAINT[3,1,2,3,7]
+                                   0                           1 
+  1010 INDEX_CONSTRAINT[3,1,2,3,8]
+                                   0                           1 
+  1011 INDEX_CONSTRAINT[3,1,2,3,9]
+                                   0                           1 
+  1012 INDEX_CONSTRAINT[3,2,2,2,0]
+                                   1                           1 
+  1013 INDEX_CONSTRAINT[3,2,2,2,1]
+                                   0                           1 
+  1014 INDEX_CONSTRAINT[3,2,2,2,2]
+                                   0                           1 
+  1015 INDEX_CONSTRAINT[3,2,2,2,3]
+                                   0                           1 
+  1016 INDEX_CONSTRAINT[3,2,2,2,4]
+                                   0                           1 
+  1017 INDEX_CONSTRAINT[3,2,2,2,5]
+                                   1                           1 
+  1018 INDEX_CONSTRAINT[3,2,2,2,6]
+                                   0                           1 
+  1019 INDEX_CONSTRAINT[3,2,2,2,7]
+                                   0                           1 
+  1020 INDEX_CONSTRAINT[3,2,2,2,8]
+                                   0                           1 
+  1021 INDEX_CONSTRAINT[3,2,2,2,9]
+                                   0                           1 
+  1022 INDEX_CONSTRAINT[3,3,1,3,0]
+                                   1                           1 
+  1023 INDEX_CONSTRAINT[3,3,1,3,1]
+                                   0                           1 
+  1024 INDEX_CONSTRAINT[3,3,1,3,2]
+                                   0                           1 
+  1025 INDEX_CONSTRAINT[3,3,1,3,3]
+                                   0                           1 
+  1026 INDEX_CONSTRAINT[3,3,1,3,4]
+                                   0                           1 
+  1027 INDEX_CONSTRAINT[3,3,1,3,5]
+                                   1                           1 
+  1028 INDEX_CONSTRAINT[3,3,1,3,6]
+                                   0                           1 
+  1029 INDEX_CONSTRAINT[3,3,1,3,7]
+                                   0                           1 
+  1030 INDEX_CONSTRAINT[3,3,1,3,8]
+                                   0                           1 
+  1031 INDEX_CONSTRAINT[3,3,1,3,9]
+                                   0                           1 
+  1032 INDEX_CONSTRAINT[3,3,2,3,0]
+                                   1                           1 
+  1033 INDEX_CONSTRAINT[3,3,2,3,1]
+                                   0                           1 
+  1034 INDEX_CONSTRAINT[3,3,2,3,2]
+                                   0                           1 
+  1035 INDEX_CONSTRAINT[3,3,2,3,3]
+                                   0                           1 
+  1036 INDEX_CONSTRAINT[3,3,2,3,4]
+                                   0                           1 
+  1037 INDEX_CONSTRAINT[3,3,2,3,5]
+                                   1                           1 
+  1038 INDEX_CONSTRAINT[3,3,2,3,6]
+                                   0                           1 
+  1039 INDEX_CONSTRAINT[3,3,2,3,7]
+                                   0                           1 
+  1040 INDEX_CONSTRAINT[3,3,2,3,8]
+                                   0                           1 
+  1041 INDEX_CONSTRAINT[3,3,2,3,9]
+                                   0                           1 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 xp[1,1,1,1,2,0]
+                    *              0             0             1 
+     2 xp[1,1,1,1,2,1]
+                    *              0             0             1 
+     3 xp[1,1,1,1,2,2]
+                    *              0             0             1 
+     4 xp[1,1,1,1,2,3]
+                    *              0             0             1 
+     5 xp[1,1,1,1,2,4]
+                    *              0             0             1 
+     6 xp[1,1,1,1,2,5]
+                    *              1             0             1 
+     7 xp[1,1,1,1,2,6]
+                    *              0             0             1 
+     8 xp[1,1,1,1,2,7]
+                    *              0             0             1 
+     9 xp[1,1,1,1,2,8]
+                    *              0             0             1 
+    10 xp[1,1,1,1,2,9]
+                    *              0             0             1 
+    11 xp[1,1,1,1,3,0]
+                    *              0             0             1 
+    12 xp[1,1,1,1,3,1]
+                    *              0             0             1 
+    13 xp[1,1,1,1,3,2]
+                    *              0             0             1 
+    14 xp[1,1,1,1,3,3]
+                    *              0             0             1 
+    15 xp[1,1,1,1,3,4]
+                    *              0             0             1 
+    16 xp[1,1,1,1,3,5]
+                    *              1             0             1 
+    17 xp[1,1,1,1,3,6]
+                    *              0             0             1 
+    18 xp[1,1,1,1,3,7]
+                    *              0             0             1 
+    19 xp[1,1,1,1,3,8]
+                    *              0             0             1 
+    20 xp[1,1,1,1,3,9]
+                    *              0             0             1 
+    21 xp[1,1,2,3,1,0]
+                    *              0             0             1 
+    22 xp[1,1,2,3,1,1]
+                    *              0             0             1 
+    23 xp[1,1,2,3,1,2]
+                    *              0             0             1 
+    24 xp[1,1,2,3,1,3]
+                    *              0             0             1 
+    25 xp[1,1,2,3,1,4]
+                    *              0             0             1 
+    26 xp[1,1,2,3,1,5]
+                    *              1             0             1 
+    27 xp[1,1,2,3,1,6]
+                    *              0             0             1 
+    28 xp[1,1,2,3,1,7]
+                    *              0             0             1 
+    29 xp[1,1,2,3,1,8]
+                    *              0             0             1 
+    30 xp[1,1,2,3,1,9]
+                    *              0             0             1 
+    31 xp[1,1,3,2,1,0]
+                    *              0             0             1 
+    32 xp[1,1,3,2,1,1]
+                    *              0             0             1 
+    33 xp[1,1,3,2,1,2]
+                    *              0             0             1 
+    34 xp[1,1,3,2,1,3]
+                    *              0             0             1 
+    35 xp[1,1,3,2,1,4]
+                    *              0             0             1 
+    36 xp[1,1,3,2,1,5]
+                    *              1             0             1 
+    37 xp[1,1,3,2,1,6]
+                    *              0             0             1 
+    38 xp[1,1,3,2,1,7]
+                    *              0             0             1 
+    39 xp[1,1,3,2,1,8]
+                    *              0             0             1 
+    40 xp[1,1,3,2,1,9]
+                    *              0             0             1 
+    41 xp[1,1,3,3,2,0]
+                    *              0             0             1 
+    42 xp[1,1,3,3,2,1]
+                    *              0             0             1 
+    43 xp[1,1,3,3,2,2]
+                    *              0             0             1 
+    44 xp[1,1,3,3,2,3]
+                    *              0             0             1 
+    45 xp[1,1,3,3,2,4]
+                    *              0             0             1 
+    46 xp[1,1,3,3,2,5]
+                    *              1             0             1 
+    47 xp[1,1,3,3,2,6]
+                    *              0             0             1 
+    48 xp[1,1,3,3,2,7]
+                    *              0             0             1 
+    49 xp[1,1,3,3,2,8]
+                    *              0             0             1 
+    50 xp[1,1,3,3,2,9]
+                    *              0             0             1 
+    51 xp[1,2,1,1,3,0]
+                    *              0             0             1 
+    52 xp[1,2,1,1,3,1]
+                    *              0             0             1 
+    53 xp[1,2,1,1,3,2]
+                    *              0             0             1 
+    54 xp[1,2,1,1,3,3]
+                    *              0             0             1 
+    55 xp[1,2,1,1,3,4]
+                    *              0             0             1 
+    56 xp[1,2,1,1,3,5]
+                    *              1             0             1 
+    57 xp[1,2,1,1,3,6]
+                    *              0             0             1 
+    58 xp[1,2,1,1,3,7]
+                    *              0             0             1 
+    59 xp[1,2,1,1,3,8]
+                    *              0             0             1 
+    60 xp[1,2,1,1,3,9]
+                    *              0             0             1 
+    61 xp[1,2,2,1,2,0]
+                    *              0             0             1 
+    62 xp[1,2,2,1,2,1]
+                    *              0             0             1 
+    63 xp[1,2,2,1,2,2]
+                    *              0             0             1 
+    64 xp[1,2,2,1,2,3]
+                    *              0             0             1 
+    65 xp[1,2,2,1,2,4]
+                    *              0             0             1 
+    66 xp[1,2,2,1,2,5]
+                    *              1             0             1 
+    67 xp[1,2,2,1,2,6]
+                    *              0             0             1 
+    68 xp[1,2,2,1,2,7]
+                    *              0             0             1 
+    69 xp[1,2,2,1,2,8]
+                    *              0             0             1 
+    70 xp[1,2,2,1,2,9]
+                    *              0             0             1 
+    71 xp[1,2,3,2,2,0]
+                    *              0             0             1 
+    72 xp[1,2,3,2,2,1]
+                    *              0             0             1 
+    73 xp[1,2,3,2,2,2]
+                    *              0             0             1 
+    74 xp[1,2,3,2,2,3]
+                    *              0             0             1 
+    75 xp[1,2,3,2,2,4]
+                    *              0             0             1 
+    76 xp[1,2,3,2,2,5]
+                    *              1             0             1 
+    77 xp[1,2,3,2,2,6]
+                    *              0             0             1 
+    78 xp[1,2,3,2,2,7]
+                    *              0             0             1 
+    79 xp[1,2,3,2,2,8]
+                    *              0             0             1 
+    80 xp[1,2,3,2,2,9]
+                    *              0             0             1 
+    81 xp[1,3,1,1,2,0]
+                    *              0             0             1 
+    82 xp[1,3,1,1,2,1]
+                    *              0             0             1 
+    83 xp[1,3,1,1,2,2]
+                    *              0             0             1 
+    84 xp[1,3,1,1,2,3]
+                    *              0             0             1 
+    85 xp[1,3,1,1,2,4]
+                    *              0             0             1 
+    86 xp[1,3,1,1,2,5]
+                    *              1             0             1 
+    87 xp[1,3,1,1,2,6]
+                    *              0             0             1 
+    88 xp[1,3,1,1,2,7]
+                    *              0             0             1 
+    89 xp[1,3,1,1,2,8]
+                    *              0             0             1 
+    90 xp[1,3,1,1,2,9]
+                    *              0             0             1 
+    91 xp[1,3,1,2,3,0]
+                    *              0             0             1 
+    92 xp[1,3,1,2,3,1]
+                    *              0             0             1 
+    93 xp[1,3,1,2,3,2]
+                    *              0             0             1 
+    94 xp[1,3,1,2,3,3]
+                    *              0             0             1 
+    95 xp[1,3,1,2,3,4]
+                    *              0             0             1 
+    96 xp[1,3,1,2,3,5]
+                    *              1             0             1 
+    97 xp[1,3,1,2,3,6]
+                    *              0             0             1 
+    98 xp[1,3,1,2,3,7]
+                    *              0             0             1 
+    99 xp[1,3,1,2,3,8]
+                    *              0             0             1 
+   100 xp[1,3,1,2,3,9]
+                    *              0             0             1 
+   101 xp[1,3,2,2,2,0]
+                    *              0             0             1 
+   102 xp[1,3,2,2,2,1]
+                    *              0             0             1 
+   103 xp[1,3,2,2,2,2]
+                    *              0             0             1 
+   104 xp[1,3,2,2,2,3]
+                    *              0             0             1 
+   105 xp[1,3,2,2,2,4]
+                    *              0             0             1 
+   106 xp[1,3,2,2,2,5]
+                    *              1             0             1 
+   107 xp[1,3,2,2,2,6]
+                    *              0             0             1 
+   108 xp[1,3,2,2,2,7]
+                    *              0             0             1 
+   109 xp[1,3,2,2,2,8]
+                    *              0             0             1 
+   110 xp[1,3,2,2,2,9]
+                    *              0             0             1 
+   111 xp[1,3,3,1,3,0]
+                    *              0             0             1 
+   112 xp[1,3,3,1,3,1]
+                    *              0             0             1 
+   113 xp[1,3,3,1,3,2]
+                    *              0             0             1 
+   114 xp[1,3,3,1,3,3]
+                    *              0             0             1 
+   115 xp[1,3,3,1,3,4]
+                    *              0             0             1 
+   116 xp[1,3,3,1,3,5]
+                    *              1             0             1 
+   117 xp[1,3,3,1,3,6]
+                    *              0             0             1 
+   118 xp[1,3,3,1,3,7]
+                    *              0             0             1 
+   119 xp[1,3,3,1,3,8]
+                    *              0             0             1 
+   120 xp[1,3,3,1,3,9]
+                    *              0             0             1 
+   121 xp[1,3,3,2,3,0]
+                    *              0             0             1 
+   122 xp[1,3,3,2,3,1]
+                    *              0             0             1 
+   123 xp[1,3,3,2,3,2]
+                    *              0             0             1 
+   124 xp[1,3,3,2,3,3]
+                    *              0             0             1 
+   125 xp[1,3,3,2,3,4]
+                    *              0             0             1 
+   126 xp[1,3,3,2,3,5]
+                    *              1             0             1 
+   127 xp[1,3,3,2,3,6]
+                    *              0             0             1 
+   128 xp[1,3,3,2,3,7]
+                    *              0             0             1 
+   129 xp[1,3,3,2,3,8]
+                    *              0             0             1 
+   130 xp[1,3,3,2,3,9]
+                    *              0             0             1 
+   131 xb[1,1,1,1,2,0]
+                    *              1             0             1 
+   132 xb[1,1,1,1,2,1]
+                    *              0             0             1 
+   133 xb[1,1,1,1,2,2]
+                    *              0             0             1 
+   134 xb[1,1,1,1,2,3]
+                    *              0             0             1 
+   135 xb[1,1,1,1,2,4]
+                    *              0             0             1 
+   136 xb[1,1,1,1,2,5]
+                    *              0             0             1 
+   137 xb[1,1,1,1,2,6]
+                    *              0             0             1 
+   138 xb[1,1,1,1,2,7]
+                    *              0             0             1 
+   139 xb[1,1,1,1,2,8]
+                    *              0             0             1 
+   140 xb[1,1,1,1,2,9]
+                    *              0             0             1 
+   141 xb[1,1,1,1,3,0]
+                    *              1             0             1 
+   142 xb[1,1,1,1,3,1]
+                    *              0             0             1 
+   143 xb[1,1,1,1,3,2]
+                    *              0             0             1 
+   144 xb[1,1,1,1,3,3]
+                    *              0             0             1 
+   145 xb[1,1,1,1,3,4]
+                    *              0             0             1 
+   146 xb[1,1,1,1,3,5]
+                    *              0             0             1 
+   147 xb[1,1,1,1,3,6]
+                    *              0             0             1 
+   148 xb[1,1,1,1,3,7]
+                    *              0             0             1 
+   149 xb[1,1,1,1,3,8]
+                    *              0             0             1 
+   150 xb[1,1,1,1,3,9]
+                    *              0             0             1 
+   151 xb[1,1,2,3,1,0]
+                    *              1             0             1 
+   152 xb[1,1,2,3,1,1]
+                    *              0             0             1 
+   153 xb[1,1,2,3,1,2]
+                    *              0             0             1 
+   154 xb[1,1,2,3,1,3]
+                    *              0             0             1 
+   155 xb[1,1,2,3,1,4]
+                    *              0             0             1 
+   156 xb[1,1,2,3,1,5]
+                    *              0             0             1 
+   157 xb[1,1,2,3,1,6]
+                    *              0             0             1 
+   158 xb[1,1,2,3,1,7]
+                    *              0             0             1 
+   159 xb[1,1,2,3,1,8]
+                    *              0             0             1 
+   160 xb[1,1,2,3,1,9]
+                    *              0             0             1 
+   161 xb[1,1,3,2,1,0]
+                    *              1             0             1 
+   162 xb[1,1,3,2,1,1]
+                    *              0             0             1 
+   163 xb[1,1,3,2,1,2]
+                    *              0             0             1 
+   164 xb[1,1,3,2,1,3]
+                    *              0             0             1 
+   165 xb[1,1,3,2,1,4]
+                    *              0             0             1 
+   166 xb[1,1,3,2,1,5]
+                    *              0             0             1 
+   167 xb[1,1,3,2,1,6]
+                    *              0             0             1 
+   168 xb[1,1,3,2,1,7]
+                    *              0             0             1 
+   169 xb[1,1,3,2,1,8]
+                    *              0             0             1 
+   170 xb[1,1,3,2,1,9]
+                    *              0             0             1 
+   171 xb[1,1,3,3,2,0]
+                    *              1             0             1 
+   172 xb[1,1,3,3,2,1]
+                    *              0             0             1 
+   173 xb[1,1,3,3,2,2]
+                    *              0             0             1 
+   174 xb[1,1,3,3,2,3]
+                    *              0             0             1 
+   175 xb[1,1,3,3,2,4]
+                    *              0             0             1 
+   176 xb[1,1,3,3,2,5]
+                    *              0             0             1 
+   177 xb[1,1,3,3,2,6]
+                    *              0             0             1 
+   178 xb[1,1,3,3,2,7]
+                    *              0             0             1 
+   179 xb[1,1,3,3,2,8]
+                    *              0             0             1 
+   180 xb[1,1,3,3,2,9]
+                    *              0             0             1 
+   181 xb[1,2,1,1,3,0]
+                    *              1             0             1 
+   182 xb[1,2,1,1,3,1]
+                    *              0             0             1 
+   183 xb[1,2,1,1,3,2]
+                    *              0             0             1 
+   184 xb[1,2,1,1,3,3]
+                    *              0             0             1 
+   185 xb[1,2,1,1,3,4]
+                    *              0             0             1 
+   186 xb[1,2,1,1,3,5]
+                    *              0             0             1 
+   187 xb[1,2,1,1,3,6]
+                    *              0             0             1 
+   188 xb[1,2,1,1,3,7]
+                    *              0             0             1 
+   189 xb[1,2,1,1,3,8]
+                    *              0             0             1 
+   190 xb[1,2,1,1,3,9]
+                    *              0             0             1 
+   191 xb[1,2,2,1,2,0]
+                    *              1             0             1 
+   192 xb[1,2,2,1,2,1]
+                    *              0             0             1 
+   193 xb[1,2,2,1,2,2]
+                    *              0             0             1 
+   194 xb[1,2,2,1,2,3]
+                    *              0             0             1 
+   195 xb[1,2,2,1,2,4]
+                    *              0             0             1 
+   196 xb[1,2,2,1,2,5]
+                    *              0             0             1 
+   197 xb[1,2,2,1,2,6]
+                    *              0             0             1 
+   198 xb[1,2,2,1,2,7]
+                    *              0             0             1 
+   199 xb[1,2,2,1,2,8]
+                    *              0             0             1 
+   200 xb[1,2,2,1,2,9]
+                    *              0             0             1 
+   201 xb[1,2,3,2,2,0]
+                    *              1             0             1 
+   202 xb[1,2,3,2,2,1]
+                    *              0             0             1 
+   203 xb[1,2,3,2,2,2]
+                    *              0             0             1 
+   204 xb[1,2,3,2,2,3]
+                    *              0             0             1 
+   205 xb[1,2,3,2,2,4]
+                    *              0             0             1 
+   206 xb[1,2,3,2,2,5]
+                    *              0             0             1 
+   207 xb[1,2,3,2,2,6]
+                    *              0             0             1 
+   208 xb[1,2,3,2,2,7]
+                    *              0             0             1 
+   209 xb[1,2,3,2,2,8]
+                    *              0             0             1 
+   210 xb[1,2,3,2,2,9]
+                    *              0             0             1 
+   211 xb[1,3,1,1,2,0]
+                    *              1             0             1 
+   212 xb[1,3,1,1,2,1]
+                    *              0             0             1 
+   213 xb[1,3,1,1,2,2]
+                    *              0             0             1 
+   214 xb[1,3,1,1,2,3]
+                    *              0             0             1 
+   215 xb[1,3,1,1,2,4]
+                    *              0             0             1 
+   216 xb[1,3,1,1,2,5]
+                    *              0             0             1 
+   217 xb[1,3,1,1,2,6]
+                    *              0             0             1 
+   218 xb[1,3,1,1,2,7]
+                    *              0             0             1 
+   219 xb[1,3,1,1,2,8]
+                    *              0             0             1 
+   220 xb[1,3,1,1,2,9]
+                    *              0             0             1 
+   221 xb[1,3,1,2,3,0]
+                    *              1             0             1 
+   222 xb[1,3,1,2,3,1]
+                    *              0             0             1 
+   223 xb[1,3,1,2,3,2]
+                    *              0             0             1 
+   224 xb[1,3,1,2,3,3]
+                    *              0             0             1 
+   225 xb[1,3,1,2,3,4]
+                    *              0             0             1 
+   226 xb[1,3,1,2,3,5]
+                    *              0             0             1 
+   227 xb[1,3,1,2,3,6]
+                    *              0             0             1 
+   228 xb[1,3,1,2,3,7]
+                    *              0             0             1 
+   229 xb[1,3,1,2,3,8]
+                    *              0             0             1 
+   230 xb[1,3,1,2,3,9]
+                    *              0             0             1 
+   231 xb[1,3,2,2,2,0]
+                    *              1             0             1 
+   232 xb[1,3,2,2,2,1]
+                    *              0             0             1 
+   233 xb[1,3,2,2,2,2]
+                    *              0             0             1 
+   234 xb[1,3,2,2,2,3]
+                    *              0             0             1 
+   235 xb[1,3,2,2,2,4]
+                    *              0             0             1 
+   236 xb[1,3,2,2,2,5]
+                    *              0             0             1 
+   237 xb[1,3,2,2,2,6]
+                    *              0             0             1 
+   238 xb[1,3,2,2,2,7]
+                    *              0             0             1 
+   239 xb[1,3,2,2,2,8]
+                    *              0             0             1 
+   240 xb[1,3,2,2,2,9]
+                    *              0             0             1 
+   241 xb[1,3,3,1,3,0]
+                    *              1             0             1 
+   242 xb[1,3,3,1,3,1]
+                    *              0             0             1 
+   243 xb[1,3,3,1,3,2]
+                    *              0             0             1 
+   244 xb[1,3,3,1,3,3]
+                    *              0             0             1 
+   245 xb[1,3,3,1,3,4]
+                    *              0             0             1 
+   246 xb[1,3,3,1,3,5]
+                    *              0             0             1 
+   247 xb[1,3,3,1,3,6]
+                    *              0             0             1 
+   248 xb[1,3,3,1,3,7]
+                    *              0             0             1 
+   249 xb[1,3,3,1,3,8]
+                    *              0             0             1 
+   250 xb[1,3,3,1,3,9]
+                    *              0             0             1 
+   251 xb[1,3,3,2,3,0]
+                    *              1             0             1 
+   252 xb[1,3,3,2,3,1]
+                    *              0             0             1 
+   253 xb[1,3,3,2,3,2]
+                    *              0             0             1 
+   254 xb[1,3,3,2,3,3]
+                    *              0             0             1 
+   255 xb[1,3,3,2,3,4]
+                    *              0             0             1 
+   256 xb[1,3,3,2,3,5]
+                    *              0             0             1 
+   257 xb[1,3,3,2,3,6]
+                    *              0             0             1 
+   258 xb[1,3,3,2,3,7]
+                    *              0             0             1 
+   259 xb[1,3,3,2,3,8]
+                    *              0             0             1 
+   260 xb[1,3,3,2,3,9]
+                    *              0             0             1 
+   261 yp[1,1,1,1,2,0]
+                    *              0             0             1 
+   262 yp[1,1,1,1,3,0]
+                    *              0             0             1 
+   263 yp[1,1,2,3,1,0]
+                    *              0             0             1 
+   264 yp[1,1,3,2,1,0]
+                    *              0             0             1 
+   265 yp[1,1,3,3,2,0]
+                    *              0             0             1 
+   266 yp[1,2,1,1,3,0]
+                    *              0             0             1 
+   267 yp[1,2,2,1,2,0]
+                    *              0             0             1 
+   268 yp[1,2,3,2,2,0]
+                    *              0             0             1 
+   269 yp[1,3,1,1,2,0]
+                    *              0             0             1 
+   270 yp[1,3,1,2,3,0]
+                    *              0             0             1 
+   271 yp[1,3,2,2,2,0]
+                    *              0             0             1 
+   272 yp[1,3,3,1,3,0]
+                    *              0             0             1 
+   273 yp[1,3,3,2,3,0]
+                    *              0             0             1 
+   274 yp[1,1,1,1,2,1]
+                    *              0             0             1 
+   275 yp[1,1,1,1,3,1]
+                    *              0             0             1 
+   276 yp[1,1,2,3,1,1]
+                    *              0             0             1 
+   277 yp[1,1,3,2,1,1]
+                    *              0             0             1 
+   278 yp[1,1,3,3,2,1]
+                    *              0             0             1 
+   279 yp[1,2,1,1,3,1]
+                    *              0             0             1 
+   280 yp[1,2,2,1,2,1]
+                    *              0             0             1 
+   281 yp[1,2,3,2,2,1]
+                    *              0             0             1 
+   282 yp[1,3,1,1,2,1]
+                    *              0             0             1 
+   283 yp[1,3,1,2,3,1]
+                    *              0             0             1 
+   284 yp[1,3,2,2,2,1]
+                    *              0             0             1 
+   285 yp[1,3,3,1,3,1]
+                    *              0             0             1 
+   286 yp[1,3,3,2,3,1]
+                    *              0             0             1 
+   287 yp[1,1,1,1,2,2]
+                    *              0             0             1 
+   288 yp[1,1,1,1,3,2]
+                    *              0             0             1 
+   289 yp[1,1,2,3,1,2]
+                    *              0             0             1 
+   290 yp[1,1,3,2,1,2]
+                    *              0             0             1 
+   291 yp[1,1,3,3,2,2]
+                    *              0             0             1 
+   292 yp[1,2,1,1,3,2]
+                    *              0             0             1 
+   293 yp[1,2,2,1,2,2]
+                    *              0             0             1 
+   294 yp[1,2,3,2,2,2]
+                    *              0             0             1 
+   295 yp[1,3,1,1,2,2]
+                    *              0             0             1 
+   296 yp[1,3,1,2,3,2]
+                    *              0             0             1 
+   297 yp[1,3,2,2,2,2]
+                    *              0             0             1 
+   298 yp[1,3,3,1,3,2]
+                    *              0             0             1 
+   299 yp[1,3,3,2,3,2]
+                    *              0             0             1 
+   300 yp[1,1,1,1,2,3]
+                    *              0             0             1 
+   301 yp[1,1,1,1,3,3]
+                    *              0             0             1 
+   302 yp[1,1,2,3,1,3]
+                    *              0             0             1 
+   303 yp[1,1,3,2,1,3]
+                    *              0             0             1 
+   304 yp[1,1,3,3,2,3]
+                    *              0             0             1 
+   305 yp[1,2,1,1,3,3]
+                    *              0             0             1 
+   306 yp[1,2,2,1,2,3]
+                    *              0             0             1 
+   307 yp[1,2,3,2,2,3]
+                    *              0             0             1 
+   308 yp[1,3,1,1,2,3]
+                    *              0             0             1 
+   309 yp[1,3,1,2,3,3]
+                    *              0             0             1 
+   310 yp[1,3,2,2,2,3]
+                    *              0             0             1 
+   311 yp[1,3,3,1,3,3]
+                    *              0             0             1 
+   312 yp[1,3,3,2,3,3]
+                    *              0             0             1 
+   313 yp[1,1,1,1,2,4]
+                    *              0             0             1 
+   314 yp[1,1,1,1,3,4]
+                    *              0             0             1 
+   315 yp[1,1,2,3,1,4]
+                    *              0             0             1 
+   316 yp[1,1,3,2,1,4]
+                    *              0             0             1 
+   317 yp[1,1,3,3,2,4]
+                    *              0             0             1 
+   318 yp[1,2,1,1,3,4]
+                    *              0             0             1 
+   319 yp[1,2,2,1,2,4]
+                    *              0             0             1 
+   320 yp[1,2,3,2,2,4]
+                    *              0             0             1 
+   321 yp[1,3,1,1,2,4]
+                    *              0             0             1 
+   322 yp[1,3,1,2,3,4]
+                    *              0             0             1 
+   323 yp[1,3,2,2,2,4]
+                    *              0             0             1 
+   324 yp[1,3,3,1,3,4]
+                    *              0             0             1 
+   325 yp[1,3,3,2,3,4]
+                    *              0             0             1 
+   326 yp[1,1,1,1,2,5]
+                    *              1             0             1 
+   327 yp[1,1,1,1,3,5]
+                    *              1             0             1 
+   328 yp[1,1,2,3,1,5]
+                    *              1             0             1 
+   329 yp[1,1,3,2,1,5]
+                    *              1             0             1 
+   330 yp[1,1,3,3,2,5]
+                    *              1             0             1 
+   331 yp[1,2,1,1,3,5]
+                    *              1             0             1 
+   332 yp[1,2,2,1,2,5]
+                    *              1             0             1 
+   333 yp[1,2,3,2,2,5]
+                    *              1             0             1 
+   334 yp[1,3,1,1,2,5]
+                    *              1             0             1 
+   335 yp[1,3,1,2,3,5]
+                    *              1             0             1 
+   336 yp[1,3,2,2,2,5]
+                    *              1             0             1 
+   337 yp[1,3,3,1,3,5]
+                    *              1             0             1 
+   338 yp[1,3,3,2,3,5]
+                    *              1             0             1 
+   339 yp[1,1,1,1,2,6]
+                    *              0             0             1 
+   340 yp[1,1,1,1,3,6]
+                    *              0             0             1 
+   341 yp[1,1,2,3,1,6]
+                    *              0             0             1 
+   342 yp[1,1,3,2,1,6]
+                    *              0             0             1 
+   343 yp[1,1,3,3,2,6]
+                    *              0             0             1 
+   344 yp[1,2,1,1,3,6]
+                    *              0             0             1 
+   345 yp[1,2,2,1,2,6]
+                    *              0             0             1 
+   346 yp[1,2,3,2,2,6]
+                    *              0             0             1 
+   347 yp[1,3,1,1,2,6]
+                    *              0             0             1 
+   348 yp[1,3,1,2,3,6]
+                    *              0             0             1 
+   349 yp[1,3,2,2,2,6]
+                    *              0             0             1 
+   350 yp[1,3,3,1,3,6]
+                    *              0             0             1 
+   351 yp[1,3,3,2,3,6]
+                    *              0             0             1 
+   352 yp[1,1,1,1,2,7]
+                    *              0             0             1 
+   353 yp[1,1,1,1,3,7]
+                    *              0             0             1 
+   354 yp[1,1,2,3,1,7]
+                    *              0             0             1 
+   355 yp[1,1,3,2,1,7]
+                    *              0             0             1 
+   356 yp[1,1,3,3,2,7]
+                    *              0             0             1 
+   357 yp[1,2,1,1,3,7]
+                    *              0             0             1 
+   358 yp[1,2,2,1,2,7]
+                    *              0             0             1 
+   359 yp[1,2,3,2,2,7]
+                    *              0             0             1 
+   360 yp[1,3,1,1,2,7]
+                    *              0             0             1 
+   361 yp[1,3,1,2,3,7]
+                    *              0             0             1 
+   362 yp[1,3,2,2,2,7]
+                    *              0             0             1 
+   363 yp[1,3,3,1,3,7]
+                    *              0             0             1 
+   364 yp[1,3,3,2,3,7]
+                    *              0             0             1 
+   365 yp[1,1,1,1,2,8]
+                    *              0             0             1 
+   366 yp[1,1,1,1,3,8]
+                    *              0             0             1 
+   367 yp[1,1,2,3,1,8]
+                    *              0             0             1 
+   368 yp[1,1,3,2,1,8]
+                    *              0             0             1 
+   369 yp[1,1,3,3,2,8]
+                    *              0             0             1 
+   370 yp[1,2,1,1,3,8]
+                    *              0             0             1 
+   371 yp[1,2,2,1,2,8]
+                    *              0             0             1 
+   372 yp[1,2,3,2,2,8]
+                    *              0             0             1 
+   373 yp[1,3,1,1,2,8]
+                    *              0             0             1 
+   374 yp[1,3,1,2,3,8]
+                    *              0             0             1 
+   375 yp[1,3,2,2,2,8]
+                    *              0             0             1 
+   376 yp[1,3,3,1,3,8]
+                    *              0             0             1 
+   377 yp[1,3,3,2,3,8]
+                    *              0             0             1 
+   378 yp[1,1,1,1,2,9]
+                    *              0             0             1 
+   379 yp[1,1,1,1,3,9]
+                    *              0             0             1 
+   380 yp[1,1,2,3,1,9]
+                    *              0             0             1 
+   381 yp[1,1,3,2,1,9]
+                    *              0             0             1 
+   382 yp[1,1,3,3,2,9]
+                    *              0             0             1 
+   383 yp[1,2,1,1,3,9]
+                    *              0             0             1 
+   384 yp[1,2,2,1,2,9]
+                    *              0             0             1 
+   385 yp[1,2,3,2,2,9]
+                    *              0             0             1 
+   386 yp[1,3,1,1,2,9]
+                    *              0             0             1 
+   387 yp[1,3,1,2,3,9]
+                    *              0             0             1 
+   388 yp[1,3,2,2,2,9]
+                    *              0             0             1 
+   389 yp[1,3,3,1,3,9]
+                    *              0             0             1 
+   390 yp[1,3,3,2,3,9]
+                    *              0             0             1 
+   391 yb[1,1,1,1,2,0]
+                    *              1             0             1 
+   392 yb[1,1,1,1,3,0]
+                    *              1             0             1 
+   393 yb[1,1,2,3,1,0]
+                    *              1             0             1 
+   394 yb[1,1,3,2,1,0]
+                    *              1             0             1 
+   395 yb[1,1,3,3,2,0]
+                    *              1             0             1 
+   396 yb[1,2,1,1,3,0]
+                    *              1             0             1 
+   397 yb[1,2,2,1,2,0]
+                    *              1             0             1 
+   398 yb[1,2,3,2,2,0]
+                    *              1             0             1 
+   399 yb[1,3,1,1,2,0]
+                    *              1             0             1 
+   400 yb[1,3,1,2,3,0]
+                    *              1             0             1 
+   401 yb[1,3,2,2,2,0]
+                    *              1             0             1 
+   402 yb[1,3,3,1,3,0]
+                    *              1             0             1 
+   403 yb[1,3,3,2,3,0]
+                    *              1             0             1 
+   404 yb[1,1,1,1,2,1]
+                    *              0             0             1 
+   405 yb[1,1,1,1,3,1]
+                    *              0             0             1 
+   406 yb[1,1,2,3,1,1]
+                    *              0             0             1 
+   407 yb[1,1,3,2,1,1]
+                    *              0             0             1 
+   408 yb[1,1,3,3,2,1]
+                    *              0             0             1 
+   409 yb[1,2,1,1,3,1]
+                    *              0             0             1 
+   410 yb[1,2,2,1,2,1]
+                    *              0             0             1 
+   411 yb[1,2,3,2,2,1]
+                    *              0             0             1 
+   412 yb[1,3,1,1,2,1]
+                    *              0             0             1 
+   413 yb[1,3,1,2,3,1]
+                    *              0             0             1 
+   414 yb[1,3,2,2,2,1]
+                    *              0             0             1 
+   415 yb[1,3,3,1,3,1]
+                    *              0             0             1 
+   416 yb[1,3,3,2,3,1]
+                    *              0             0             1 
+   417 yb[1,1,1,1,2,2]
+                    *              0             0             1 
+   418 yb[1,1,1,1,3,2]
+                    *              0             0             1 
+   419 yb[1,1,2,3,1,2]
+                    *              0             0             1 
+   420 yb[1,1,3,2,1,2]
+                    *              0             0             1 
+   421 yb[1,1,3,3,2,2]
+                    *              0             0             1 
+   422 yb[1,2,1,1,3,2]
+                    *              0             0             1 
+   423 yb[1,2,2,1,2,2]
+                    *              0             0             1 
+   424 yb[1,2,3,2,2,2]
+                    *              0             0             1 
+   425 yb[1,3,1,1,2,2]
+                    *              0             0             1 
+   426 yb[1,3,1,2,3,2]
+                    *              0             0             1 
+   427 yb[1,3,2,2,2,2]
+                    *              0             0             1 
+   428 yb[1,3,3,1,3,2]
+                    *              0             0             1 
+   429 yb[1,3,3,2,3,2]
+                    *              0             0             1 
+   430 yb[1,1,1,1,2,3]
+                    *              0             0             1 
+   431 yb[1,1,1,1,3,3]
+                    *              0             0             1 
+   432 yb[1,1,2,3,1,3]
+                    *              0             0             1 
+   433 yb[1,1,3,2,1,3]
+                    *              0             0             1 
+   434 yb[1,1,3,3,2,3]
+                    *              0             0             1 
+   435 yb[1,2,1,1,3,3]
+                    *              0             0             1 
+   436 yb[1,2,2,1,2,3]
+                    *              0             0             1 
+   437 yb[1,2,3,2,2,3]
+                    *              0             0             1 
+   438 yb[1,3,1,1,2,3]
+                    *              0             0             1 
+   439 yb[1,3,1,2,3,3]
+                    *              0             0             1 
+   440 yb[1,3,2,2,2,3]
+                    *              0             0             1 
+   441 yb[1,3,3,1,3,3]
+                    *              0             0             1 
+   442 yb[1,3,3,2,3,3]
+                    *              0             0             1 
+   443 yb[1,1,1,1,2,4]
+                    *              0             0             1 
+   444 yb[1,1,1,1,3,4]
+                    *              0             0             1 
+   445 yb[1,1,2,3,1,4]
+                    *              0             0             1 
+   446 yb[1,1,3,2,1,4]
+                    *              0             0             1 
+   447 yb[1,1,3,3,2,4]
+                    *              0             0             1 
+   448 yb[1,2,1,1,3,4]
+                    *              0             0             1 
+   449 yb[1,2,2,1,2,4]
+                    *              0             0             1 
+   450 yb[1,2,3,2,2,4]
+                    *              0             0             1 
+   451 yb[1,3,1,1,2,4]
+                    *              0             0             1 
+   452 yb[1,3,1,2,3,4]
+                    *              0             0             1 
+   453 yb[1,3,2,2,2,4]
+                    *              0             0             1 
+   454 yb[1,3,3,1,3,4]
+                    *              0             0             1 
+   455 yb[1,3,3,2,3,4]
+                    *              0             0             1 
+   456 yb[1,1,1,1,2,5]
+                    *              0             0             1 
+   457 yb[1,1,1,1,3,5]
+                    *              0             0             1 
+   458 yb[1,1,2,3,1,5]
+                    *              0             0             1 
+   459 yb[1,1,3,2,1,5]
+                    *              0             0             1 
+   460 yb[1,1,3,3,2,5]
+                    *              0             0             1 
+   461 yb[1,2,1,1,3,5]
+                    *              0             0             1 
+   462 yb[1,2,2,1,2,5]
+                    *              0             0             1 
+   463 yb[1,2,3,2,2,5]
+                    *              0             0             1 
+   464 yb[1,3,1,1,2,5]
+                    *              0             0             1 
+   465 yb[1,3,1,2,3,5]
+                    *              0             0             1 
+   466 yb[1,3,2,2,2,5]
+                    *              0             0             1 
+   467 yb[1,3,3,1,3,5]
+                    *              0             0             1 
+   468 yb[1,3,3,2,3,5]
+                    *              0             0             1 
+   469 yb[1,1,1,1,2,6]
+                    *              0             0             1 
+   470 yb[1,1,1,1,3,6]
+                    *              0             0             1 
+   471 yb[1,1,2,3,1,6]
+                    *              0             0             1 
+   472 yb[1,1,3,2,1,6]
+                    *              0             0             1 
+   473 yb[1,1,3,3,2,6]
+                    *              0             0             1 
+   474 yb[1,2,1,1,3,6]
+                    *              0             0             1 
+   475 yb[1,2,2,1,2,6]
+                    *              0             0             1 
+   476 yb[1,2,3,2,2,6]
+                    *              0             0             1 
+   477 yb[1,3,1,1,2,6]
+                    *              0             0             1 
+   478 yb[1,3,1,2,3,6]
+                    *              0             0             1 
+   479 yb[1,3,2,2,2,6]
+                    *              0             0             1 
+   480 yb[1,3,3,1,3,6]
+                    *              0             0             1 
+   481 yb[1,3,3,2,3,6]
+                    *              0             0             1 
+   482 yb[1,1,1,1,2,7]
+                    *              0             0             1 
+   483 yb[1,1,1,1,3,7]
+                    *              0             0             1 
+   484 yb[1,1,2,3,1,7]
+                    *              0             0             1 
+   485 yb[1,1,3,2,1,7]
+                    *              0             0             1 
+   486 yb[1,1,3,3,2,7]
+                    *              0             0             1 
+   487 yb[1,2,1,1,3,7]
+                    *              0             0             1 
+   488 yb[1,2,2,1,2,7]
+                    *              0             0             1 
+   489 yb[1,2,3,2,2,7]
+                    *              0             0             1 
+   490 yb[1,3,1,1,2,7]
+                    *              0             0             1 
+   491 yb[1,3,1,2,3,7]
+                    *              0             0             1 
+   492 yb[1,3,2,2,2,7]
+                    *              0             0             1 
+   493 yb[1,3,3,1,3,7]
+                    *              0             0             1 
+   494 yb[1,3,3,2,3,7]
+                    *              0             0             1 
+   495 yb[1,1,1,1,2,8]
+                    *              0             0             1 
+   496 yb[1,1,1,1,3,8]
+                    *              0             0             1 
+   497 yb[1,1,2,3,1,8]
+                    *              0             0             1 
+   498 yb[1,1,3,2,1,8]
+                    *              0             0             1 
+   499 yb[1,1,3,3,2,8]
+                    *              0             0             1 
+   500 yb[1,2,1,1,3,8]
+                    *              0             0             1 
+   501 yb[1,2,2,1,2,8]
+                    *              0             0             1 
+   502 yb[1,2,3,2,2,8]
+                    *              0             0             1 
+   503 yb[1,3,1,1,2,8]
+                    *              0             0             1 
+   504 yb[1,3,1,2,3,8]
+                    *              0             0             1 
+   505 yb[1,3,2,2,2,8]
+                    *              0             0             1 
+   506 yb[1,3,3,1,3,8]
+                    *              0             0             1 
+   507 yb[1,3,3,2,3,8]
+                    *              0             0             1 
+   508 yb[1,1,1,1,2,9]
+                    *              0             0             1 
+   509 yb[1,1,1,1,3,9]
+                    *              0             0             1 
+   510 yb[1,1,2,3,1,9]
+                    *              0             0             1 
+   511 yb[1,1,3,2,1,9]
+                    *              0             0             1 
+   512 yb[1,1,3,3,2,9]
+                    *              0             0             1 
+   513 yb[1,2,1,1,3,9]
+                    *              0             0             1 
+   514 yb[1,2,2,1,2,9]
+                    *              0             0             1 
+   515 yb[1,2,3,2,2,9]
+                    *              0             0             1 
+   516 yb[1,3,1,1,2,9]
+                    *              0             0             1 
+   517 yb[1,3,1,2,3,9]
+                    *              0             0             1 
+   518 yb[1,3,2,2,2,9]
+                    *              0             0             1 
+   519 yb[1,3,3,1,3,9]
+                    *              0             0             1 
+   520 yb[1,3,3,2,3,9]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
