@@ -106,7 +106,7 @@ s.t. PRIMARY_PASS_IS_GOOD{n in RN}:
 /*
 printf{n in RN}:  
  "Request %d Hop %d",n,sum{f in FN}(sum{i in DN, j in DN, k in NN,m in NN:(i,j,k,m) in L}xp[n,i,j,k,m,f]);
-
+結局のところ意味が無かった（使い方が分かっていない）
 s.t. PRIMARY_INDEX_CONTINUE{n in RN,ff in FN}:
   sum{f in FN}(sum{i in DN, j in DN, k in NN,m in NN:(i,j,k,m) in L}xp[n,i,j,k,m,f])=sum{i in DN, j in DN, k in NN, m in NN:(i,j,k,m) in L}xp[n,i,j,k,m,ff];
 s.t. BACKUP_INDEX_CONTINUE{n in RN,ff in FN}:
