@@ -29,11 +29,6 @@ var yb{RN,L,FN},binary;       /*Using Index in Backup Route*/
 
 var p{NN,FN},binary;
 var b{NN,FN},binary;
-var rp{RN,L},binary;
-var rb{RN,L},binary;
-
-
-
 /* Objective Function */
 minimize Index: sum{n in RN}(sum{f in FN}(sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(
   yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f])));
@@ -113,26 +108,10 @@ s.t. P_NF{i in DN,k in NN,n in RN,f in FN:v[i,k] = s[n]}:
 s.t. B_NF{i in DN,k in NN,n in RN,f in FN:v[i,k] = s[n]}:
 	b[n,f] = sum{j in DN,m in NN:(i,j,k,m) in L}xb[n,i,j,k,m,f];
 
-/*
-s.t. RP_NIJKM{n in RN,i in DN, j in DN, k in NN, m in NN:(i,j,k,m) in L}:
-	rp[n,i,j,k,m] = sum{f in FN}xp[n,i,j,k,m,f];
+s.t. INDEX_CONSISTENCE_P{i in DN, j in DN, k in NN, m in NN,n in RN,f in FN:(i,j,k,m) in L}:
+  p[n,f] >= xp[n,i,j,k,m,f];
 
-s.t. RB_NIJKM{n in RN,i in DN, j in DN, k in NN, m in NN:(i,j,k,m) in L}:
-	rp[n,i,j,k,m] = sum{f in FN}xb[n,i,j,k,m,f];
-*/
-/*
-s.t. INDEX_CONSISTENCE_PRIMAL{n in RN, i in DN, j in DN, ii in DN, k in NN, m in NN, kk in NN, f in FN:(i,j,k,m) in L && v[ii,kk]=s[n]}:
-	2 * xp[n,i,j,k,m,f] = sum{jj in DN,mm in NN:(ii,jj,kk,mm) in L}xp[n,ii,jj,kk,mm,f] + sum{g in FN}xp[n,i,j,k,m,g];
-*/
-/*
-s.t. PRIMARY_INDEX_MAXIMUM{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
-	sum{f in FN}(yp[n,i,j,k,m,f]) <= sum{f in FN}(xp[n,i,j,k,m,f]) * c[i,j,k,m];
-s.t. PRIMARY_INDEX_MINIMUM{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
-	sum{f in FN}(yp[n,i,j,k,m,f]) >=sum{f in FN}(xp[n,i,j,k,m,f]);
+s.t. INDEX_CONSISTENCE_B{i in DN, j in DN, k in NN, m in NN,n in RN,f in FN:(i,j,k,m) in L}:
+  b[n,f] >= xb[n,i,j,k,m,f];
 
-s.t. BACKUP_INDEX_MAXIMUM{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
-	sum{f in FN}(yp[n,i,j,k,m,f]) <=sum{f in FN}(xb[n,i,j,k,m,f]) * c[i,j,k,m];
-s.t. BACKUP_INDEX_MINIMUM{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
-	sum{f in FN}(yp[n,i,j,k,m,f]) >=sum{f in FN}(xb[n,i,j,k,m,f]);
-*/
 end;
