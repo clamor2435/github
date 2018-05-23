@@ -1,4 +1,4 @@
-Problem:    EON_SDS_temp
+Problem:    EON_DD
 Rows:       5470
 Columns:    2300 (2300 integer, 2300 binary)
 Non-zeros:  20456
@@ -123,11 +123,11 @@ Objective:  Index = 60 (MINimum)
     58 FIRST_INDEX_PRIMARY1[1,6,6,4,3]
                                    0                           1 
     59 FIRST_INDEX_BACKUP1[1,1,1,1,2]
-                                   1                           1 
+                                   0                           1 
     60 FIRST_INDEX_BACKUP1[1,1,1,1,3]
                                    0                           1 
     61 FIRST_INDEX_BACKUP1[1,1,1,1,4]
-                                   0                           1 
+                                   1                           1 
     62 FIRST_INDEX_BACKUP1[1,1,1,2,1]
                                    0                           1 
     63 FIRST_INDEX_BACKUP1[1,1,1,3,1]
@@ -135,17 +135,17 @@ Objective:  Index = 60 (MINimum)
     64 FIRST_INDEX_BACKUP1[1,1,1,4,1]
                                    0                           1 
     65 FIRST_INDEX_BACKUP1[1,1,2,2,1]
-                                   1                           1 
+                                   0                           1 
     66 FIRST_INDEX_BACKUP1[1,1,2,3,3]
                                    0                           1 
     67 FIRST_INDEX_BACKUP1[1,1,3,4,1]
-                                   0                           1 
+                                   1                           1 
     68 FIRST_INDEX_BACKUP1[1,2,1,1,2]
                                    0                           1 
     69 FIRST_INDEX_BACKUP1[1,2,1,3,3]
                                    0                           1 
     70 FIRST_INDEX_BACKUP1[1,2,2,1,2]
-                                   1                           1 
+                                   0                           1 
     71 FIRST_INDEX_BACKUP1[1,2,2,2,1]
                                    0                           1 
     72 FIRST_INDEX_BACKUP1[1,2,2,3,4]
@@ -157,7 +157,7 @@ Objective:  Index = 60 (MINimum)
     75 FIRST_INDEX_BACKUP1[1,2,2,5,3]
                                    0                           1 
     76 FIRST_INDEX_BACKUP1[1,2,4,2,1]
-                                   1                           1 
+                                   0                           1 
     77 FIRST_INDEX_BACKUP1[1,2,4,4,3]
                                    0                           1 
     78 FIRST_INDEX_BACKUP1[1,2,6,5,2]
@@ -167,7 +167,7 @@ Objective:  Index = 60 (MINimum)
     80 FIRST_INDEX_BACKUP1[1,3,1,3,3]
                                    0                           1 
     81 FIRST_INDEX_BACKUP1[1,3,3,1,2]
-                                   0                           1 
+                                   1                           1 
     82 FIRST_INDEX_BACKUP1[1,3,3,2,1]
                                    0                           1 
     83 FIRST_INDEX_BACKUP1[1,3,3,3,5]
@@ -177,7 +177,7 @@ Objective:  Index = 60 (MINimum)
     85 FIRST_INDEX_BACKUP1[1,3,4,5,3]
                                    0                           1 
     86 FIRST_INDEX_BACKUP1[1,3,5,2,3]
-                                   0                           1 
+                                   1                           1 
     87 FIRST_INDEX_BACKUP1[1,3,5,5,1]
                                    0                           1 
     88 FIRST_INDEX_BACKUP1[1,4,2,1,2]
@@ -187,7 +187,7 @@ Objective:  Index = 60 (MINimum)
     90 FIRST_INDEX_BACKUP1[1,4,3,3,5]
                                    0                           1 
     91 FIRST_INDEX_BACKUP1[1,4,4,1,2]
-                                   1                           1 
+                                   0                           1 
     92 FIRST_INDEX_BACKUP1[1,4,4,2,1]
                                    0                           1 
     93 FIRST_INDEX_BACKUP1[1,4,4,3,4]
@@ -195,7 +195,7 @@ Objective:  Index = 60 (MINimum)
     94 FIRST_INDEX_BACKUP1[1,4,4,4,3]
                                    0                           1 
     95 FIRST_INDEX_BACKUP1[1,4,6,2,1]
-                                   1                           1 
+                                   0                           1 
     96 FIRST_INDEX_BACKUP1[1,4,6,4,2]
                                    0                           1 
     97 FIRST_INDEX_BACKUP1[1,5,3,1,5]
@@ -207,13 +207,13 @@ Objective:  Index = 60 (MINimum)
    100 FIRST_INDEX_BACKUP1[1,5,5,2,1]
                                    0                           1 
    101 FIRST_INDEX_BACKUP1[1,5,5,3,4]
-                                   0                           1 
+                                   1                           1 
    102 FIRST_INDEX_BACKUP1[1,5,5,4,3]
                                    0                           1 
    103 FIRST_INDEX_BACKUP1[1,5,6,2,2]
                                    0                           1 
    104 FIRST_INDEX_BACKUP1[1,5,6,4,3]
-                                   0                           1 
+                                   1                           1 
    105 FIRST_INDEX_BACKUP1[1,6,2,2,5]
                                    0                           1 
    106 FIRST_INDEX_BACKUP1[1,6,4,1,2]
@@ -225,11 +225,11 @@ Objective:  Index = 60 (MINimum)
    109 FIRST_INDEX_BACKUP1[1,6,5,3,4]
                                    0                           1 
    110 FIRST_INDEX_BACKUP1[1,6,6,1,4]
-                                   1                           1 
+                                   0                           1 
    111 FIRST_INDEX_BACKUP1[1,6,6,2,4]
                                    0                           1 
    112 FIRST_INDEX_BACKUP1[1,6,6,3,4]
-                                   0                           1 
+                                   1                           1 
    113 FIRST_INDEX_BACKUP1[1,6,6,4,1]
                                    0                           1 
    114 FIRST_INDEX_BACKUP1[1,6,6,4,2]
@@ -4683,11 +4683,11 @@ Objective:  Index = 60 (MINimum)
   2338 FIRST_INDEX_BACKUP2[1,1,4,6,6,4,3]
                                    0                          -0 
   2339 FIRST_INDEX_BACKUP2[1,1,5,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2340 FIRST_INDEX_BACKUP2[1,1,5,1,1,1,3]
                                    0                          -0 
   2341 FIRST_INDEX_BACKUP2[1,1,5,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   2342 FIRST_INDEX_BACKUP2[1,1,5,1,1,2,1]
                                    0                          -0 
   2343 FIRST_INDEX_BACKUP2[1,1,5,1,1,3,1]
@@ -4695,17 +4695,17 @@ Objective:  Index = 60 (MINimum)
   2344 FIRST_INDEX_BACKUP2[1,1,5,1,1,4,1]
                                    0                          -0 
   2345 FIRST_INDEX_BACKUP2[1,1,5,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2346 FIRST_INDEX_BACKUP2[1,1,5,1,2,3,3]
                                    0                          -0 
   2347 FIRST_INDEX_BACKUP2[1,1,5,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   2348 FIRST_INDEX_BACKUP2[1,1,5,2,1,1,2]
                                    0                          -0 
   2349 FIRST_INDEX_BACKUP2[1,1,5,2,1,3,3]
                                    0                          -0 
   2350 FIRST_INDEX_BACKUP2[1,1,5,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2351 FIRST_INDEX_BACKUP2[1,1,5,2,2,2,1]
                                    0                          -0 
   2352 FIRST_INDEX_BACKUP2[1,1,5,2,2,3,4]
@@ -4717,7 +4717,7 @@ Objective:  Index = 60 (MINimum)
   2355 FIRST_INDEX_BACKUP2[1,1,5,2,2,5,3]
                                    0                          -0 
   2356 FIRST_INDEX_BACKUP2[1,1,5,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2357 FIRST_INDEX_BACKUP2[1,1,5,2,4,4,3]
                                    0                          -0 
   2358 FIRST_INDEX_BACKUP2[1,1,5,2,6,5,2]
@@ -4727,7 +4727,7 @@ Objective:  Index = 60 (MINimum)
   2360 FIRST_INDEX_BACKUP2[1,1,5,3,1,3,3]
                                    0                          -0 
   2361 FIRST_INDEX_BACKUP2[1,1,5,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   2362 FIRST_INDEX_BACKUP2[1,1,5,3,3,2,1]
                                    0                          -0 
   2363 FIRST_INDEX_BACKUP2[1,1,5,3,3,3,5]
@@ -4737,7 +4737,7 @@ Objective:  Index = 60 (MINimum)
   2365 FIRST_INDEX_BACKUP2[1,1,5,3,4,5,3]
                                    0                          -0 
   2366 FIRST_INDEX_BACKUP2[1,1,5,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   2367 FIRST_INDEX_BACKUP2[1,1,5,3,5,5,1]
                                    0                          -0 
   2368 FIRST_INDEX_BACKUP2[1,1,5,4,2,1,2]
@@ -4747,7 +4747,7 @@ Objective:  Index = 60 (MINimum)
   2370 FIRST_INDEX_BACKUP2[1,1,5,4,3,3,5]
                                    0                          -0 
   2371 FIRST_INDEX_BACKUP2[1,1,5,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2372 FIRST_INDEX_BACKUP2[1,1,5,4,4,2,1]
                                    0                          -0 
   2373 FIRST_INDEX_BACKUP2[1,1,5,4,4,3,4]
@@ -4755,7 +4755,7 @@ Objective:  Index = 60 (MINimum)
   2374 FIRST_INDEX_BACKUP2[1,1,5,4,4,4,3]
                                    0                          -0 
   2375 FIRST_INDEX_BACKUP2[1,1,5,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2376 FIRST_INDEX_BACKUP2[1,1,5,4,6,4,2]
                                    0                          -0 
   2377 FIRST_INDEX_BACKUP2[1,1,5,5,3,1,5]
@@ -4767,13 +4767,13 @@ Objective:  Index = 60 (MINimum)
   2380 FIRST_INDEX_BACKUP2[1,1,5,5,5,2,1]
                                    0                          -0 
   2381 FIRST_INDEX_BACKUP2[1,1,5,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2382 FIRST_INDEX_BACKUP2[1,1,5,5,5,4,3]
                                    0                          -0 
   2383 FIRST_INDEX_BACKUP2[1,1,5,5,6,2,2]
                                    0                          -0 
   2384 FIRST_INDEX_BACKUP2[1,1,5,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   2385 FIRST_INDEX_BACKUP2[1,1,5,6,2,2,5]
                                    0                          -0 
   2386 FIRST_INDEX_BACKUP2[1,1,5,6,4,1,2]
@@ -4785,11 +4785,11 @@ Objective:  Index = 60 (MINimum)
   2389 FIRST_INDEX_BACKUP2[1,1,5,6,5,3,4]
                                    0                          -0 
   2390 FIRST_INDEX_BACKUP2[1,1,5,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   2391 FIRST_INDEX_BACKUP2[1,1,5,6,6,2,4]
                                    0                          -0 
   2392 FIRST_INDEX_BACKUP2[1,1,5,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2393 FIRST_INDEX_BACKUP2[1,1,5,6,6,4,1]
                                    0                          -0 
   2394 FIRST_INDEX_BACKUP2[1,1,5,6,6,4,2]
@@ -5139,11 +5139,11 @@ Objective:  Index = 60 (MINimum)
   2566 FIRST_INDEX_BACKUP2[1,2,4,6,6,4,3]
                                    0                          -0 
   2567 FIRST_INDEX_BACKUP2[1,2,5,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2568 FIRST_INDEX_BACKUP2[1,2,5,1,1,1,3]
                                    0                          -0 
   2569 FIRST_INDEX_BACKUP2[1,2,5,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   2570 FIRST_INDEX_BACKUP2[1,2,5,1,1,2,1]
                                    0                          -0 
   2571 FIRST_INDEX_BACKUP2[1,2,5,1,1,3,1]
@@ -5151,17 +5151,17 @@ Objective:  Index = 60 (MINimum)
   2572 FIRST_INDEX_BACKUP2[1,2,5,1,1,4,1]
                                    0                          -0 
   2573 FIRST_INDEX_BACKUP2[1,2,5,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2574 FIRST_INDEX_BACKUP2[1,2,5,1,2,3,3]
                                    0                          -0 
   2575 FIRST_INDEX_BACKUP2[1,2,5,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   2576 FIRST_INDEX_BACKUP2[1,2,5,2,1,1,2]
                                    0                          -0 
   2577 FIRST_INDEX_BACKUP2[1,2,5,2,1,3,3]
                                    0                          -0 
   2578 FIRST_INDEX_BACKUP2[1,2,5,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2579 FIRST_INDEX_BACKUP2[1,2,5,2,2,2,1]
                                    0                          -0 
   2580 FIRST_INDEX_BACKUP2[1,2,5,2,2,3,4]
@@ -5173,7 +5173,7 @@ Objective:  Index = 60 (MINimum)
   2583 FIRST_INDEX_BACKUP2[1,2,5,2,2,5,3]
                                    0                          -0 
   2584 FIRST_INDEX_BACKUP2[1,2,5,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2585 FIRST_INDEX_BACKUP2[1,2,5,2,4,4,3]
                                    0                          -0 
   2586 FIRST_INDEX_BACKUP2[1,2,5,2,6,5,2]
@@ -5183,7 +5183,7 @@ Objective:  Index = 60 (MINimum)
   2588 FIRST_INDEX_BACKUP2[1,2,5,3,1,3,3]
                                    0                          -0 
   2589 FIRST_INDEX_BACKUP2[1,2,5,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   2590 FIRST_INDEX_BACKUP2[1,2,5,3,3,2,1]
                                    0                          -0 
   2591 FIRST_INDEX_BACKUP2[1,2,5,3,3,3,5]
@@ -5193,7 +5193,7 @@ Objective:  Index = 60 (MINimum)
   2593 FIRST_INDEX_BACKUP2[1,2,5,3,4,5,3]
                                    0                          -0 
   2594 FIRST_INDEX_BACKUP2[1,2,5,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   2595 FIRST_INDEX_BACKUP2[1,2,5,3,5,5,1]
                                    0                          -0 
   2596 FIRST_INDEX_BACKUP2[1,2,5,4,2,1,2]
@@ -5203,7 +5203,7 @@ Objective:  Index = 60 (MINimum)
   2598 FIRST_INDEX_BACKUP2[1,2,5,4,3,3,5]
                                    0                          -0 
   2599 FIRST_INDEX_BACKUP2[1,2,5,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2600 FIRST_INDEX_BACKUP2[1,2,5,4,4,2,1]
                                    0                          -0 
   2601 FIRST_INDEX_BACKUP2[1,2,5,4,4,3,4]
@@ -5211,7 +5211,7 @@ Objective:  Index = 60 (MINimum)
   2602 FIRST_INDEX_BACKUP2[1,2,5,4,4,4,3]
                                    0                          -0 
   2603 FIRST_INDEX_BACKUP2[1,2,5,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2604 FIRST_INDEX_BACKUP2[1,2,5,4,6,4,2]
                                    0                          -0 
   2605 FIRST_INDEX_BACKUP2[1,2,5,5,3,1,5]
@@ -5223,13 +5223,13 @@ Objective:  Index = 60 (MINimum)
   2608 FIRST_INDEX_BACKUP2[1,2,5,5,5,2,1]
                                    0                          -0 
   2609 FIRST_INDEX_BACKUP2[1,2,5,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2610 FIRST_INDEX_BACKUP2[1,2,5,5,5,4,3]
                                    0                          -0 
   2611 FIRST_INDEX_BACKUP2[1,2,5,5,6,2,2]
                                    0                          -0 
   2612 FIRST_INDEX_BACKUP2[1,2,5,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   2613 FIRST_INDEX_BACKUP2[1,2,5,6,2,2,5]
                                    0                          -0 
   2614 FIRST_INDEX_BACKUP2[1,2,5,6,4,1,2]
@@ -5241,11 +5241,11 @@ Objective:  Index = 60 (MINimum)
   2617 FIRST_INDEX_BACKUP2[1,2,5,6,5,3,4]
                                    0                          -0 
   2618 FIRST_INDEX_BACKUP2[1,2,5,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   2619 FIRST_INDEX_BACKUP2[1,2,5,6,6,2,4]
                                    0                          -0 
   2620 FIRST_INDEX_BACKUP2[1,2,5,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2621 FIRST_INDEX_BACKUP2[1,2,5,6,6,4,1]
                                    0                          -0 
   2622 FIRST_INDEX_BACKUP2[1,2,5,6,6,4,2]
@@ -5253,11 +5253,11 @@ Objective:  Index = 60 (MINimum)
   2623 FIRST_INDEX_BACKUP2[1,2,5,6,6,4,3]
                                    0                          -0 
   2624 FIRST_INDEX_BACKUP2[1,2,6,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2625 FIRST_INDEX_BACKUP2[1,2,6,1,1,1,3]
                                    0                          -0 
   2626 FIRST_INDEX_BACKUP2[1,2,6,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   2627 FIRST_INDEX_BACKUP2[1,2,6,1,1,2,1]
                                    0                          -0 
   2628 FIRST_INDEX_BACKUP2[1,2,6,1,1,3,1]
@@ -5265,17 +5265,17 @@ Objective:  Index = 60 (MINimum)
   2629 FIRST_INDEX_BACKUP2[1,2,6,1,1,4,1]
                                    0                          -0 
   2630 FIRST_INDEX_BACKUP2[1,2,6,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2631 FIRST_INDEX_BACKUP2[1,2,6,1,2,3,3]
                                    0                          -0 
   2632 FIRST_INDEX_BACKUP2[1,2,6,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   2633 FIRST_INDEX_BACKUP2[1,2,6,2,1,1,2]
                                    0                          -0 
   2634 FIRST_INDEX_BACKUP2[1,2,6,2,1,3,3]
                                    0                          -0 
   2635 FIRST_INDEX_BACKUP2[1,2,6,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2636 FIRST_INDEX_BACKUP2[1,2,6,2,2,2,1]
                                    0                          -0 
   2637 FIRST_INDEX_BACKUP2[1,2,6,2,2,3,4]
@@ -5287,7 +5287,7 @@ Objective:  Index = 60 (MINimum)
   2640 FIRST_INDEX_BACKUP2[1,2,6,2,2,5,3]
                                    0                          -0 
   2641 FIRST_INDEX_BACKUP2[1,2,6,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2642 FIRST_INDEX_BACKUP2[1,2,6,2,4,4,3]
                                    0                          -0 
   2643 FIRST_INDEX_BACKUP2[1,2,6,2,6,5,2]
@@ -5297,7 +5297,7 @@ Objective:  Index = 60 (MINimum)
   2645 FIRST_INDEX_BACKUP2[1,2,6,3,1,3,3]
                                    0                          -0 
   2646 FIRST_INDEX_BACKUP2[1,2,6,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   2647 FIRST_INDEX_BACKUP2[1,2,6,3,3,2,1]
                                    0                          -0 
   2648 FIRST_INDEX_BACKUP2[1,2,6,3,3,3,5]
@@ -5307,7 +5307,7 @@ Objective:  Index = 60 (MINimum)
   2650 FIRST_INDEX_BACKUP2[1,2,6,3,4,5,3]
                                    0                          -0 
   2651 FIRST_INDEX_BACKUP2[1,2,6,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   2652 FIRST_INDEX_BACKUP2[1,2,6,3,5,5,1]
                                    0                          -0 
   2653 FIRST_INDEX_BACKUP2[1,2,6,4,2,1,2]
@@ -5317,7 +5317,7 @@ Objective:  Index = 60 (MINimum)
   2655 FIRST_INDEX_BACKUP2[1,2,6,4,3,3,5]
                                    0                          -0 
   2656 FIRST_INDEX_BACKUP2[1,2,6,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2657 FIRST_INDEX_BACKUP2[1,2,6,4,4,2,1]
                                    0                          -0 
   2658 FIRST_INDEX_BACKUP2[1,2,6,4,4,3,4]
@@ -5325,7 +5325,7 @@ Objective:  Index = 60 (MINimum)
   2659 FIRST_INDEX_BACKUP2[1,2,6,4,4,4,3]
                                    0                          -0 
   2660 FIRST_INDEX_BACKUP2[1,2,6,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2661 FIRST_INDEX_BACKUP2[1,2,6,4,6,4,2]
                                    0                          -0 
   2662 FIRST_INDEX_BACKUP2[1,2,6,5,3,1,5]
@@ -5337,13 +5337,13 @@ Objective:  Index = 60 (MINimum)
   2665 FIRST_INDEX_BACKUP2[1,2,6,5,5,2,1]
                                    0                          -0 
   2666 FIRST_INDEX_BACKUP2[1,2,6,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2667 FIRST_INDEX_BACKUP2[1,2,6,5,5,4,3]
                                    0                          -0 
   2668 FIRST_INDEX_BACKUP2[1,2,6,5,6,2,2]
                                    0                          -0 
   2669 FIRST_INDEX_BACKUP2[1,2,6,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   2670 FIRST_INDEX_BACKUP2[1,2,6,6,2,2,5]
                                    0                          -0 
   2671 FIRST_INDEX_BACKUP2[1,2,6,6,4,1,2]
@@ -5355,11 +5355,11 @@ Objective:  Index = 60 (MINimum)
   2674 FIRST_INDEX_BACKUP2[1,2,6,6,5,3,4]
                                    0                          -0 
   2675 FIRST_INDEX_BACKUP2[1,2,6,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   2676 FIRST_INDEX_BACKUP2[1,2,6,6,6,2,4]
                                    0                          -0 
   2677 FIRST_INDEX_BACKUP2[1,2,6,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2678 FIRST_INDEX_BACKUP2[1,2,6,6,6,4,1]
                                    0                          -0 
   2679 FIRST_INDEX_BACKUP2[1,2,6,6,6,4,2]
@@ -5595,11 +5595,11 @@ Objective:  Index = 60 (MINimum)
   2794 FIRST_INDEX_BACKUP2[1,3,4,6,6,4,3]
                                    0                          -0 
   2795 FIRST_INDEX_BACKUP2[1,3,5,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2796 FIRST_INDEX_BACKUP2[1,3,5,1,1,1,3]
                                    0                          -0 
   2797 FIRST_INDEX_BACKUP2[1,3,5,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   2798 FIRST_INDEX_BACKUP2[1,3,5,1,1,2,1]
                                    0                          -0 
   2799 FIRST_INDEX_BACKUP2[1,3,5,1,1,3,1]
@@ -5607,17 +5607,17 @@ Objective:  Index = 60 (MINimum)
   2800 FIRST_INDEX_BACKUP2[1,3,5,1,1,4,1]
                                    0                          -0 
   2801 FIRST_INDEX_BACKUP2[1,3,5,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2802 FIRST_INDEX_BACKUP2[1,3,5,1,2,3,3]
                                    0                          -0 
   2803 FIRST_INDEX_BACKUP2[1,3,5,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   2804 FIRST_INDEX_BACKUP2[1,3,5,2,1,1,2]
                                    0                          -0 
   2805 FIRST_INDEX_BACKUP2[1,3,5,2,1,3,3]
                                    0                          -0 
   2806 FIRST_INDEX_BACKUP2[1,3,5,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2807 FIRST_INDEX_BACKUP2[1,3,5,2,2,2,1]
                                    0                          -0 
   2808 FIRST_INDEX_BACKUP2[1,3,5,2,2,3,4]
@@ -5629,7 +5629,7 @@ Objective:  Index = 60 (MINimum)
   2811 FIRST_INDEX_BACKUP2[1,3,5,2,2,5,3]
                                    0                          -0 
   2812 FIRST_INDEX_BACKUP2[1,3,5,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2813 FIRST_INDEX_BACKUP2[1,3,5,2,4,4,3]
                                    0                          -0 
   2814 FIRST_INDEX_BACKUP2[1,3,5,2,6,5,2]
@@ -5639,7 +5639,7 @@ Objective:  Index = 60 (MINimum)
   2816 FIRST_INDEX_BACKUP2[1,3,5,3,1,3,3]
                                    0                          -0 
   2817 FIRST_INDEX_BACKUP2[1,3,5,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   2818 FIRST_INDEX_BACKUP2[1,3,5,3,3,2,1]
                                    0                          -0 
   2819 FIRST_INDEX_BACKUP2[1,3,5,3,3,3,5]
@@ -5649,7 +5649,7 @@ Objective:  Index = 60 (MINimum)
   2821 FIRST_INDEX_BACKUP2[1,3,5,3,4,5,3]
                                    0                          -0 
   2822 FIRST_INDEX_BACKUP2[1,3,5,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   2823 FIRST_INDEX_BACKUP2[1,3,5,3,5,5,1]
                                    0                          -0 
   2824 FIRST_INDEX_BACKUP2[1,3,5,4,2,1,2]
@@ -5659,7 +5659,7 @@ Objective:  Index = 60 (MINimum)
   2826 FIRST_INDEX_BACKUP2[1,3,5,4,3,3,5]
                                    0                          -0 
   2827 FIRST_INDEX_BACKUP2[1,3,5,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2828 FIRST_INDEX_BACKUP2[1,3,5,4,4,2,1]
                                    0                          -0 
   2829 FIRST_INDEX_BACKUP2[1,3,5,4,4,3,4]
@@ -5667,7 +5667,7 @@ Objective:  Index = 60 (MINimum)
   2830 FIRST_INDEX_BACKUP2[1,3,5,4,4,4,3]
                                    0                          -0 
   2831 FIRST_INDEX_BACKUP2[1,3,5,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2832 FIRST_INDEX_BACKUP2[1,3,5,4,6,4,2]
                                    0                          -0 
   2833 FIRST_INDEX_BACKUP2[1,3,5,5,3,1,5]
@@ -5679,13 +5679,13 @@ Objective:  Index = 60 (MINimum)
   2836 FIRST_INDEX_BACKUP2[1,3,5,5,5,2,1]
                                    0                          -0 
   2837 FIRST_INDEX_BACKUP2[1,3,5,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2838 FIRST_INDEX_BACKUP2[1,3,5,5,5,4,3]
                                    0                          -0 
   2839 FIRST_INDEX_BACKUP2[1,3,5,5,6,2,2]
                                    0                          -0 
   2840 FIRST_INDEX_BACKUP2[1,3,5,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   2841 FIRST_INDEX_BACKUP2[1,3,5,6,2,2,5]
                                    0                          -0 
   2842 FIRST_INDEX_BACKUP2[1,3,5,6,4,1,2]
@@ -5697,11 +5697,11 @@ Objective:  Index = 60 (MINimum)
   2845 FIRST_INDEX_BACKUP2[1,3,5,6,5,3,4]
                                    0                          -0 
   2846 FIRST_INDEX_BACKUP2[1,3,5,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   2847 FIRST_INDEX_BACKUP2[1,3,5,6,6,2,4]
                                    0                          -0 
   2848 FIRST_INDEX_BACKUP2[1,3,5,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2849 FIRST_INDEX_BACKUP2[1,3,5,6,6,4,1]
                                    0                          -0 
   2850 FIRST_INDEX_BACKUP2[1,3,5,6,6,4,2]
@@ -5709,11 +5709,11 @@ Objective:  Index = 60 (MINimum)
   2851 FIRST_INDEX_BACKUP2[1,3,5,6,6,4,3]
                                    0                          -0 
   2852 FIRST_INDEX_BACKUP2[1,3,6,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2853 FIRST_INDEX_BACKUP2[1,3,6,1,1,1,3]
                                    0                          -0 
   2854 FIRST_INDEX_BACKUP2[1,3,6,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   2855 FIRST_INDEX_BACKUP2[1,3,6,1,1,2,1]
                                    0                          -0 
   2856 FIRST_INDEX_BACKUP2[1,3,6,1,1,3,1]
@@ -5721,17 +5721,17 @@ Objective:  Index = 60 (MINimum)
   2857 FIRST_INDEX_BACKUP2[1,3,6,1,1,4,1]
                                    0                          -0 
   2858 FIRST_INDEX_BACKUP2[1,3,6,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2859 FIRST_INDEX_BACKUP2[1,3,6,1,2,3,3]
                                    0                          -0 
   2860 FIRST_INDEX_BACKUP2[1,3,6,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   2861 FIRST_INDEX_BACKUP2[1,3,6,2,1,1,2]
                                    0                          -0 
   2862 FIRST_INDEX_BACKUP2[1,3,6,2,1,3,3]
                                    0                          -0 
   2863 FIRST_INDEX_BACKUP2[1,3,6,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2864 FIRST_INDEX_BACKUP2[1,3,6,2,2,2,1]
                                    0                          -0 
   2865 FIRST_INDEX_BACKUP2[1,3,6,2,2,3,4]
@@ -5743,7 +5743,7 @@ Objective:  Index = 60 (MINimum)
   2868 FIRST_INDEX_BACKUP2[1,3,6,2,2,5,3]
                                    0                          -0 
   2869 FIRST_INDEX_BACKUP2[1,3,6,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2870 FIRST_INDEX_BACKUP2[1,3,6,2,4,4,3]
                                    0                          -0 
   2871 FIRST_INDEX_BACKUP2[1,3,6,2,6,5,2]
@@ -5753,7 +5753,7 @@ Objective:  Index = 60 (MINimum)
   2873 FIRST_INDEX_BACKUP2[1,3,6,3,1,3,3]
                                    0                          -0 
   2874 FIRST_INDEX_BACKUP2[1,3,6,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   2875 FIRST_INDEX_BACKUP2[1,3,6,3,3,2,1]
                                    0                          -0 
   2876 FIRST_INDEX_BACKUP2[1,3,6,3,3,3,5]
@@ -5763,7 +5763,7 @@ Objective:  Index = 60 (MINimum)
   2878 FIRST_INDEX_BACKUP2[1,3,6,3,4,5,3]
                                    0                          -0 
   2879 FIRST_INDEX_BACKUP2[1,3,6,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   2880 FIRST_INDEX_BACKUP2[1,3,6,3,5,5,1]
                                    0                          -0 
   2881 FIRST_INDEX_BACKUP2[1,3,6,4,2,1,2]
@@ -5773,7 +5773,7 @@ Objective:  Index = 60 (MINimum)
   2883 FIRST_INDEX_BACKUP2[1,3,6,4,3,3,5]
                                    0                          -0 
   2884 FIRST_INDEX_BACKUP2[1,3,6,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2885 FIRST_INDEX_BACKUP2[1,3,6,4,4,2,1]
                                    0                          -0 
   2886 FIRST_INDEX_BACKUP2[1,3,6,4,4,3,4]
@@ -5781,7 +5781,7 @@ Objective:  Index = 60 (MINimum)
   2887 FIRST_INDEX_BACKUP2[1,3,6,4,4,4,3]
                                    0                          -0 
   2888 FIRST_INDEX_BACKUP2[1,3,6,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2889 FIRST_INDEX_BACKUP2[1,3,6,4,6,4,2]
                                    0                          -0 
   2890 FIRST_INDEX_BACKUP2[1,3,6,5,3,1,5]
@@ -5793,13 +5793,13 @@ Objective:  Index = 60 (MINimum)
   2893 FIRST_INDEX_BACKUP2[1,3,6,5,5,2,1]
                                    0                          -0 
   2894 FIRST_INDEX_BACKUP2[1,3,6,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2895 FIRST_INDEX_BACKUP2[1,3,6,5,5,4,3]
                                    0                          -0 
   2896 FIRST_INDEX_BACKUP2[1,3,6,5,6,2,2]
                                    0                          -0 
   2897 FIRST_INDEX_BACKUP2[1,3,6,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   2898 FIRST_INDEX_BACKUP2[1,3,6,6,2,2,5]
                                    0                          -0 
   2899 FIRST_INDEX_BACKUP2[1,3,6,6,4,1,2]
@@ -5811,11 +5811,11 @@ Objective:  Index = 60 (MINimum)
   2902 FIRST_INDEX_BACKUP2[1,3,6,6,5,3,4]
                                    0                          -0 
   2903 FIRST_INDEX_BACKUP2[1,3,6,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   2904 FIRST_INDEX_BACKUP2[1,3,6,6,6,2,4]
                                    0                          -0 
   2905 FIRST_INDEX_BACKUP2[1,3,6,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2906 FIRST_INDEX_BACKUP2[1,3,6,6,6,4,1]
                                    0                          -0 
   2907 FIRST_INDEX_BACKUP2[1,3,6,6,6,4,2]
@@ -5823,11 +5823,11 @@ Objective:  Index = 60 (MINimum)
   2908 FIRST_INDEX_BACKUP2[1,3,6,6,6,4,3]
                                    0                          -0 
   2909 FIRST_INDEX_BACKUP2[1,3,7,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2910 FIRST_INDEX_BACKUP2[1,3,7,1,1,1,3]
                                    0                          -0 
   2911 FIRST_INDEX_BACKUP2[1,3,7,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   2912 FIRST_INDEX_BACKUP2[1,3,7,1,1,2,1]
                                    0                          -0 
   2913 FIRST_INDEX_BACKUP2[1,3,7,1,1,3,1]
@@ -5835,17 +5835,17 @@ Objective:  Index = 60 (MINimum)
   2914 FIRST_INDEX_BACKUP2[1,3,7,1,1,4,1]
                                    0                          -0 
   2915 FIRST_INDEX_BACKUP2[1,3,7,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2916 FIRST_INDEX_BACKUP2[1,3,7,1,2,3,3]
                                    0                          -0 
   2917 FIRST_INDEX_BACKUP2[1,3,7,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   2918 FIRST_INDEX_BACKUP2[1,3,7,2,1,1,2]
                                    0                          -0 
   2919 FIRST_INDEX_BACKUP2[1,3,7,2,1,3,3]
                                    0                          -0 
   2920 FIRST_INDEX_BACKUP2[1,3,7,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2921 FIRST_INDEX_BACKUP2[1,3,7,2,2,2,1]
                                    0                          -0 
   2922 FIRST_INDEX_BACKUP2[1,3,7,2,2,3,4]
@@ -5857,7 +5857,7 @@ Objective:  Index = 60 (MINimum)
   2925 FIRST_INDEX_BACKUP2[1,3,7,2,2,5,3]
                                    0                          -0 
   2926 FIRST_INDEX_BACKUP2[1,3,7,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2927 FIRST_INDEX_BACKUP2[1,3,7,2,4,4,3]
                                    0                          -0 
   2928 FIRST_INDEX_BACKUP2[1,3,7,2,6,5,2]
@@ -5867,7 +5867,7 @@ Objective:  Index = 60 (MINimum)
   2930 FIRST_INDEX_BACKUP2[1,3,7,3,1,3,3]
                                    0                          -0 
   2931 FIRST_INDEX_BACKUP2[1,3,7,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   2932 FIRST_INDEX_BACKUP2[1,3,7,3,3,2,1]
                                    0                          -0 
   2933 FIRST_INDEX_BACKUP2[1,3,7,3,3,3,5]
@@ -5877,7 +5877,7 @@ Objective:  Index = 60 (MINimum)
   2935 FIRST_INDEX_BACKUP2[1,3,7,3,4,5,3]
                                    0                          -0 
   2936 FIRST_INDEX_BACKUP2[1,3,7,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   2937 FIRST_INDEX_BACKUP2[1,3,7,3,5,5,1]
                                    0                          -0 
   2938 FIRST_INDEX_BACKUP2[1,3,7,4,2,1,2]
@@ -5887,7 +5887,7 @@ Objective:  Index = 60 (MINimum)
   2940 FIRST_INDEX_BACKUP2[1,3,7,4,3,3,5]
                                    0                          -0 
   2941 FIRST_INDEX_BACKUP2[1,3,7,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   2942 FIRST_INDEX_BACKUP2[1,3,7,4,4,2,1]
                                    0                          -0 
   2943 FIRST_INDEX_BACKUP2[1,3,7,4,4,3,4]
@@ -5895,7 +5895,7 @@ Objective:  Index = 60 (MINimum)
   2944 FIRST_INDEX_BACKUP2[1,3,7,4,4,4,3]
                                    0                          -0 
   2945 FIRST_INDEX_BACKUP2[1,3,7,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   2946 FIRST_INDEX_BACKUP2[1,3,7,4,6,4,2]
                                    0                          -0 
   2947 FIRST_INDEX_BACKUP2[1,3,7,5,3,1,5]
@@ -5907,13 +5907,13 @@ Objective:  Index = 60 (MINimum)
   2950 FIRST_INDEX_BACKUP2[1,3,7,5,5,2,1]
                                    0                          -0 
   2951 FIRST_INDEX_BACKUP2[1,3,7,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2952 FIRST_INDEX_BACKUP2[1,3,7,5,5,4,3]
                                    0                          -0 
   2953 FIRST_INDEX_BACKUP2[1,3,7,5,6,2,2]
                                    0                          -0 
   2954 FIRST_INDEX_BACKUP2[1,3,7,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   2955 FIRST_INDEX_BACKUP2[1,3,7,6,2,2,5]
                                    0                          -0 
   2956 FIRST_INDEX_BACKUP2[1,3,7,6,4,1,2]
@@ -5925,11 +5925,11 @@ Objective:  Index = 60 (MINimum)
   2959 FIRST_INDEX_BACKUP2[1,3,7,6,5,3,4]
                                    0                          -0 
   2960 FIRST_INDEX_BACKUP2[1,3,7,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   2961 FIRST_INDEX_BACKUP2[1,3,7,6,6,2,4]
                                    0                          -0 
   2962 FIRST_INDEX_BACKUP2[1,3,7,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   2963 FIRST_INDEX_BACKUP2[1,3,7,6,6,4,1]
                                    0                          -0 
   2964 FIRST_INDEX_BACKUP2[1,3,7,6,6,4,2]
@@ -6051,11 +6051,11 @@ Objective:  Index = 60 (MINimum)
   3022 FIRST_INDEX_BACKUP2[1,4,4,6,6,4,3]
                                    0                          -0 
   3023 FIRST_INDEX_BACKUP2[1,4,5,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3024 FIRST_INDEX_BACKUP2[1,4,5,1,1,1,3]
                                    0                          -0 
   3025 FIRST_INDEX_BACKUP2[1,4,5,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   3026 FIRST_INDEX_BACKUP2[1,4,5,1,1,2,1]
                                    0                          -0 
   3027 FIRST_INDEX_BACKUP2[1,4,5,1,1,3,1]
@@ -6063,17 +6063,17 @@ Objective:  Index = 60 (MINimum)
   3028 FIRST_INDEX_BACKUP2[1,4,5,1,1,4,1]
                                    0                          -0 
   3029 FIRST_INDEX_BACKUP2[1,4,5,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3030 FIRST_INDEX_BACKUP2[1,4,5,1,2,3,3]
                                    0                          -0 
   3031 FIRST_INDEX_BACKUP2[1,4,5,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   3032 FIRST_INDEX_BACKUP2[1,4,5,2,1,1,2]
                                    0                          -0 
   3033 FIRST_INDEX_BACKUP2[1,4,5,2,1,3,3]
                                    0                          -0 
   3034 FIRST_INDEX_BACKUP2[1,4,5,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3035 FIRST_INDEX_BACKUP2[1,4,5,2,2,2,1]
                                    0                          -0 
   3036 FIRST_INDEX_BACKUP2[1,4,5,2,2,3,4]
@@ -6085,7 +6085,7 @@ Objective:  Index = 60 (MINimum)
   3039 FIRST_INDEX_BACKUP2[1,4,5,2,2,5,3]
                                    0                          -0 
   3040 FIRST_INDEX_BACKUP2[1,4,5,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3041 FIRST_INDEX_BACKUP2[1,4,5,2,4,4,3]
                                    0                          -0 
   3042 FIRST_INDEX_BACKUP2[1,4,5,2,6,5,2]
@@ -6095,7 +6095,7 @@ Objective:  Index = 60 (MINimum)
   3044 FIRST_INDEX_BACKUP2[1,4,5,3,1,3,3]
                                    0                          -0 
   3045 FIRST_INDEX_BACKUP2[1,4,5,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   3046 FIRST_INDEX_BACKUP2[1,4,5,3,3,2,1]
                                    0                          -0 
   3047 FIRST_INDEX_BACKUP2[1,4,5,3,3,3,5]
@@ -6105,7 +6105,7 @@ Objective:  Index = 60 (MINimum)
   3049 FIRST_INDEX_BACKUP2[1,4,5,3,4,5,3]
                                    0                          -0 
   3050 FIRST_INDEX_BACKUP2[1,4,5,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   3051 FIRST_INDEX_BACKUP2[1,4,5,3,5,5,1]
                                    0                          -0 
   3052 FIRST_INDEX_BACKUP2[1,4,5,4,2,1,2]
@@ -6115,7 +6115,7 @@ Objective:  Index = 60 (MINimum)
   3054 FIRST_INDEX_BACKUP2[1,4,5,4,3,3,5]
                                    0                          -0 
   3055 FIRST_INDEX_BACKUP2[1,4,5,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3056 FIRST_INDEX_BACKUP2[1,4,5,4,4,2,1]
                                    0                          -0 
   3057 FIRST_INDEX_BACKUP2[1,4,5,4,4,3,4]
@@ -6123,7 +6123,7 @@ Objective:  Index = 60 (MINimum)
   3058 FIRST_INDEX_BACKUP2[1,4,5,4,4,4,3]
                                    0                          -0 
   3059 FIRST_INDEX_BACKUP2[1,4,5,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3060 FIRST_INDEX_BACKUP2[1,4,5,4,6,4,2]
                                    0                          -0 
   3061 FIRST_INDEX_BACKUP2[1,4,5,5,3,1,5]
@@ -6135,13 +6135,13 @@ Objective:  Index = 60 (MINimum)
   3064 FIRST_INDEX_BACKUP2[1,4,5,5,5,2,1]
                                    0                          -0 
   3065 FIRST_INDEX_BACKUP2[1,4,5,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3066 FIRST_INDEX_BACKUP2[1,4,5,5,5,4,3]
                                    0                          -0 
   3067 FIRST_INDEX_BACKUP2[1,4,5,5,6,2,2]
                                    0                          -0 
   3068 FIRST_INDEX_BACKUP2[1,4,5,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   3069 FIRST_INDEX_BACKUP2[1,4,5,6,2,2,5]
                                    0                          -0 
   3070 FIRST_INDEX_BACKUP2[1,4,5,6,4,1,2]
@@ -6153,11 +6153,11 @@ Objective:  Index = 60 (MINimum)
   3073 FIRST_INDEX_BACKUP2[1,4,5,6,5,3,4]
                                    0                          -0 
   3074 FIRST_INDEX_BACKUP2[1,4,5,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   3075 FIRST_INDEX_BACKUP2[1,4,5,6,6,2,4]
                                    0                          -0 
   3076 FIRST_INDEX_BACKUP2[1,4,5,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3077 FIRST_INDEX_BACKUP2[1,4,5,6,6,4,1]
                                    0                          -0 
   3078 FIRST_INDEX_BACKUP2[1,4,5,6,6,4,2]
@@ -6165,11 +6165,11 @@ Objective:  Index = 60 (MINimum)
   3079 FIRST_INDEX_BACKUP2[1,4,5,6,6,4,3]
                                    0                          -0 
   3080 FIRST_INDEX_BACKUP2[1,4,6,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3081 FIRST_INDEX_BACKUP2[1,4,6,1,1,1,3]
                                    0                          -0 
   3082 FIRST_INDEX_BACKUP2[1,4,6,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   3083 FIRST_INDEX_BACKUP2[1,4,6,1,1,2,1]
                                    0                          -0 
   3084 FIRST_INDEX_BACKUP2[1,4,6,1,1,3,1]
@@ -6177,17 +6177,17 @@ Objective:  Index = 60 (MINimum)
   3085 FIRST_INDEX_BACKUP2[1,4,6,1,1,4,1]
                                    0                          -0 
   3086 FIRST_INDEX_BACKUP2[1,4,6,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3087 FIRST_INDEX_BACKUP2[1,4,6,1,2,3,3]
                                    0                          -0 
   3088 FIRST_INDEX_BACKUP2[1,4,6,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   3089 FIRST_INDEX_BACKUP2[1,4,6,2,1,1,2]
                                    0                          -0 
   3090 FIRST_INDEX_BACKUP2[1,4,6,2,1,3,3]
                                    0                          -0 
   3091 FIRST_INDEX_BACKUP2[1,4,6,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3092 FIRST_INDEX_BACKUP2[1,4,6,2,2,2,1]
                                    0                          -0 
   3093 FIRST_INDEX_BACKUP2[1,4,6,2,2,3,4]
@@ -6199,7 +6199,7 @@ Objective:  Index = 60 (MINimum)
   3096 FIRST_INDEX_BACKUP2[1,4,6,2,2,5,3]
                                    0                          -0 
   3097 FIRST_INDEX_BACKUP2[1,4,6,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3098 FIRST_INDEX_BACKUP2[1,4,6,2,4,4,3]
                                    0                          -0 
   3099 FIRST_INDEX_BACKUP2[1,4,6,2,6,5,2]
@@ -6209,7 +6209,7 @@ Objective:  Index = 60 (MINimum)
   3101 FIRST_INDEX_BACKUP2[1,4,6,3,1,3,3]
                                    0                          -0 
   3102 FIRST_INDEX_BACKUP2[1,4,6,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   3103 FIRST_INDEX_BACKUP2[1,4,6,3,3,2,1]
                                    0                          -0 
   3104 FIRST_INDEX_BACKUP2[1,4,6,3,3,3,5]
@@ -6219,7 +6219,7 @@ Objective:  Index = 60 (MINimum)
   3106 FIRST_INDEX_BACKUP2[1,4,6,3,4,5,3]
                                    0                          -0 
   3107 FIRST_INDEX_BACKUP2[1,4,6,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   3108 FIRST_INDEX_BACKUP2[1,4,6,3,5,5,1]
                                    0                          -0 
   3109 FIRST_INDEX_BACKUP2[1,4,6,4,2,1,2]
@@ -6229,7 +6229,7 @@ Objective:  Index = 60 (MINimum)
   3111 FIRST_INDEX_BACKUP2[1,4,6,4,3,3,5]
                                    0                          -0 
   3112 FIRST_INDEX_BACKUP2[1,4,6,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3113 FIRST_INDEX_BACKUP2[1,4,6,4,4,2,1]
                                    0                          -0 
   3114 FIRST_INDEX_BACKUP2[1,4,6,4,4,3,4]
@@ -6237,7 +6237,7 @@ Objective:  Index = 60 (MINimum)
   3115 FIRST_INDEX_BACKUP2[1,4,6,4,4,4,3]
                                    0                          -0 
   3116 FIRST_INDEX_BACKUP2[1,4,6,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3117 FIRST_INDEX_BACKUP2[1,4,6,4,6,4,2]
                                    0                          -0 
   3118 FIRST_INDEX_BACKUP2[1,4,6,5,3,1,5]
@@ -6249,13 +6249,13 @@ Objective:  Index = 60 (MINimum)
   3121 FIRST_INDEX_BACKUP2[1,4,6,5,5,2,1]
                                    0                          -0 
   3122 FIRST_INDEX_BACKUP2[1,4,6,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3123 FIRST_INDEX_BACKUP2[1,4,6,5,5,4,3]
                                    0                          -0 
   3124 FIRST_INDEX_BACKUP2[1,4,6,5,6,2,2]
                                    0                          -0 
   3125 FIRST_INDEX_BACKUP2[1,4,6,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   3126 FIRST_INDEX_BACKUP2[1,4,6,6,2,2,5]
                                    0                          -0 
   3127 FIRST_INDEX_BACKUP2[1,4,6,6,4,1,2]
@@ -6267,11 +6267,11 @@ Objective:  Index = 60 (MINimum)
   3130 FIRST_INDEX_BACKUP2[1,4,6,6,5,3,4]
                                    0                          -0 
   3131 FIRST_INDEX_BACKUP2[1,4,6,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   3132 FIRST_INDEX_BACKUP2[1,4,6,6,6,2,4]
                                    0                          -0 
   3133 FIRST_INDEX_BACKUP2[1,4,6,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3134 FIRST_INDEX_BACKUP2[1,4,6,6,6,4,1]
                                    0                          -0 
   3135 FIRST_INDEX_BACKUP2[1,4,6,6,6,4,2]
@@ -6279,11 +6279,11 @@ Objective:  Index = 60 (MINimum)
   3136 FIRST_INDEX_BACKUP2[1,4,6,6,6,4,3]
                                    0                          -0 
   3137 FIRST_INDEX_BACKUP2[1,4,7,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3138 FIRST_INDEX_BACKUP2[1,4,7,1,1,1,3]
                                    0                          -0 
   3139 FIRST_INDEX_BACKUP2[1,4,7,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   3140 FIRST_INDEX_BACKUP2[1,4,7,1,1,2,1]
                                    0                          -0 
   3141 FIRST_INDEX_BACKUP2[1,4,7,1,1,3,1]
@@ -6291,17 +6291,17 @@ Objective:  Index = 60 (MINimum)
   3142 FIRST_INDEX_BACKUP2[1,4,7,1,1,4,1]
                                    0                          -0 
   3143 FIRST_INDEX_BACKUP2[1,4,7,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3144 FIRST_INDEX_BACKUP2[1,4,7,1,2,3,3]
                                    0                          -0 
   3145 FIRST_INDEX_BACKUP2[1,4,7,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   3146 FIRST_INDEX_BACKUP2[1,4,7,2,1,1,2]
                                    0                          -0 
   3147 FIRST_INDEX_BACKUP2[1,4,7,2,1,3,3]
                                    0                          -0 
   3148 FIRST_INDEX_BACKUP2[1,4,7,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3149 FIRST_INDEX_BACKUP2[1,4,7,2,2,2,1]
                                    0                          -0 
   3150 FIRST_INDEX_BACKUP2[1,4,7,2,2,3,4]
@@ -6313,7 +6313,7 @@ Objective:  Index = 60 (MINimum)
   3153 FIRST_INDEX_BACKUP2[1,4,7,2,2,5,3]
                                    0                          -0 
   3154 FIRST_INDEX_BACKUP2[1,4,7,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3155 FIRST_INDEX_BACKUP2[1,4,7,2,4,4,3]
                                    0                          -0 
   3156 FIRST_INDEX_BACKUP2[1,4,7,2,6,5,2]
@@ -6323,7 +6323,7 @@ Objective:  Index = 60 (MINimum)
   3158 FIRST_INDEX_BACKUP2[1,4,7,3,1,3,3]
                                    0                          -0 
   3159 FIRST_INDEX_BACKUP2[1,4,7,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   3160 FIRST_INDEX_BACKUP2[1,4,7,3,3,2,1]
                                    0                          -0 
   3161 FIRST_INDEX_BACKUP2[1,4,7,3,3,3,5]
@@ -6333,7 +6333,7 @@ Objective:  Index = 60 (MINimum)
   3163 FIRST_INDEX_BACKUP2[1,4,7,3,4,5,3]
                                    0                          -0 
   3164 FIRST_INDEX_BACKUP2[1,4,7,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   3165 FIRST_INDEX_BACKUP2[1,4,7,3,5,5,1]
                                    0                          -0 
   3166 FIRST_INDEX_BACKUP2[1,4,7,4,2,1,2]
@@ -6343,7 +6343,7 @@ Objective:  Index = 60 (MINimum)
   3168 FIRST_INDEX_BACKUP2[1,4,7,4,3,3,5]
                                    0                          -0 
   3169 FIRST_INDEX_BACKUP2[1,4,7,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3170 FIRST_INDEX_BACKUP2[1,4,7,4,4,2,1]
                                    0                          -0 
   3171 FIRST_INDEX_BACKUP2[1,4,7,4,4,3,4]
@@ -6351,7 +6351,7 @@ Objective:  Index = 60 (MINimum)
   3172 FIRST_INDEX_BACKUP2[1,4,7,4,4,4,3]
                                    0                          -0 
   3173 FIRST_INDEX_BACKUP2[1,4,7,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3174 FIRST_INDEX_BACKUP2[1,4,7,4,6,4,2]
                                    0                          -0 
   3175 FIRST_INDEX_BACKUP2[1,4,7,5,3,1,5]
@@ -6363,13 +6363,13 @@ Objective:  Index = 60 (MINimum)
   3178 FIRST_INDEX_BACKUP2[1,4,7,5,5,2,1]
                                    0                          -0 
   3179 FIRST_INDEX_BACKUP2[1,4,7,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3180 FIRST_INDEX_BACKUP2[1,4,7,5,5,4,3]
                                    0                          -0 
   3181 FIRST_INDEX_BACKUP2[1,4,7,5,6,2,2]
                                    0                          -0 
   3182 FIRST_INDEX_BACKUP2[1,4,7,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   3183 FIRST_INDEX_BACKUP2[1,4,7,6,2,2,5]
                                    0                          -0 
   3184 FIRST_INDEX_BACKUP2[1,4,7,6,4,1,2]
@@ -6381,11 +6381,11 @@ Objective:  Index = 60 (MINimum)
   3187 FIRST_INDEX_BACKUP2[1,4,7,6,5,3,4]
                                    0                          -0 
   3188 FIRST_INDEX_BACKUP2[1,4,7,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   3189 FIRST_INDEX_BACKUP2[1,4,7,6,6,2,4]
                                    0                          -0 
   3190 FIRST_INDEX_BACKUP2[1,4,7,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3191 FIRST_INDEX_BACKUP2[1,4,7,6,6,4,1]
                                    0                          -0 
   3192 FIRST_INDEX_BACKUP2[1,4,7,6,6,4,2]
@@ -6393,11 +6393,11 @@ Objective:  Index = 60 (MINimum)
   3193 FIRST_INDEX_BACKUP2[1,4,7,6,6,4,3]
                                    0                          -0 
   3194 FIRST_INDEX_BACKUP2[1,4,8,1,1,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3195 FIRST_INDEX_BACKUP2[1,4,8,1,1,1,3]
                                    0                          -0 
   3196 FIRST_INDEX_BACKUP2[1,4,8,1,1,1,4]
-                                   0                          -0 
+                                  -1                          -0 
   3197 FIRST_INDEX_BACKUP2[1,4,8,1,1,2,1]
                                    0                          -0 
   3198 FIRST_INDEX_BACKUP2[1,4,8,1,1,3,1]
@@ -6405,17 +6405,17 @@ Objective:  Index = 60 (MINimum)
   3199 FIRST_INDEX_BACKUP2[1,4,8,1,1,4,1]
                                    0                          -0 
   3200 FIRST_INDEX_BACKUP2[1,4,8,1,2,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3201 FIRST_INDEX_BACKUP2[1,4,8,1,2,3,3]
                                    0                          -0 
   3202 FIRST_INDEX_BACKUP2[1,4,8,1,3,4,1]
-                                   0                          -0 
+                                  -1                          -0 
   3203 FIRST_INDEX_BACKUP2[1,4,8,2,1,1,2]
                                    0                          -0 
   3204 FIRST_INDEX_BACKUP2[1,4,8,2,1,3,3]
                                    0                          -0 
   3205 FIRST_INDEX_BACKUP2[1,4,8,2,2,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3206 FIRST_INDEX_BACKUP2[1,4,8,2,2,2,1]
                                    0                          -0 
   3207 FIRST_INDEX_BACKUP2[1,4,8,2,2,3,4]
@@ -6427,7 +6427,7 @@ Objective:  Index = 60 (MINimum)
   3210 FIRST_INDEX_BACKUP2[1,4,8,2,2,5,3]
                                    0                          -0 
   3211 FIRST_INDEX_BACKUP2[1,4,8,2,4,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3212 FIRST_INDEX_BACKUP2[1,4,8,2,4,4,3]
                                    0                          -0 
   3213 FIRST_INDEX_BACKUP2[1,4,8,2,6,5,2]
@@ -6437,7 +6437,7 @@ Objective:  Index = 60 (MINimum)
   3215 FIRST_INDEX_BACKUP2[1,4,8,3,1,3,3]
                                    0                          -0 
   3216 FIRST_INDEX_BACKUP2[1,4,8,3,3,1,2]
-                                   0                          -0 
+                                  -1                          -0 
   3217 FIRST_INDEX_BACKUP2[1,4,8,3,3,2,1]
                                    0                          -0 
   3218 FIRST_INDEX_BACKUP2[1,4,8,3,3,3,5]
@@ -6447,7 +6447,7 @@ Objective:  Index = 60 (MINimum)
   3220 FIRST_INDEX_BACKUP2[1,4,8,3,4,5,3]
                                    0                          -0 
   3221 FIRST_INDEX_BACKUP2[1,4,8,3,5,2,3]
-                                   0                          -0 
+                                  -1                          -0 
   3222 FIRST_INDEX_BACKUP2[1,4,8,3,5,5,1]
                                    0                          -0 
   3223 FIRST_INDEX_BACKUP2[1,4,8,4,2,1,2]
@@ -6457,7 +6457,7 @@ Objective:  Index = 60 (MINimum)
   3225 FIRST_INDEX_BACKUP2[1,4,8,4,3,3,5]
                                    0                          -0 
   3226 FIRST_INDEX_BACKUP2[1,4,8,4,4,1,2]
-                                  -1                          -0 
+                                   0                          -0 
   3227 FIRST_INDEX_BACKUP2[1,4,8,4,4,2,1]
                                    0                          -0 
   3228 FIRST_INDEX_BACKUP2[1,4,8,4,4,3,4]
@@ -6465,7 +6465,7 @@ Objective:  Index = 60 (MINimum)
   3229 FIRST_INDEX_BACKUP2[1,4,8,4,4,4,3]
                                    0                          -0 
   3230 FIRST_INDEX_BACKUP2[1,4,8,4,6,2,1]
-                                  -1                          -0 
+                                   0                          -0 
   3231 FIRST_INDEX_BACKUP2[1,4,8,4,6,4,2]
                                    0                          -0 
   3232 FIRST_INDEX_BACKUP2[1,4,8,5,3,1,5]
@@ -6477,13 +6477,13 @@ Objective:  Index = 60 (MINimum)
   3235 FIRST_INDEX_BACKUP2[1,4,8,5,5,2,1]
                                    0                          -0 
   3236 FIRST_INDEX_BACKUP2[1,4,8,5,5,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3237 FIRST_INDEX_BACKUP2[1,4,8,5,5,4,3]
                                    0                          -0 
   3238 FIRST_INDEX_BACKUP2[1,4,8,5,6,2,2]
                                    0                          -0 
   3239 FIRST_INDEX_BACKUP2[1,4,8,5,6,4,3]
-                                   0                          -0 
+                                  -1                          -0 
   3240 FIRST_INDEX_BACKUP2[1,4,8,6,2,2,5]
                                    0                          -0 
   3241 FIRST_INDEX_BACKUP2[1,4,8,6,4,1,2]
@@ -6495,11 +6495,11 @@ Objective:  Index = 60 (MINimum)
   3244 FIRST_INDEX_BACKUP2[1,4,8,6,5,3,4]
                                    0                          -0 
   3245 FIRST_INDEX_BACKUP2[1,4,8,6,6,1,4]
-                                  -1                          -0 
+                                   0                          -0 
   3246 FIRST_INDEX_BACKUP2[1,4,8,6,6,2,4]
                                    0                          -0 
   3247 FIRST_INDEX_BACKUP2[1,4,8,6,6,3,4]
-                                   0                          -0 
+                                  -1                          -0 
   3248 FIRST_INDEX_BACKUP2[1,4,8,6,6,4,1]
                                    0                          -0 
   3249 FIRST_INDEX_BACKUP2[1,4,8,6,6,4,2]
@@ -8337,11 +8337,11 @@ Objective:  Index = 60 (MINimum)
   4165 FLOW_CONSERVE_BACKUP3[6,5,1]
                                    0            -0             = 
   4166 LIMIT_SUM_INDEX[1,1,1,2]
-                                   5                          10 
+                                   0                          10 
   4167 LIMIT_SUM_INDEX[1,1,1,3]
                                    5                          10 
   4168 LIMIT_SUM_INDEX[1,1,1,4]
-                                   0                          10 
+                                   5                          10 
   4169 LIMIT_SUM_INDEX[1,1,2,1]
                                    0                          10 
   4170 LIMIT_SUM_INDEX[1,1,3,1]
@@ -8349,17 +8349,17 @@ Objective:  Index = 60 (MINimum)
   4171 LIMIT_SUM_INDEX[1,1,4,1]
                                    0                          10 
   4172 LIMIT_SUM_INDEX[1,2,2,1]
-                                   5                          10 
+                                   0                          10 
   4173 LIMIT_SUM_INDEX[1,2,3,3]
                                    5                          10 
   4174 LIMIT_SUM_INDEX[1,3,4,1]
-                                   0                          10 
+                                   5                          10 
   4175 LIMIT_SUM_INDEX[2,1,1,2]
                                    0                          10 
   4176 LIMIT_SUM_INDEX[2,1,3,3]
                                    0                          10 
   4177 LIMIT_SUM_INDEX[2,2,1,2]
-                                   5                          10 
+                                   0                          10 
   4178 LIMIT_SUM_INDEX[2,2,2,1]
                                    0                          10 
   4179 LIMIT_SUM_INDEX[2,2,3,4]
@@ -8371,7 +8371,7 @@ Objective:  Index = 60 (MINimum)
   4182 LIMIT_SUM_INDEX[2,2,5,3]
                                    0                          10 
   4183 LIMIT_SUM_INDEX[2,4,2,1]
-                                   5                          10 
+                                   0                          10 
   4184 LIMIT_SUM_INDEX[2,4,4,3]
                                    0                          10 
   4185 LIMIT_SUM_INDEX[2,6,5,2]
@@ -8381,7 +8381,7 @@ Objective:  Index = 60 (MINimum)
   4187 LIMIT_SUM_INDEX[3,1,3,3]
                                    0                          10 
   4188 LIMIT_SUM_INDEX[3,3,1,2]
-                                   0                          10 
+                                   5                          10 
   4189 LIMIT_SUM_INDEX[3,3,2,1]
                                    0                          10 
   4190 LIMIT_SUM_INDEX[3,3,3,5]
@@ -8391,7 +8391,7 @@ Objective:  Index = 60 (MINimum)
   4192 LIMIT_SUM_INDEX[3,4,5,3]
                                    0                          10 
   4193 LIMIT_SUM_INDEX[3,5,2,3]
-                                   0                          10 
+                                   5                          10 
   4194 LIMIT_SUM_INDEX[3,5,5,1]
                                    0                          10 
   4195 LIMIT_SUM_INDEX[4,2,1,2]
@@ -8401,7 +8401,7 @@ Objective:  Index = 60 (MINimum)
   4197 LIMIT_SUM_INDEX[4,3,3,5]
                                    0                          10 
   4198 LIMIT_SUM_INDEX[4,4,1,2]
-                                   5                          10 
+                                   0                          10 
   4199 LIMIT_SUM_INDEX[4,4,2,1]
                                    0                          10 
   4200 LIMIT_SUM_INDEX[4,4,3,4]
@@ -8409,7 +8409,7 @@ Objective:  Index = 60 (MINimum)
   4201 LIMIT_SUM_INDEX[4,4,4,3]
                                    0                          10 
   4202 LIMIT_SUM_INDEX[4,6,2,1]
-                                   5                          10 
+                                   0                          10 
   4203 LIMIT_SUM_INDEX[4,6,4,2]
                                    0                          10 
   4204 LIMIT_SUM_INDEX[5,3,1,5]
@@ -8421,13 +8421,13 @@ Objective:  Index = 60 (MINimum)
   4207 LIMIT_SUM_INDEX[5,5,2,1]
                                    0                          10 
   4208 LIMIT_SUM_INDEX[5,5,3,4]
-                                   0                          10 
+                                   5                          10 
   4209 LIMIT_SUM_INDEX[5,5,4,3]
                                    0                          10 
   4210 LIMIT_SUM_INDEX[5,6,2,2]
                                    0                          10 
   4211 LIMIT_SUM_INDEX[5,6,4,3]
-                                   0                          10 
+                                   5                          10 
   4212 LIMIT_SUM_INDEX[6,2,2,5]
                                    0                          10 
   4213 LIMIT_SUM_INDEX[6,4,1,2]
@@ -8439,11 +8439,11 @@ Objective:  Index = 60 (MINimum)
   4216 LIMIT_SUM_INDEX[6,5,3,4]
                                    0                          10 
   4217 LIMIT_SUM_INDEX[6,6,1,4]
-                                   5                          10 
+                                   0                          10 
   4218 LIMIT_SUM_INDEX[6,6,2,4]
                                    5                          10 
   4219 LIMIT_SUM_INDEX[6,6,3,4]
-                                   0                          10 
+                                   5                          10 
   4220 LIMIT_SUM_INDEX[6,6,4,1]
                                    0                          10 
   4221 LIMIT_SUM_INDEX[6,6,4,2]
@@ -8451,11 +8451,11 @@ Objective:  Index = 60 (MINimum)
   4222 LIMIT_SUM_INDEX[6,6,4,3]
                                    0                          10 
   4223 LINK_DISJOINTNESS[1,1,1,1,2]
-                                   1                           1 
+                                   0                           1 
   4224 LINK_DISJOINTNESS[1,1,1,1,3]
                                    1                           1 
   4225 LINK_DISJOINTNESS[1,1,1,1,4]
-                                   0                           1 
+                                   1                           1 
   4226 LINK_DISJOINTNESS[1,1,1,2,1]
                                    0                           1 
   4227 LINK_DISJOINTNESS[1,1,1,3,1]
@@ -8463,17 +8463,17 @@ Objective:  Index = 60 (MINimum)
   4228 LINK_DISJOINTNESS[1,1,1,4,1]
                                    0                           1 
   4229 LINK_DISJOINTNESS[1,1,2,2,1]
-                                   1                           1 
+                                   0                           1 
   4230 LINK_DISJOINTNESS[1,1,2,3,3]
                                    1                           1 
   4231 LINK_DISJOINTNESS[1,1,3,4,1]
-                                   0                           1 
+                                   1                           1 
   4232 LINK_DISJOINTNESS[1,2,1,1,2]
                                    0                           1 
   4233 LINK_DISJOINTNESS[1,2,1,3,3]
                                    0                           1 
   4234 LINK_DISJOINTNESS[1,2,2,1,2]
-                                   1                           1 
+                                   0                           1 
   4235 LINK_DISJOINTNESS[1,2,2,2,1]
                                    0                           1 
   4236 LINK_DISJOINTNESS[1,2,2,3,4]
@@ -8485,7 +8485,7 @@ Objective:  Index = 60 (MINimum)
   4239 LINK_DISJOINTNESS[1,2,2,5,3]
                                    0                           1 
   4240 LINK_DISJOINTNESS[1,2,4,2,1]
-                                   1                           1 
+                                   0                           1 
   4241 LINK_DISJOINTNESS[1,2,4,4,3]
                                    0                           1 
   4242 LINK_DISJOINTNESS[1,2,6,5,2]
@@ -8495,7 +8495,7 @@ Objective:  Index = 60 (MINimum)
   4244 LINK_DISJOINTNESS[1,3,1,3,3]
                                    0                           1 
   4245 LINK_DISJOINTNESS[1,3,3,1,2]
-                                   0                           1 
+                                   1                           1 
   4246 LINK_DISJOINTNESS[1,3,3,2,1]
                                    0                           1 
   4247 LINK_DISJOINTNESS[1,3,3,3,5]
@@ -8505,7 +8505,7 @@ Objective:  Index = 60 (MINimum)
   4249 LINK_DISJOINTNESS[1,3,4,5,3]
                                    0                           1 
   4250 LINK_DISJOINTNESS[1,3,5,2,3]
-                                   0                           1 
+                                   1                           1 
   4251 LINK_DISJOINTNESS[1,3,5,5,1]
                                    0                           1 
   4252 LINK_DISJOINTNESS[1,4,2,1,2]
@@ -8515,7 +8515,7 @@ Objective:  Index = 60 (MINimum)
   4254 LINK_DISJOINTNESS[1,4,3,3,5]
                                    0                           1 
   4255 LINK_DISJOINTNESS[1,4,4,1,2]
-                                   1                           1 
+                                   0                           1 
   4256 LINK_DISJOINTNESS[1,4,4,2,1]
                                    0                           1 
   4257 LINK_DISJOINTNESS[1,4,4,3,4]
@@ -8523,7 +8523,7 @@ Objective:  Index = 60 (MINimum)
   4258 LINK_DISJOINTNESS[1,4,4,4,3]
                                    0                           1 
   4259 LINK_DISJOINTNESS[1,4,6,2,1]
-                                   1                           1 
+                                   0                           1 
   4260 LINK_DISJOINTNESS[1,4,6,4,2]
                                    0                           1 
   4261 LINK_DISJOINTNESS[1,5,3,1,5]
@@ -8535,13 +8535,13 @@ Objective:  Index = 60 (MINimum)
   4264 LINK_DISJOINTNESS[1,5,5,2,1]
                                    0                           1 
   4265 LINK_DISJOINTNESS[1,5,5,3,4]
-                                   0                           1 
+                                   1                           1 
   4266 LINK_DISJOINTNESS[1,5,5,4,3]
                                    0                           1 
   4267 LINK_DISJOINTNESS[1,5,6,2,2]
                                    0                           1 
   4268 LINK_DISJOINTNESS[1,5,6,4,3]
-                                   0                           1 
+                                   1                           1 
   4269 LINK_DISJOINTNESS[1,6,2,2,5]
                                    0                           1 
   4270 LINK_DISJOINTNESS[1,6,4,1,2]
@@ -8553,76 +8553,76 @@ Objective:  Index = 60 (MINimum)
   4273 LINK_DISJOINTNESS[1,6,5,3,4]
                                    0                           1 
   4274 LINK_DISJOINTNESS[1,6,6,1,4]
-                                   1                           1 
+                                   0                           1 
   4275 LINK_DISJOINTNESS[1,6,6,2,4]
                                    1                           1 
   4276 LINK_DISJOINTNESS[1,6,6,3,4]
-                                   0                           1 
+                                   1                           1 
   4277 LINK_DISJOINTNESS[1,6,6,4,1]
                                    0                           1 
   4278 LINK_DISJOINTNESS[1,6,6,4,2]
                                    0                           1 
   4279 LINK_DISJOINTNESS[1,6,6,4,3]
                                    0                           1 
-  4280 SAME_DOMAIN_SEQUENCE[1,1,2]
-                                   0                           1 
-  4281 SAME_DOMAIN_SEQUENCE[1,1,3]
-                                   0                           1 
-  4282 SAME_DOMAIN_SEQUENCE[1,1,4]
-                                   0                           1 
-  4283 SAME_DOMAIN_SEQUENCE[1,1,5]
-                                   0                           1 
-  4284 SAME_DOMAIN_SEQUENCE[1,1,6]
-                                   0                           1 
-  4285 SAME_DOMAIN_SEQUENCE[1,2,1]
-                                   0                           1 
-  4286 SAME_DOMAIN_SEQUENCE[1,2,3]
-                                   0                           1 
-  4287 SAME_DOMAIN_SEQUENCE[1,2,4]
-                                  -1                           1 
-  4288 SAME_DOMAIN_SEQUENCE[1,2,5]
-                                   0                           1 
-  4289 SAME_DOMAIN_SEQUENCE[1,2,6]
+  4280 DOMAIN_DISJOINT_SEQUENCE[1,1,2]
                                    1                           1 
-  4290 SAME_DOMAIN_SEQUENCE[1,3,1]
+  4281 DOMAIN_DISJOINT_SEQUENCE[1,1,3]
+                                   1                           1 
+  4282 DOMAIN_DISJOINT_SEQUENCE[1,1,4]
                                    0                           1 
-  4291 SAME_DOMAIN_SEQUENCE[1,3,2]
+  4283 DOMAIN_DISJOINT_SEQUENCE[1,1,5]
                                    0                           1 
-  4292 SAME_DOMAIN_SEQUENCE[1,3,4]
+  4284 DOMAIN_DISJOINT_SEQUENCE[1,1,6]
                                    0                           1 
-  4293 SAME_DOMAIN_SEQUENCE[1,3,5]
+  4285 DOMAIN_DISJOINT_SEQUENCE[1,2,1]
                                    0                           1 
-  4294 SAME_DOMAIN_SEQUENCE[1,3,6]
+  4286 DOMAIN_DISJOINT_SEQUENCE[1,2,3]
                                    0                           1 
-  4295 SAME_DOMAIN_SEQUENCE[1,4,1]
+  4287 DOMAIN_DISJOINT_SEQUENCE[1,2,4]
                                    0                           1 
-  4296 SAME_DOMAIN_SEQUENCE[1,4,2]
+  4288 DOMAIN_DISJOINT_SEQUENCE[1,2,5]
                                    0                           1 
-  4297 SAME_DOMAIN_SEQUENCE[1,4,3]
+  4289 DOMAIN_DISJOINT_SEQUENCE[1,2,6]
+                                   1                           1 
+  4290 DOMAIN_DISJOINT_SEQUENCE[1,3,1]
                                    0                           1 
-  4298 SAME_DOMAIN_SEQUENCE[1,4,5]
+  4291 DOMAIN_DISJOINT_SEQUENCE[1,3,2]
                                    0                           1 
-  4299 SAME_DOMAIN_SEQUENCE[1,4,6]
-                                  -1                           1 
-  4300 SAME_DOMAIN_SEQUENCE[1,5,1]
+  4292 DOMAIN_DISJOINT_SEQUENCE[1,3,4]
                                    0                           1 
-  4301 SAME_DOMAIN_SEQUENCE[1,5,2]
+  4293 DOMAIN_DISJOINT_SEQUENCE[1,3,5]
+                                   1                           1 
+  4294 DOMAIN_DISJOINT_SEQUENCE[1,3,6]
                                    0                           1 
-  4302 SAME_DOMAIN_SEQUENCE[1,5,3]
+  4295 DOMAIN_DISJOINT_SEQUENCE[1,4,1]
                                    0                           1 
-  4303 SAME_DOMAIN_SEQUENCE[1,5,4]
+  4296 DOMAIN_DISJOINT_SEQUENCE[1,4,2]
                                    0                           1 
-  4304 SAME_DOMAIN_SEQUENCE[1,5,6]
+  4297 DOMAIN_DISJOINT_SEQUENCE[1,4,3]
                                    0                           1 
-  4305 SAME_DOMAIN_SEQUENCE[1,6,1]
+  4298 DOMAIN_DISJOINT_SEQUENCE[1,4,5]
                                    0                           1 
-  4306 SAME_DOMAIN_SEQUENCE[1,6,2]
+  4299 DOMAIN_DISJOINT_SEQUENCE[1,4,6]
                                    0                           1 
-  4307 SAME_DOMAIN_SEQUENCE[1,6,3]
+  4300 DOMAIN_DISJOINT_SEQUENCE[1,5,1]
                                    0                           1 
-  4308 SAME_DOMAIN_SEQUENCE[1,6,4]
+  4301 DOMAIN_DISJOINT_SEQUENCE[1,5,2]
                                    0                           1 
-  4309 SAME_DOMAIN_SEQUENCE[1,6,5]
+  4302 DOMAIN_DISJOINT_SEQUENCE[1,5,3]
+                                   0                           1 
+  4303 DOMAIN_DISJOINT_SEQUENCE[1,5,4]
+                                   0                           1 
+  4304 DOMAIN_DISJOINT_SEQUENCE[1,5,6]
+                                   1                           1 
+  4305 DOMAIN_DISJOINT_SEQUENCE[1,6,1]
+                                   0                           1 
+  4306 DOMAIN_DISJOINT_SEQUENCE[1,6,2]
+                                   0                           1 
+  4307 DOMAIN_DISJOINT_SEQUENCE[1,6,3]
+                                   0                           1 
+  4308 DOMAIN_DISJOINT_SEQUENCE[1,6,4]
+                                   0                           1 
+  4309 DOMAIN_DISJOINT_SEQUENCE[1,6,5]
                                    0                           1 
   4310 PRIMARY_PASS_IS_GOOD[1]
                                   -2                          -0 
@@ -9817,7 +9817,7 @@ Objective:  Index = 60 (MINimum)
   4905 INDEX_CONSISTENCE_B[1,1,1,2,1,4]
                                    0            -0               
   4906 INDEX_CONSISTENCE_B[1,1,1,2,1,5]
-                                   0            -0               
+                                   1            -0               
   4907 INDEX_CONSISTENCE_B[1,1,1,2,1,6]
                                    0            -0               
   4908 INDEX_CONSISTENCE_B[1,1,1,2,1,7]
@@ -9857,7 +9857,7 @@ Objective:  Index = 60 (MINimum)
   4925 INDEX_CONSISTENCE_B[1,1,1,4,1,4]
                                    0            -0               
   4926 INDEX_CONSISTENCE_B[1,1,1,4,1,5]
-                                   1            -0               
+                                   0            -0               
   4927 INDEX_CONSISTENCE_B[1,1,1,4,1,6]
                                    0            -0               
   4928 INDEX_CONSISTENCE_B[1,1,1,4,1,7]
@@ -9937,7 +9937,7 @@ Objective:  Index = 60 (MINimum)
   4965 INDEX_CONSISTENCE_B[1,2,2,1,1,4]
                                    0            -0               
   4966 INDEX_CONSISTENCE_B[1,2,2,1,1,5]
-                                   0            -0               
+                                   1            -0               
   4967 INDEX_CONSISTENCE_B[1,2,2,1,1,6]
                                    0            -0               
   4968 INDEX_CONSISTENCE_B[1,2,2,1,1,7]
@@ -9977,7 +9977,7 @@ Objective:  Index = 60 (MINimum)
   4985 INDEX_CONSISTENCE_B[1,3,4,1,1,4]
                                    0            -0               
   4986 INDEX_CONSISTENCE_B[1,3,4,1,1,5]
-                                   1            -0               
+                                   0            -0               
   4987 INDEX_CONSISTENCE_B[1,3,4,1,1,6]
                                    0            -0               
   4988 INDEX_CONSISTENCE_B[1,3,4,1,1,7]
@@ -10037,7 +10037,7 @@ Objective:  Index = 60 (MINimum)
   5015 INDEX_CONSISTENCE_B[2,2,1,2,1,4]
                                    0            -0               
   5016 INDEX_CONSISTENCE_B[2,2,1,2,1,5]
-                                   0            -0               
+                                   1            -0               
   5017 INDEX_CONSISTENCE_B[2,2,1,2,1,6]
                                    0            -0               
   5018 INDEX_CONSISTENCE_B[2,2,1,2,1,7]
@@ -10157,7 +10157,7 @@ Objective:  Index = 60 (MINimum)
   5075 INDEX_CONSISTENCE_B[2,4,2,1,1,4]
                                    0            -0               
   5076 INDEX_CONSISTENCE_B[2,4,2,1,1,5]
-                                   0            -0               
+                                   1            -0               
   5077 INDEX_CONSISTENCE_B[2,4,2,1,1,6]
                                    0            -0               
   5078 INDEX_CONSISTENCE_B[2,4,2,1,1,7]
@@ -10257,7 +10257,7 @@ Objective:  Index = 60 (MINimum)
   5125 INDEX_CONSISTENCE_B[3,3,1,2,1,4]
                                    0            -0               
   5126 INDEX_CONSISTENCE_B[3,3,1,2,1,5]
-                                   1            -0               
+                                   0            -0               
   5127 INDEX_CONSISTENCE_B[3,3,1,2,1,6]
                                    0            -0               
   5128 INDEX_CONSISTENCE_B[3,3,1,2,1,7]
@@ -10357,7 +10357,7 @@ Objective:  Index = 60 (MINimum)
   5175 INDEX_CONSISTENCE_B[3,5,2,3,1,4]
                                    0            -0               
   5176 INDEX_CONSISTENCE_B[3,5,2,3,1,5]
-                                   1            -0               
+                                   0            -0               
   5177 INDEX_CONSISTENCE_B[3,5,2,3,1,6]
                                    0            -0               
   5178 INDEX_CONSISTENCE_B[3,5,2,3,1,7]
@@ -10457,7 +10457,7 @@ Objective:  Index = 60 (MINimum)
   5225 INDEX_CONSISTENCE_B[4,4,1,2,1,4]
                                    0            -0               
   5226 INDEX_CONSISTENCE_B[4,4,1,2,1,5]
-                                   0            -0               
+                                   1            -0               
   5227 INDEX_CONSISTENCE_B[4,4,1,2,1,6]
                                    0            -0               
   5228 INDEX_CONSISTENCE_B[4,4,1,2,1,7]
@@ -10537,7 +10537,7 @@ Objective:  Index = 60 (MINimum)
   5265 INDEX_CONSISTENCE_B[4,6,2,1,1,4]
                                    0            -0               
   5266 INDEX_CONSISTENCE_B[4,6,2,1,1,5]
-                                   0            -0               
+                                   1            -0               
   5267 INDEX_CONSISTENCE_B[4,6,2,1,1,6]
                                    0            -0               
   5268 INDEX_CONSISTENCE_B[4,6,2,1,1,7]
@@ -10657,7 +10657,7 @@ Objective:  Index = 60 (MINimum)
   5325 INDEX_CONSISTENCE_B[5,5,3,4,1,4]
                                    0            -0               
   5326 INDEX_CONSISTENCE_B[5,5,3,4,1,5]
-                                   1            -0               
+                                   0            -0               
   5327 INDEX_CONSISTENCE_B[5,5,3,4,1,6]
                                    0            -0               
   5328 INDEX_CONSISTENCE_B[5,5,3,4,1,7]
@@ -10717,7 +10717,7 @@ Objective:  Index = 60 (MINimum)
   5355 INDEX_CONSISTENCE_B[5,6,4,3,1,4]
                                    0            -0               
   5356 INDEX_CONSISTENCE_B[5,6,4,3,1,5]
-                                   1            -0               
+                                   0            -0               
   5357 INDEX_CONSISTENCE_B[5,6,4,3,1,6]
                                    0            -0               
   5358 INDEX_CONSISTENCE_B[5,6,4,3,1,7]
@@ -10837,7 +10837,7 @@ Objective:  Index = 60 (MINimum)
   5415 INDEX_CONSISTENCE_B[6,6,1,4,1,4]
                                    0            -0               
   5416 INDEX_CONSISTENCE_B[6,6,1,4,1,5]
-                                   0            -0               
+                                   1            -0               
   5417 INDEX_CONSISTENCE_B[6,6,1,4,1,6]
                                    0            -0               
   5418 INDEX_CONSISTENCE_B[6,6,1,4,1,7]
@@ -10877,7 +10877,7 @@ Objective:  Index = 60 (MINimum)
   5435 INDEX_CONSISTENCE_B[6,6,3,4,1,4]
                                    0            -0               
   5436 INDEX_CONSISTENCE_B[6,6,3,4,1,5]
-                                   1            -0               
+                                   0            -0               
   5437 INDEX_CONSISTENCE_B[6,6,3,4,1,6]
                                    0            -0               
   5438 INDEX_CONSISTENCE_B[6,6,3,4,1,7]
@@ -12100,7 +12100,7 @@ Objective:  Index = 60 (MINimum)
    575 xb[1,1,1,1,2,4]
                     *              0             0             1 
    576 xb[1,1,1,1,2,5]
-                    *              1             0             1 
+                    *              0             0             1 
    577 xb[1,1,1,1,2,6]
                     *              0             0             1 
    578 xb[1,1,1,1,2,7]
@@ -12140,7 +12140,7 @@ Objective:  Index = 60 (MINimum)
    595 xb[1,1,1,1,4,4]
                     *              0             0             1 
    596 xb[1,1,1,1,4,5]
-                    *              0             0             1 
+                    *              1             0             1 
    597 xb[1,1,1,1,4,6]
                     *              0             0             1 
    598 xb[1,1,1,1,4,7]
@@ -12220,7 +12220,7 @@ Objective:  Index = 60 (MINimum)
    635 xb[1,1,2,2,1,4]
                     *              0             0             1 
    636 xb[1,1,2,2,1,5]
-                    *              1             0             1 
+                    *              0             0             1 
    637 xb[1,1,2,2,1,6]
                     *              0             0             1 
    638 xb[1,1,2,2,1,7]
@@ -12260,7 +12260,7 @@ Objective:  Index = 60 (MINimum)
    655 xb[1,1,3,4,1,4]
                     *              0             0             1 
    656 xb[1,1,3,4,1,5]
-                    *              0             0             1 
+                    *              1             0             1 
    657 xb[1,1,3,4,1,6]
                     *              0             0             1 
    658 xb[1,1,3,4,1,7]
@@ -12320,7 +12320,7 @@ Objective:  Index = 60 (MINimum)
    685 xb[1,2,2,1,2,4]
                     *              0             0             1 
    686 xb[1,2,2,1,2,5]
-                    *              1             0             1 
+                    *              0             0             1 
    687 xb[1,2,2,1,2,6]
                     *              0             0             1 
    688 xb[1,2,2,1,2,7]
@@ -12440,7 +12440,7 @@ Objective:  Index = 60 (MINimum)
    745 xb[1,2,4,2,1,4]
                     *              0             0             1 
    746 xb[1,2,4,2,1,5]
-                    *              1             0             1 
+                    *              0             0             1 
    747 xb[1,2,4,2,1,6]
                     *              0             0             1 
    748 xb[1,2,4,2,1,7]
@@ -12540,7 +12540,7 @@ Objective:  Index = 60 (MINimum)
    795 xb[1,3,3,1,2,4]
                     *              0             0             1 
    796 xb[1,3,3,1,2,5]
-                    *              0             0             1 
+                    *              1             0             1 
    797 xb[1,3,3,1,2,6]
                     *              0             0             1 
    798 xb[1,3,3,1,2,7]
@@ -12640,7 +12640,7 @@ Objective:  Index = 60 (MINimum)
    845 xb[1,3,5,2,3,4]
                     *              0             0             1 
    846 xb[1,3,5,2,3,5]
-                    *              0             0             1 
+                    *              1             0             1 
    847 xb[1,3,5,2,3,6]
                     *              0             0             1 
    848 xb[1,3,5,2,3,7]
@@ -12740,7 +12740,7 @@ Objective:  Index = 60 (MINimum)
    895 xb[1,4,4,1,2,4]
                     *              0             0             1 
    896 xb[1,4,4,1,2,5]
-                    *              1             0             1 
+                    *              0             0             1 
    897 xb[1,4,4,1,2,6]
                     *              0             0             1 
    898 xb[1,4,4,1,2,7]
@@ -12820,7 +12820,7 @@ Objective:  Index = 60 (MINimum)
    935 xb[1,4,6,2,1,4]
                     *              0             0             1 
    936 xb[1,4,6,2,1,5]
-                    *              1             0             1 
+                    *              0             0             1 
    937 xb[1,4,6,2,1,6]
                     *              0             0             1 
    938 xb[1,4,6,2,1,7]
@@ -12940,7 +12940,7 @@ Objective:  Index = 60 (MINimum)
    995 xb[1,5,5,3,4,4]
                     *              0             0             1 
    996 xb[1,5,5,3,4,5]
-                    *              0             0             1 
+                    *              1             0             1 
    997 xb[1,5,5,3,4,6]
                     *              0             0             1 
    998 xb[1,5,5,3,4,7]
@@ -13000,7 +13000,7 @@ Objective:  Index = 60 (MINimum)
   1025 xb[1,5,6,4,3,4]
                     *              0             0             1 
   1026 xb[1,5,6,4,3,5]
-                    *              0             0             1 
+                    *              1             0             1 
   1027 xb[1,5,6,4,3,6]
                     *              0             0             1 
   1028 xb[1,5,6,4,3,7]
@@ -13120,7 +13120,7 @@ Objective:  Index = 60 (MINimum)
   1085 xb[1,6,6,1,4,4]
                     *              0             0             1 
   1086 xb[1,6,6,1,4,5]
-                    *              1             0             1 
+                    *              0             0             1 
   1087 xb[1,6,6,1,4,6]
                     *              0             0             1 
   1088 xb[1,6,6,1,4,7]
@@ -13160,7 +13160,7 @@ Objective:  Index = 60 (MINimum)
   1105 xb[1,6,6,3,4,4]
                     *              0             0             1 
   1106 xb[1,6,6,3,4,5]
-                    *              0             0             1 
+                    *              1             0             1 
   1107 xb[1,6,6,3,4,6]
                     *              0             0             1 
   1108 xb[1,6,6,3,4,7]
@@ -14940,11 +14940,11 @@ Objective:  Index = 60 (MINimum)
   1995 yb[1,6,6,4,3,4]
                     *              0             0             1 
   1996 yb[1,1,1,1,2,5]
-                    *              1             0             1 
+                    *              0             0             1 
   1997 yb[1,1,1,1,3,5]
                     *              0             0             1 
   1998 yb[1,1,1,1,4,5]
-                    *              0             0             1 
+                    *              1             0             1 
   1999 yb[1,1,1,2,1,5]
                     *              0             0             1 
   2000 yb[1,1,1,3,1,5]
@@ -14952,17 +14952,17 @@ Objective:  Index = 60 (MINimum)
   2001 yb[1,1,1,4,1,5]
                     *              0             0             1 
   2002 yb[1,1,2,2,1,5]
-                    *              1             0             1 
+                    *              0             0             1 
   2003 yb[1,1,2,3,3,5]
                     *              0             0             1 
   2004 yb[1,1,3,4,1,5]
-                    *              0             0             1 
+                    *              1             0             1 
   2005 yb[1,2,1,1,2,5]
                     *              0             0             1 
   2006 yb[1,2,1,3,3,5]
                     *              0             0             1 
   2007 yb[1,2,2,1,2,5]
-                    *              1             0             1 
+                    *              0             0             1 
   2008 yb[1,2,2,2,1,5]
                     *              0             0             1 
   2009 yb[1,2,2,3,4,5]
@@ -14974,7 +14974,7 @@ Objective:  Index = 60 (MINimum)
   2012 yb[1,2,2,5,3,5]
                     *              0             0             1 
   2013 yb[1,2,4,2,1,5]
-                    *              1             0             1 
+                    *              0             0             1 
   2014 yb[1,2,4,4,3,5]
                     *              0             0             1 
   2015 yb[1,2,6,5,2,5]
@@ -14984,7 +14984,7 @@ Objective:  Index = 60 (MINimum)
   2017 yb[1,3,1,3,3,5]
                     *              0             0             1 
   2018 yb[1,3,3,1,2,5]
-                    *              0             0             1 
+                    *              1             0             1 
   2019 yb[1,3,3,2,1,5]
                     *              0             0             1 
   2020 yb[1,3,3,3,5,5]
@@ -14994,7 +14994,7 @@ Objective:  Index = 60 (MINimum)
   2022 yb[1,3,4,5,3,5]
                     *              0             0             1 
   2023 yb[1,3,5,2,3,5]
-                    *              0             0             1 
+                    *              1             0             1 
   2024 yb[1,3,5,5,1,5]
                     *              0             0             1 
   2025 yb[1,4,2,1,2,5]
@@ -15004,7 +15004,7 @@ Objective:  Index = 60 (MINimum)
   2027 yb[1,4,3,3,5,5]
                     *              0             0             1 
   2028 yb[1,4,4,1,2,5]
-                    *              1             0             1 
+                    *              0             0             1 
   2029 yb[1,4,4,2,1,5]
                     *              0             0             1 
   2030 yb[1,4,4,3,4,5]
@@ -15012,7 +15012,7 @@ Objective:  Index = 60 (MINimum)
   2031 yb[1,4,4,4,3,5]
                     *              0             0             1 
   2032 yb[1,4,6,2,1,5]
-                    *              1             0             1 
+                    *              0             0             1 
   2033 yb[1,4,6,4,2,5]
                     *              0             0             1 
   2034 yb[1,5,3,1,5,5]
@@ -15024,13 +15024,13 @@ Objective:  Index = 60 (MINimum)
   2037 yb[1,5,5,2,1,5]
                     *              0             0             1 
   2038 yb[1,5,5,3,4,5]
-                    *              0             0             1 
+                    *              1             0             1 
   2039 yb[1,5,5,4,3,5]
                     *              0             0             1 
   2040 yb[1,5,6,2,2,5]
                     *              0             0             1 
   2041 yb[1,5,6,4,3,5]
-                    *              0             0             1 
+                    *              1             0             1 
   2042 yb[1,6,2,2,5,5]
                     *              0             0             1 
   2043 yb[1,6,4,1,2,5]
@@ -15042,11 +15042,11 @@ Objective:  Index = 60 (MINimum)
   2046 yb[1,6,5,3,4,5]
                     *              0             0             1 
   2047 yb[1,6,6,1,4,5]
-                    *              1             0             1 
+                    *              0             0             1 
   2048 yb[1,6,6,2,4,5]
                     *              0             0             1 
   2049 yb[1,6,6,3,4,5]
-                    *              0             0             1 
+                    *              1             0             1 
   2050 yb[1,6,6,4,1,5]
                     *              0             0             1 
   2051 yb[1,6,6,4,2,5]
@@ -15054,11 +15054,11 @@ Objective:  Index = 60 (MINimum)
   2052 yb[1,6,6,4,3,5]
                     *              0             0             1 
   2053 yb[1,1,1,1,2,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2054 yb[1,1,1,1,3,6]
                     *              0             0             1 
   2055 yb[1,1,1,1,4,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2056 yb[1,1,1,2,1,6]
                     *              0             0             1 
   2057 yb[1,1,1,3,1,6]
@@ -15066,17 +15066,17 @@ Objective:  Index = 60 (MINimum)
   2058 yb[1,1,1,4,1,6]
                     *              0             0             1 
   2059 yb[1,1,2,2,1,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2060 yb[1,1,2,3,3,6]
                     *              0             0             1 
   2061 yb[1,1,3,4,1,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2062 yb[1,2,1,1,2,6]
                     *              0             0             1 
   2063 yb[1,2,1,3,3,6]
                     *              0             0             1 
   2064 yb[1,2,2,1,2,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2065 yb[1,2,2,2,1,6]
                     *              0             0             1 
   2066 yb[1,2,2,3,4,6]
@@ -15088,7 +15088,7 @@ Objective:  Index = 60 (MINimum)
   2069 yb[1,2,2,5,3,6]
                     *              0             0             1 
   2070 yb[1,2,4,2,1,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2071 yb[1,2,4,4,3,6]
                     *              0             0             1 
   2072 yb[1,2,6,5,2,6]
@@ -15098,7 +15098,7 @@ Objective:  Index = 60 (MINimum)
   2074 yb[1,3,1,3,3,6]
                     *              0             0             1 
   2075 yb[1,3,3,1,2,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2076 yb[1,3,3,2,1,6]
                     *              0             0             1 
   2077 yb[1,3,3,3,5,6]
@@ -15108,7 +15108,7 @@ Objective:  Index = 60 (MINimum)
   2079 yb[1,3,4,5,3,6]
                     *              0             0             1 
   2080 yb[1,3,5,2,3,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2081 yb[1,3,5,5,1,6]
                     *              0             0             1 
   2082 yb[1,4,2,1,2,6]
@@ -15118,7 +15118,7 @@ Objective:  Index = 60 (MINimum)
   2084 yb[1,4,3,3,5,6]
                     *              0             0             1 
   2085 yb[1,4,4,1,2,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2086 yb[1,4,4,2,1,6]
                     *              0             0             1 
   2087 yb[1,4,4,3,4,6]
@@ -15126,7 +15126,7 @@ Objective:  Index = 60 (MINimum)
   2088 yb[1,4,4,4,3,6]
                     *              0             0             1 
   2089 yb[1,4,6,2,1,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2090 yb[1,4,6,4,2,6]
                     *              0             0             1 
   2091 yb[1,5,3,1,5,6]
@@ -15138,13 +15138,13 @@ Objective:  Index = 60 (MINimum)
   2094 yb[1,5,5,2,1,6]
                     *              0             0             1 
   2095 yb[1,5,5,3,4,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2096 yb[1,5,5,4,3,6]
                     *              0             0             1 
   2097 yb[1,5,6,2,2,6]
                     *              0             0             1 
   2098 yb[1,5,6,4,3,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2099 yb[1,6,2,2,5,6]
                     *              0             0             1 
   2100 yb[1,6,4,1,2,6]
@@ -15156,11 +15156,11 @@ Objective:  Index = 60 (MINimum)
   2103 yb[1,6,5,3,4,6]
                     *              0             0             1 
   2104 yb[1,6,6,1,4,6]
-                    *              1             0             1 
+                    *              0             0             1 
   2105 yb[1,6,6,2,4,6]
                     *              0             0             1 
   2106 yb[1,6,6,3,4,6]
-                    *              0             0             1 
+                    *              1             0             1 
   2107 yb[1,6,6,4,1,6]
                     *              0             0             1 
   2108 yb[1,6,6,4,2,6]
@@ -15168,11 +15168,11 @@ Objective:  Index = 60 (MINimum)
   2109 yb[1,6,6,4,3,6]
                     *              0             0             1 
   2110 yb[1,1,1,1,2,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2111 yb[1,1,1,1,3,7]
                     *              0             0             1 
   2112 yb[1,1,1,1,4,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2113 yb[1,1,1,2,1,7]
                     *              0             0             1 
   2114 yb[1,1,1,3,1,7]
@@ -15180,17 +15180,17 @@ Objective:  Index = 60 (MINimum)
   2115 yb[1,1,1,4,1,7]
                     *              0             0             1 
   2116 yb[1,1,2,2,1,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2117 yb[1,1,2,3,3,7]
                     *              0             0             1 
   2118 yb[1,1,3,4,1,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2119 yb[1,2,1,1,2,7]
                     *              0             0             1 
   2120 yb[1,2,1,3,3,7]
                     *              0             0             1 
   2121 yb[1,2,2,1,2,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2122 yb[1,2,2,2,1,7]
                     *              0             0             1 
   2123 yb[1,2,2,3,4,7]
@@ -15202,7 +15202,7 @@ Objective:  Index = 60 (MINimum)
   2126 yb[1,2,2,5,3,7]
                     *              0             0             1 
   2127 yb[1,2,4,2,1,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2128 yb[1,2,4,4,3,7]
                     *              0             0             1 
   2129 yb[1,2,6,5,2,7]
@@ -15212,7 +15212,7 @@ Objective:  Index = 60 (MINimum)
   2131 yb[1,3,1,3,3,7]
                     *              0             0             1 
   2132 yb[1,3,3,1,2,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2133 yb[1,3,3,2,1,7]
                     *              0             0             1 
   2134 yb[1,3,3,3,5,7]
@@ -15222,7 +15222,7 @@ Objective:  Index = 60 (MINimum)
   2136 yb[1,3,4,5,3,7]
                     *              0             0             1 
   2137 yb[1,3,5,2,3,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2138 yb[1,3,5,5,1,7]
                     *              0             0             1 
   2139 yb[1,4,2,1,2,7]
@@ -15232,7 +15232,7 @@ Objective:  Index = 60 (MINimum)
   2141 yb[1,4,3,3,5,7]
                     *              0             0             1 
   2142 yb[1,4,4,1,2,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2143 yb[1,4,4,2,1,7]
                     *              0             0             1 
   2144 yb[1,4,4,3,4,7]
@@ -15240,7 +15240,7 @@ Objective:  Index = 60 (MINimum)
   2145 yb[1,4,4,4,3,7]
                     *              0             0             1 
   2146 yb[1,4,6,2,1,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2147 yb[1,4,6,4,2,7]
                     *              0             0             1 
   2148 yb[1,5,3,1,5,7]
@@ -15252,13 +15252,13 @@ Objective:  Index = 60 (MINimum)
   2151 yb[1,5,5,2,1,7]
                     *              0             0             1 
   2152 yb[1,5,5,3,4,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2153 yb[1,5,5,4,3,7]
                     *              0             0             1 
   2154 yb[1,5,6,2,2,7]
                     *              0             0             1 
   2155 yb[1,5,6,4,3,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2156 yb[1,6,2,2,5,7]
                     *              0             0             1 
   2157 yb[1,6,4,1,2,7]
@@ -15270,11 +15270,11 @@ Objective:  Index = 60 (MINimum)
   2160 yb[1,6,5,3,4,7]
                     *              0             0             1 
   2161 yb[1,6,6,1,4,7]
-                    *              1             0             1 
+                    *              0             0             1 
   2162 yb[1,6,6,2,4,7]
                     *              0             0             1 
   2163 yb[1,6,6,3,4,7]
-                    *              0             0             1 
+                    *              1             0             1 
   2164 yb[1,6,6,4,1,7]
                     *              0             0             1 
   2165 yb[1,6,6,4,2,7]
@@ -15282,11 +15282,11 @@ Objective:  Index = 60 (MINimum)
   2166 yb[1,6,6,4,3,7]
                     *              0             0             1 
   2167 yb[1,1,1,1,2,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2168 yb[1,1,1,1,3,8]
                     *              0             0             1 
   2169 yb[1,1,1,1,4,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2170 yb[1,1,1,2,1,8]
                     *              0             0             1 
   2171 yb[1,1,1,3,1,8]
@@ -15294,17 +15294,17 @@ Objective:  Index = 60 (MINimum)
   2172 yb[1,1,1,4,1,8]
                     *              0             0             1 
   2173 yb[1,1,2,2,1,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2174 yb[1,1,2,3,3,8]
                     *              0             0             1 
   2175 yb[1,1,3,4,1,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2176 yb[1,2,1,1,2,8]
                     *              0             0             1 
   2177 yb[1,2,1,3,3,8]
                     *              0             0             1 
   2178 yb[1,2,2,1,2,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2179 yb[1,2,2,2,1,8]
                     *              0             0             1 
   2180 yb[1,2,2,3,4,8]
@@ -15316,7 +15316,7 @@ Objective:  Index = 60 (MINimum)
   2183 yb[1,2,2,5,3,8]
                     *              0             0             1 
   2184 yb[1,2,4,2,1,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2185 yb[1,2,4,4,3,8]
                     *              0             0             1 
   2186 yb[1,2,6,5,2,8]
@@ -15326,7 +15326,7 @@ Objective:  Index = 60 (MINimum)
   2188 yb[1,3,1,3,3,8]
                     *              0             0             1 
   2189 yb[1,3,3,1,2,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2190 yb[1,3,3,2,1,8]
                     *              0             0             1 
   2191 yb[1,3,3,3,5,8]
@@ -15336,7 +15336,7 @@ Objective:  Index = 60 (MINimum)
   2193 yb[1,3,4,5,3,8]
                     *              0             0             1 
   2194 yb[1,3,5,2,3,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2195 yb[1,3,5,5,1,8]
                     *              0             0             1 
   2196 yb[1,4,2,1,2,8]
@@ -15346,7 +15346,7 @@ Objective:  Index = 60 (MINimum)
   2198 yb[1,4,3,3,5,8]
                     *              0             0             1 
   2199 yb[1,4,4,1,2,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2200 yb[1,4,4,2,1,8]
                     *              0             0             1 
   2201 yb[1,4,4,3,4,8]
@@ -15354,7 +15354,7 @@ Objective:  Index = 60 (MINimum)
   2202 yb[1,4,4,4,3,8]
                     *              0             0             1 
   2203 yb[1,4,6,2,1,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2204 yb[1,4,6,4,2,8]
                     *              0             0             1 
   2205 yb[1,5,3,1,5,8]
@@ -15366,13 +15366,13 @@ Objective:  Index = 60 (MINimum)
   2208 yb[1,5,5,2,1,8]
                     *              0             0             1 
   2209 yb[1,5,5,3,4,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2210 yb[1,5,5,4,3,8]
                     *              0             0             1 
   2211 yb[1,5,6,2,2,8]
                     *              0             0             1 
   2212 yb[1,5,6,4,3,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2213 yb[1,6,2,2,5,8]
                     *              0             0             1 
   2214 yb[1,6,4,1,2,8]
@@ -15384,11 +15384,11 @@ Objective:  Index = 60 (MINimum)
   2217 yb[1,6,5,3,4,8]
                     *              0             0             1 
   2218 yb[1,6,6,1,4,8]
-                    *              1             0             1 
+                    *              0             0             1 
   2219 yb[1,6,6,2,4,8]
                     *              0             0             1 
   2220 yb[1,6,6,3,4,8]
-                    *              0             0             1 
+                    *              1             0             1 
   2221 yb[1,6,6,4,1,8]
                     *              0             0             1 
   2222 yb[1,6,6,4,2,8]
@@ -15396,11 +15396,11 @@ Objective:  Index = 60 (MINimum)
   2223 yb[1,6,6,4,3,8]
                     *              0             0             1 
   2224 yb[1,1,1,1,2,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2225 yb[1,1,1,1,3,9]
                     *              0             0             1 
   2226 yb[1,1,1,1,4,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2227 yb[1,1,1,2,1,9]
                     *              0             0             1 
   2228 yb[1,1,1,3,1,9]
@@ -15408,17 +15408,17 @@ Objective:  Index = 60 (MINimum)
   2229 yb[1,1,1,4,1,9]
                     *              0             0             1 
   2230 yb[1,1,2,2,1,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2231 yb[1,1,2,3,3,9]
                     *              0             0             1 
   2232 yb[1,1,3,4,1,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2233 yb[1,2,1,1,2,9]
                     *              0             0             1 
   2234 yb[1,2,1,3,3,9]
                     *              0             0             1 
   2235 yb[1,2,2,1,2,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2236 yb[1,2,2,2,1,9]
                     *              0             0             1 
   2237 yb[1,2,2,3,4,9]
@@ -15430,7 +15430,7 @@ Objective:  Index = 60 (MINimum)
   2240 yb[1,2,2,5,3,9]
                     *              0             0             1 
   2241 yb[1,2,4,2,1,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2242 yb[1,2,4,4,3,9]
                     *              0             0             1 
   2243 yb[1,2,6,5,2,9]
@@ -15440,7 +15440,7 @@ Objective:  Index = 60 (MINimum)
   2245 yb[1,3,1,3,3,9]
                     *              0             0             1 
   2246 yb[1,3,3,1,2,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2247 yb[1,3,3,2,1,9]
                     *              0             0             1 
   2248 yb[1,3,3,3,5,9]
@@ -15450,7 +15450,7 @@ Objective:  Index = 60 (MINimum)
   2250 yb[1,3,4,5,3,9]
                     *              0             0             1 
   2251 yb[1,3,5,2,3,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2252 yb[1,3,5,5,1,9]
                     *              0             0             1 
   2253 yb[1,4,2,1,2,9]
@@ -15460,7 +15460,7 @@ Objective:  Index = 60 (MINimum)
   2255 yb[1,4,3,3,5,9]
                     *              0             0             1 
   2256 yb[1,4,4,1,2,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2257 yb[1,4,4,2,1,9]
                     *              0             0             1 
   2258 yb[1,4,4,3,4,9]
@@ -15468,7 +15468,7 @@ Objective:  Index = 60 (MINimum)
   2259 yb[1,4,4,4,3,9]
                     *              0             0             1 
   2260 yb[1,4,6,2,1,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2261 yb[1,4,6,4,2,9]
                     *              0             0             1 
   2262 yb[1,5,3,1,5,9]
@@ -15480,13 +15480,13 @@ Objective:  Index = 60 (MINimum)
   2265 yb[1,5,5,2,1,9]
                     *              0             0             1 
   2266 yb[1,5,5,3,4,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2267 yb[1,5,5,4,3,9]
                     *              0             0             1 
   2268 yb[1,5,6,2,2,9]
                     *              0             0             1 
   2269 yb[1,5,6,4,3,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2270 yb[1,6,2,2,5,9]
                     *              0             0             1 
   2271 yb[1,6,4,1,2,9]
@@ -15498,11 +15498,11 @@ Objective:  Index = 60 (MINimum)
   2274 yb[1,6,5,3,4,9]
                     *              0             0             1 
   2275 yb[1,6,6,1,4,9]
-                    *              1             0             1 
+                    *              0             0             1 
   2276 yb[1,6,6,2,4,9]
                     *              0             0             1 
   2277 yb[1,6,6,3,4,9]
-                    *              0             0             1 
+                    *              1             0             1 
   2278 yb[1,6,6,4,1,9]
                     *              0             0             1 
   2279 yb[1,6,6,4,2,9]

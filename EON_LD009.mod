@@ -16,7 +16,7 @@ set FN := 0..(F-1);               /*Index numbers*/
 set L within {DN,DN,NN,NN};   /*Link*/
 
 param v{DN,NN} integer;       /*Global Node what Domain i has*/
-param c{L} integer;           /*INDEX NOT USE*//* USING FOR LINK COST...? */
+param c{L} integer;           /*INDEX NOT USE*/
 /*3-tuple Request*/
 param s{RN} integer;          /*Request Source node*/
 param d{RN} integer;          /*Request Destination node*/
@@ -26,9 +26,10 @@ var xp{RN,L,FN},binary;       /*First Index in Primary Route*/
 var xb{RN,L,FN},binary;       /*First Index in Backup Route*/
 var yp{RN,L,FN},binary;       /*Using Index in Primary Route*/
 var yb{RN,L,FN},binary;       /*Using Index in Backup Route*/
-
+/*
 var p{NN,FN},binary;
 var b{NN,FN},binary;
+*/
 /* Objective Function */
 minimize Index: sum{n in RN}(sum{f in FN}(sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(
   yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f])));
@@ -53,10 +54,10 @@ s.t. FIRST_INDEX_PRIMARY3{n in RN,i in DN,j in DN,k in NN,m in NN,f in {(F - r[n
 
 s.t. FIRST_INDEX_BACKUP3{n in RN,i in DN,j in DN,k in NN,m in NN,f in {(F - r[n]+1)..(F-1)}:(i,j,k,m) in L}:
 	xb[n,i,j,k,m,f]=0;
-
+/*
 s.t. INDEX_CONSTRAINT{i in DN,j in DN,k in NN,m in NN,f in FN:(i,j,k,m) in L}:
 	sum{n in RN}(yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f]) <= 1;
-
+*/
 s.t. FIRST_INDEX_PRIMARY4{n in RN,i in DN,j in DN,k in NN, m in NN:(i,j,k,m) in L}:
   sum{f in FN}(xp[n,i,j,k,m,f]) = (1 / r[n])*sum{f in FN}(yp[n,i,j,k,m,f]);
 
@@ -93,16 +94,16 @@ s.t. LIMIT_SUM_INDEX{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 
 s.t. LINK_DISJOINTNESS{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 	sum{f in FN}(xp[n,i,j,k,m,f]+xb[n,i,j,k,m,f])<=1;
-
+/*
 s.t. SAME_DOMAIN_SEQUENCE{n in RN,i in DN, j in DN:i != j}:
 	sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f])) =
 	sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xb[n,i,j,k,m,f]));
-
+*/
 s.t. PRIMARY_PASS_IS_GOOD{n in RN}:
 	sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f])) <=
 	sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(sum{f in FN}(xb[n,i,j,k,m,f]));
-
-s.t. P_NF{i in DN,k in NN,n in RN,f in FN:(v[i,k] = s[n])}:
+/*
+s.t. P_NF{i in DN,k in NN,n in RN,f in FN:v[i,k] = s[n]}:
 	p[n,f] = sum{j in DN,m in NN:(i,j,k,m) in L}xp[n,i,j,k,m,f];
 
 s.t. B_NF{i in DN,k in NN,n in RN,f in FN:v[i,k] = s[n]}:
@@ -113,5 +114,10 @@ s.t. INDEX_CONSISTENCE_P{i in DN, j in DN, k in NN, m in NN,n in RN,f in FN:(i,j
 
 s.t. INDEX_CONSISTENCE_B{i in DN, j in DN, k in NN, m in NN,n in RN,f in FN:(i,j,k,m) in L}:
   b[n,f] >= xb[n,i,j,k,m,f];
+*/
+s.t. INDEX_CONSISTENCE_P{ii in DN,kk in NN,n in RN,f in FN,i in DN,j in DN,k in NN,m in NN:v[ii,kk] = s[n] && (i,j,k,m) in L}:
+	sum{jj in DN, mm in NN:(ii,jj,kk,mm) in L}xp[n,ii,jj,kk,mm,f] >= xp[n,i,j,k,m,f];
 
+s.t. INDEX_CONSISTENCE_B{ii in DN,kk in NN,n in RN,f in FN,i in DN,j in DN,k in NN,m in NN:v[ii,kk] = s[n] && (i,j,k,m) in L}:
+	sum{jj in DN, mm in NN:(ii,jj,kk,mm) in L}xb[n,ii,jj,kk,mm,f] >= xb[n,i,j,k,m,f];
 end;

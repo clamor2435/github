@@ -31,7 +31,7 @@ var p{NN,FN},binary;
 var b{NN,FN},binary;
 /* Objective Function */
 minimize Index: sum{n in RN}(sum{f in FN}(sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(
-  yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f])));
+yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f]))+(sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(sum{f in FN}(c[i,j,k,m]*xp[n,i,j,k,m,f]+c[i,j,k,m]*xb[n,i,j,k,m,f]))));
 
 /* Constraint function */
 
@@ -53,10 +53,10 @@ s.t. FIRST_INDEX_PRIMARY3{n in RN,i in DN,j in DN,k in NN,m in NN,f in {(F - r[n
 
 s.t. FIRST_INDEX_BACKUP3{n in RN,i in DN,j in DN,k in NN,m in NN,f in {(F - r[n]+1)..(F-1)}:(i,j,k,m) in L}:
 	xb[n,i,j,k,m,f]=0;
-
+/*
 s.t. INDEX_CONSTRAINT{i in DN,j in DN,k in NN,m in NN,f in FN:(i,j,k,m) in L}:
 	sum{n in RN}(yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f]) <= 1;
-
+*/
 s.t. FIRST_INDEX_PRIMARY4{n in RN,i in DN,j in DN,k in NN, m in NN:(i,j,k,m) in L}:
   sum{f in FN}(xp[n,i,j,k,m,f]) = (1 / r[n])*sum{f in FN}(yp[n,i,j,k,m,f]);
 

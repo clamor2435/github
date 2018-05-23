@@ -53,10 +53,10 @@ s.t. FIRST_INDEX_PRIMARY3{n in RN,i in DN,j in DN,k in NN,m in NN,f in {(F - r[n
 
 s.t. FIRST_INDEX_BACKUP3{n in RN,i in DN,j in DN,k in NN,m in NN,f in {(F - r[n]+1)..(F-1)}:(i,j,k,m) in L}:
 	xb[n,i,j,k,m,f]=0;
-
+/*
 s.t. INDEX_CONSTRAINT{i in DN,j in DN,k in NN,m in NN,f in FN:(i,j,k,m) in L}:
 	sum{n in RN}(yp[n,i,j,k,m,f] + yb[n,i,j,k,m,f]) <= 1;
-
+*/
 s.t. FIRST_INDEX_PRIMARY4{n in RN,i in DN,j in DN,k in NN, m in NN:(i,j,k,m) in L}:
   sum{f in FN}(xp[n,i,j,k,m,f]) = (1 / r[n])*sum{f in FN}(yp[n,i,j,k,m,f]);
 
@@ -93,10 +93,13 @@ s.t. LIMIT_SUM_INDEX{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 
 s.t. LINK_DISJOINTNESS{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 	sum{f in FN}(xp[n,i,j,k,m,f]+xb[n,i,j,k,m,f])<=1;
-
+/*
 s.t. SAME_DOMAIN_SEQUENCE{n in RN,i in DN, j in DN:i != j}:
 	sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f])) =
 	sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xb[n,i,j,k,m,f]));
+*/
+s.t. DOMAIN_DISJOINT_SEQUENCE{n in RN,i in DN, j in DN:i != j}:
+  sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f] + xb[n,i,j,k,m,f])) <= 1;
 
 s.t. PRIMARY_PASS_IS_GOOD{n in RN}:
 	sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f])) <=

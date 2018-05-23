@@ -93,11 +93,11 @@ s.t. LIMIT_SUM_INDEX{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 
 s.t. LINK_DISJOINTNESS{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 	sum{f in FN}(xp[n,i,j,k,m,f]+xb[n,i,j,k,m,f])<=1;
-
+/*
 s.t. SAME_DOMAIN_SEQUENCE{n in RN,i in DN, j in DN:i != j}:
 	sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f])) =
 	sum{k in NN, m in NN:(i,j,k,m) in L}(sum{f in FN}(xb[n,i,j,k,m,f]));
-
+*/
 s.t. PRIMARY_PASS_IS_GOOD{n in RN}:
 	sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(sum{f in FN}(xp[n,i,j,k,m,f])) <=
 	sum{i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}(sum{f in FN}(xb[n,i,j,k,m,f]));
