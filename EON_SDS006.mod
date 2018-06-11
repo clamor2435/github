@@ -120,4 +120,6 @@ s.t. BACKUP_INDEX_MAXIMUM{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L
 s.t. BACKUP_INDEX_MINIMUM{n in RN,i in DN,j in DN,k in NN,m in NN:(i,j,k,m) in L}:
 	sum{f in FN}(yp[n,i,j,k,m,f]) >=sum{f in FN}(xb[n,i,j,k,m,f]);
 */
+
+test.test.test
 end;
